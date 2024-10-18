@@ -24,6 +24,8 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border: 15px solid var(--theme-color);
+    border-radius: 50%;
 }
 
 .testimonial-section .testimonial-card .content p {
@@ -33,6 +35,7 @@
 .testimonial-section .testimonial-card .content .name {
     font-weight: bold;
     font-family: "bodyfontbold" !important;
+    color: var(--theme-color);
 }
 
 .testimonial-section .testimonial-card .content .review {
@@ -41,4 +44,7 @@
 
 .testimonial-section .testimonial-card .content ul {
     display: flex;
+}
+.testimonial-section .testimonial-card .content ul li{
+    color: var(--theme-color);
 }

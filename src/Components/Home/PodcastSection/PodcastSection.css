@@ -1,5 +1,5 @@
-.podcast-section .left-section {
-}
+.podcast-section .left-section {}
+
 .podcast-section .left-section .top-section {
     border-radius: 20px;
     position: relative;
@@ -12,7 +12,8 @@
     height: 450px;
     margin-bottom: calc(2.5rem* .5);
 }
-.podcast-section .left-section .top-section img{
+
+.podcast-section .left-section .top-section>img {
     /* position: absolute;
     left: 0;
     top: 0; */
@@ -21,7 +22,12 @@
     object-fit: cover;
 }
 
-.podcast-section .left-section .top-section .content{
+.podcast-section .left-section .top-section .text img {
+    width: 40%;
+    margin-top: 10px;
+}
+
+.podcast-section .left-section .top-section .content {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -36,40 +42,54 @@
     padding-bottom: 40px;
 }
 
-.podcast-section .left-section .top-section .content h2{
+.podcast-section .left-section .top-section .content h2 {
     font-size: 3rem;
     font-weight: bolder;
 }
-.podcast-section .left-section .top-section .content p{
+
+.podcast-section .left-section .top-section .content p {
     width: 50%;
 }
-.podcast-section .left-section .top-section .youtube-btn a{
+
+.podcast-section .left-section .top-section .youtube-btn a {
     padding: 10px 30px;
-    background-color: var(--main-color-two);
+    /* background-color: var(--main-color-two); */
+    background: transparent;
+    border: 2px solid var(--theme-color);
+    color: var(--theme-color) !important;
     font-size: 1.2rem;
     border-radius: 25px;
     text-transform: capitalize;
     font-family: "bodyfontbold" !important;
 }
-.podcast-section .left-section .bottom-two-cards{
+
+.podcast-section .left-section .bottom-two-cards {
     display: flex;
     justify-content: space-between;
     gap: 0 calc(2.5rem* .5);
 }
-.podcast-section .left-section .bottom-two-cards .b-card{
+
+.podcast-section .left-section .bottom-two-cards .b-card {
     width: 50%;
     position: relative;
     border-radius: 20px;
     overflow: hidden;
-    aspect-ratio: 1/.5;
-    padding: 1rem;
+    aspect-ratio: 1/.8;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     text-align: center;
     flex-direction: column;
 }
-.podcast-section .left-section .bottom-two-cards .b-card img{
+
+.podcast-section .left-section .bottom-two-cards .b-card div {
+    width: 100%;
+    background: var(--theme-color-gradiant);
+    padding: 1rem;
+    color: var(--white-color);
+}
+
+.podcast-section .left-section .bottom-two-cards .b-card img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -78,40 +98,52 @@
     left: 0;
     z-index: -1;
 }
-.podcast-section .left-section .bottom-two-cards .b-card span{
+
+.podcast-section .left-section .bottom-two-cards .b-card span {
     font-size: .9rem;
-    color: #636669;
 }
-.podcast-section .left-section .bottom-two-cards .b-card p{
-    font-size: 1.5rem;
+
+.podcast-section .left-section .bottom-two-cards .b-card p {
+    font-size: 1.2rem;
     text-transform: capitalize;
     font-weight: 500;
 }
-.podcast-section .right-card{
+
+.podcast-section .right-card {
     width: 100%;
     height: 100%;
     border-radius: 20px;
-    padding: 1rem;
+    /* padding: 1rem; */
     overflow: hidden;
     position: relative;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
 }
-.podcast-section .right-card img{
+
+.podcast-section .right-card img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     position: absolute;
     top: 0;
     left: 0;
+    border-radius: 20px;
     z-index: -1;
 }
-.podcast-section .right-card span{
-    font-size: .9rem;
-    color: #636669;
+
+.podcast-section .right-card div {
+    background: var(--theme-color-gradiant);
+    padding: 1rem;
+    color: var(--white-color);
 }
-.podcast-section .right-card p{
+
+.podcast-section .right-card span {
+    font-size: .9rem;
+    /* color: #636669; */
+}
+
+.podcast-section .right-card p {
     text-transform: capitalize;
     font-size: 1.5rem;
     width: 60%;
