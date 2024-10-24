@@ -37,6 +37,7 @@ body {
 
 p {
   margin-bottom: 0 !important;
+  letter-spacing: 1px;
 }
 
 a {
@@ -97,4 +98,9 @@ h5.h6 {
 .main-heading {
   font-family: "headingbold" !important;
   text-transform: uppercase;
+}
+.sub-img{
+  margin-bottom: -10rem;
+  object-position: center;
+  cursor: pointer;
 }

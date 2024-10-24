@@ -22,13 +22,13 @@ export default function HomeBanner({banners}) {
         <section className="section-spacing home-banner">
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-lg-3">
+                    <div className="col-lg-3 d-flex flex-column justify-content-between">
                         <div className="count-card">
                             <p className="count">
                                 100+
                             </p>
                             <span className="content">
-                                Our Client
+                                Our Clients
                             </span>
                         </div>
                         <div className="count-card">
@@ -39,7 +39,7 @@ export default function HomeBanner({banners}) {
                                 Testimonials
                             </span>
                         </div>
-                        <div className="count-card">
+                        <div className="count-card pb-2">
                             <p className="count">
                                 300+
                             </p>
@@ -64,7 +64,7 @@ export default function HomeBanner({banners}) {
                             <div className="banner-btn">
                                 <div className='position-relative'>
                                     <img src={BgShape} className='img-fluid' alt="" />
-                                    <Link to="">Associate with DSA <FaArrowRight /></Link>
+                                    <Link to="">Associate with <i>DSA</i> <FaArrowRight /></Link>
                                 </div>
                             </div>
                             <div className="bottom-three-circle">

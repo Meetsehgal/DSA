@@ -4,12 +4,13 @@ import Arrow from "../../../assets/img/icons/Vector.png";
 import "./PodcastSection.css";
 export default function PodcastSection({ banners }) {
     return (
-        <section className="section-spacing px-0 podcast-section">
+        <section className="section-spacing px-lg-4 podcast-section">
             <div className="container-fluid">
-                <div className="row">
+                <div className="row justify-content-lg-between">
                     <div className="col-lg-7 left-section">
                         <div className="top-section">
-                            <img src={NoImg} className="img-fluid" alt="" />
+                            <div className="img"></div>
+                            {/* <img src={NoImg} className="img-fluid" alt="" /> */}
                             <div className="content">
                                 <div className="text">
                                     <h2 className="main-heading">

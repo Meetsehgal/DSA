@@ -5,18 +5,20 @@
 
 .vision-section .right-section .magazine-card {
     display: flex;
-    /* margin-bottom: 10px; */
+    margin-bottom: 1rem;
 }
 
 .vision-section .right-section .magazine-card .image {
     width: 40%;
-    aspect-ratio: 1/1;
+    aspect-ratio: 1/1.1;
     height: auto;
     margin-right: 1rem;
 }
 
 .vision-section .right-section .magazine-card .image img {
     border-radius: 20px;
+    height: 100%;
+    width: 100%;
 }
 
 .vision-section .right-section .magazine-card .content span {

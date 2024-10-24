@@ -59,7 +59,7 @@
 
 .current-affairs-section .left-box .bottom-text p {
     /* font-size: 1.5rem; */
-    font-weight: 500;
+    font-weight: bolder;
 }
 
 .current-affairs-section .center-box .top-section img {
@@ -86,7 +86,7 @@
     /* font-size: 1.3rem; */
     /* padding-right: 5px; */
     width: 70%;
-    font-weight: 500;
+    font-weight: bolder;
 }
 
 .current-affairs-section .center-box .top-section .content {
@@ -116,11 +116,11 @@
 }
 
 .current-affairs-section .center-box .top-section .btn-box img.bg-shape {
-    width: 80px;
+    width: 100px;
     object-fit: contain;
     height: auto;
-    margin-top: -5px;
-    transform: translateX(1px);
+    margin-top: -6px;
+    transform: translateX(1.5px);
 }
 
 .current-affairs-section .center-box .top-section .btn-box a {
@@ -137,7 +137,8 @@
 }
 
 .current-affairs-section .center-box .top-section .btn-box a img {
-    width: 40px;
+    width: 55px;
+    padding: 8px;
     height: auto;
 }
 
@@ -176,6 +177,8 @@
     width: 100%;
     height: 100%;
     border-radius: 20px;
+    object-fit: cover;
+    object-position: left;
 }
 
 .current-affairs-section .right-box .top-section .content {
@@ -186,6 +189,7 @@
     padding: 1rem;
     color: var(--white-color);
     background: var(--theme-color-gradiant);
+    font-weight: bolder;
 }
 
 .current-affairs-section .right-box .view-all-btn {
@@ -193,17 +197,21 @@
     background: var(--theme-color);
     border-radius: 30px;
     margin-top: 1.5rem;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    letter-spacing: 3px;
     /* text-align: center; */
 }
 
 .current-affairs-section .right-box .view-all-btn a {
     display: flex;
     align-items: center;
+    justify-content: center;
     color: var(--white-color) !important;
-    gap: 10px;
+    /* gap: 10px; */
 }
 
 .current-affairs-section .right-box .view-all-btn a svg {
     font-size: 5rem;
+    margin-left: 1.5rem;
 }

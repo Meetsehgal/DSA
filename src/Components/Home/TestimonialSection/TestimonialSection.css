@@ -1,18 +1,20 @@
 .testimonial-section .heading-box a {
     padding: 10px 20px;
-    background: var(--main-color-two);
-    border-radius: 20px;
+    /* background: var(--white-two); */
+    border-radius: 40px;
+    border: 2px solid var(--theme-color);
+    color: var(--theme-color) !important;
 }
 
 .testimonial-section .testimonial-card {
-    background: var(--main-color-two);
+    background: var(--main-color-one);
     padding: 1rem;
     border-radius: 20px;
     display: flex;
 }
 
 .testimonial-section .testimonial-card .image {
-    width: 300px;
+    width: 250px;
     height: 100%;
     aspect-ratio: 1/1;
     border-radius: 50%;
@@ -28,8 +30,11 @@
     border-radius: 50%;
 }
 
+.testimonial-section .testimonial-card .content {
+    padding: 0 1rem;
+}
 .testimonial-section .testimonial-card .content p {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .testimonial-section .testimonial-card .content .name {

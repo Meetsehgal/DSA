@@ -11,16 +11,16 @@ import "./MilestoneSection.css";
 export default function MilestoneSection({HeadingText}) {
     return (
         <section className="section-spacing px-0 pt-0 milestone-section">
-            <div className="container-fluid">
+            <div className="container py-lg-4">
                 <div className="row">
                     <div className="col-12">
                         <h2 className="main-heading text-center">
-                            <span>dsa</span> milestones
+                            <span><i>dsa</i></span> milestones
                         </h2>
-                        <p className='text-center w-50 mx-auto heading-text'>{HeadingText}</p>
+                        <p className='text-center w-75 mb-5 mx-auto heading-text'>{HeadingText}</p>
                         <Swiper
-                            spaceBetween={50}
-                            slidesPerView={5}
+                            spaceBetween={40}
+                            slidesPerView={6}
                             freeMode={true}
                             loop={true}
                             pagination={{

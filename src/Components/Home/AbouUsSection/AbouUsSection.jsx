@@ -39,9 +39,13 @@ export default function AbouUsSection({banners}) {
                         </div>
                     </div>
                     <div className="col-lg-5 about-section-swiper">
-                        <h2 className="main-heading text-center">
-                            dsa <span>editions</span>
+                        <h2 className="main-heading text-center mb-0">
+                            <i>dsa</i> <span>editions</span>
                         </h2>
+                        <p>
+                        <span>“</span> World's only magazine available on <br />
+                        the intranet of the Indian air force
+                        </p>
                         <Swiper
                             style={{
                                 // '--swiper-navigation-color': '#fff',
@@ -55,7 +59,7 @@ export default function AbouUsSection({banners}) {
                             // }}
                             thumbs={{ swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null }}
                             modules={[FreeMode, Pagination, Thumbs]}
-                            className="mySwiper2"
+                            className="mySwiper2 about-swiper-top"
                         >
                             <SwiperSlide>
                                 <img alt="" src="https://swiperjs.com/demos/images/nature-1.jpg" />

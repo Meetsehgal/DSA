@@ -4,10 +4,12 @@
     background: var(--main-color-two);
     /* display: flex; */
     position: relative;
+    height: 100%;
 }
 
 .about-dsa-section .dsa-card .box {
     display: flex;
+    align-items: center;
     margin-top: 1rem;
 }
 
@@ -22,28 +24,34 @@
 .about-dsa-section .dsa-card .image {
     border-radius: 15px;
     overflow: hidden;
-    width: 45%;
+    width: 30%;
     aspect-ratio: 1/1;
     margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--main-color-one);
 }
 
 .about-dsa-section .dsa-card .image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    /* width: 100%;
+    height: 100%; */
+    object-fit: contain;
 }
 
 .about-dsa-section .dsa-card .content {
-    width: 55%;
+    width: 70%;
 }
 
 .about-dsa-section .dsa-card .content .name {
-    font-weight: 500;
+    font-weight: bolder;
+    font-family: "bodyfontbold" !important;
     margin-bottom: 3px !important;
-    font-size: 1rem;
+    font-size: .8rem;
+    color: var(--theme-color);
 }
 .about-dsa-section .dsa-card .content p{
-    font-size: .8rem;
+    font-size: .6rem;
 }
 .about-dsa-section .dsa-card::after {
     content: '';

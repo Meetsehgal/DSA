@@ -2,10 +2,10 @@
     display: flex;
     margin-top: 2rem;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 .group-company-section .company-card img{
-    width: 22%;
+    width: 18%;
     aspect-ratio: 1/1;
     height: auto;
     border-radius: 50%;
@@ -17,11 +17,11 @@
 }
 .group-company-section .company-card img:nth-child(1),
 .group-company-section .company-card img:nth-child(2){
-    margin-right: -50px;
+    margin-right: -40px;
 }
 .group-company-section .company-card img:nth-child(4),
 .group-company-section .company-card img:nth-child(5){
-    margin-left: -50px;
+    margin-left: -40px;
 }
 .group-company-section .company-card img:nth-child(5){
     /* z-index: -1; */

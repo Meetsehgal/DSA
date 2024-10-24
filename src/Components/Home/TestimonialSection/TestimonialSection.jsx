@@ -18,12 +18,12 @@ export default function TestimonialSection() {
             {/* <div className="animation-text">
                 testimonial
             </div> */}
-            <div className="container-fluid">
+            <div className="container-fluid py-lg-4">
                 <div className="row">
                     <div className="col-12">
-                        <div className="d-flex section-spacing py-0 mb-4 align-items-end heading-box justify-content-between">
+                        <div className="d-flex section-spacing py-0 mb-5 align-items-end heading-box justify-content-between">
                             <h2 className="main-heading">
-                                what our <br /><span>customer</span> says
+                            Our <span>Testimonials </span>
                             </h2>
                             <Link to="">
                                 View All <FaArrowRight />

@@ -7,7 +7,7 @@ export default function ServiceSection() {
         <section className="section-spacing pt-0 service-section">
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-12 mb-4">
+                    <div className="col-12 mb-5">
                         <div className="heading-box d-flex justify-content-between ">
                             <h2 className="main-heading mb-0">
                                 our <span>services</span>
@@ -18,7 +18,7 @@ export default function ServiceSection() {
                             </Link>
                         </div>
                     </div>
-                    <div className="col-12 mb-4">
+                    <div className="col-12 mb-5">
                         <div className="service-card">
                             <div className="image">
                                 <img src={NoImg} className="img-fluid" alt="" />
@@ -40,7 +40,7 @@ export default function ServiceSection() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-12 mb-4">
+                    <div className="col-12 mb-5">
                         <div className="service-card">
                             <div className="image">
                                 <img src={NoImg} className="img-fluid" alt="" />

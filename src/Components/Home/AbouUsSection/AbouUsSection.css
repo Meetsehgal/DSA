@@ -1,6 +1,7 @@
 .about-section .left-section img {
     width: 100%;
     border-radius: 20px;
+    
 }
 
 .about-section .left-section .content {
@@ -17,8 +18,15 @@
     top: 0;
     left: 0;
     right: 0;
-    padding: 20px;
+    padding: 30px;
     /* padding-bottom: 4rem; */
+    text-align: center;
+}
+.about-section .left-section .content .inner-content p{
+    font-size: .8rem;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 1rem;
 }
 
 .about-section .left-section .content .learn-more-btn {
@@ -63,4 +71,18 @@
 
 .about-section .about-section-swiper .mySwiper .swiper-pagination-bullet-active {
     background: var(--black-color) !important;
+}
+.about-section .about-section-swiper p{
+    color: var(--theme-color);
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    margin-top: -10px;
+}
+.about-section .about-section-swiper p span{
+    font-size: 3rem;
+}
+.about-section .about-section-swiper .about-swiper-top .swiper-slide{
+    padding: 2rem;
 }

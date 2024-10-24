@@ -1,5 +1,6 @@
 .deg-sec-wives-section {
-    background: var(--main-color-one);
+    background: url(../../../assets/img/Rectangle.png) center;
+    background-size: cover;
 }
 
 .deg-sec-wives-section .top-section .image-section {
@@ -24,11 +25,15 @@
 .deg-sec-wives-section .main-heading h2 {
     font-size: 3rem;
     margin-bottom: 2rem;
+    
     font-family: "headingbold" !important;
 }
 
+.deg-sec-wives-section .top-section p{
+    width: 85%;
+}
 .deg-sec-wives-section .top-section .image {
-    width: 50%;
+    width: 40%;
     margin-bottom: 2rem;
     position: relative;
     border-radius: 20px;
@@ -62,6 +67,7 @@
     height: 400px;
     overflow: hidden;
     border-radius: 20px;
+    width: 85%;
 }
 
 .deg-sec-wives-section .bottom-section .content {
@@ -81,7 +87,7 @@
 
 .deg-sec-wives-section .top-heading {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .deg-sec-wives-section .top-heading h3 {
@@ -89,11 +95,15 @@
     font-family: "bodyfontbold" !important;
     color: var(--theme-color);
 }
+.deg-sec-wives-section .top-heading p{
+    width: 80%;
+    margin: 0 auto;
+}
 
 .deg-sec-wives-section .personal-card {
     display: flex;
-    gap: 1rem;
-    margin-bottom: 1.5rem;
+    gap: 2rem;
+    margin-bottom: 3rem;
 }
 
 .deg-sec-wives-section .personal-card:last-child {
@@ -107,7 +117,7 @@
 .deg-sec-wives-section .personal-card .image img {
     width: 100%;
     border-radius: 20px;
-    height: 150px;
+    height: 130px;
     border: 2px solid var(--theme-color);
 }
 

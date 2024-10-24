@@ -65,13 +65,13 @@ export default function SubscriptionsSection() {
                         </div>
                     </div>
                     <div className="col-12">
-                    <div className="main-heading mt-4">
+                        <div className="main-heading mt-4">
                             <h2>2. print <span>subscription</span></h2>
                         </div>
                         <div className="subscription-container">
                             {/* For Local Subscriptions */}
                             <div className="subscription-section">
-                                <h4>Subscriptions</h4>
+                                <p className="mb-2">Subscriptions</p>
                                 <table className="subscription-table">
                                     <thead>
                                         <tr>
@@ -97,6 +97,7 @@ export default function SubscriptionsSection() {
                             {/* For SAARC Countries */}
                             <div className="subscription-section">
                                 <h4>For SAARC Countries</h4>
+                                <p className="mb-2">Subscriptions</p>
                                 <table className="subscription-table">
                                     <thead>
                                         <tr>
@@ -122,6 +123,7 @@ export default function SubscriptionsSection() {
                             {/* For The Rest of the World */}
                             <div className="subscription-section">
                                 <h4>For The Rest Of The World</h4>
+                                <p className="mb-2">Subscriptions</p>
                                 <table className="subscription-table">
                                     <thead>
                                         <tr>

@@ -6,7 +6,7 @@ export default function DegSecWivesSection() {
         <section className="section-spacing deg-sec-wives-section">
             <div className="contain-fluid mt-lg-4">
                 <div className="row">
-                    <div className="col-12 text-center">
+                    <div className="col-12 text-center mb-5">
                         <div className="main-heading">
                             <h2>
                                 Def-sec <span>wives</span>

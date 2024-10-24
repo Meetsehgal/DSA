@@ -13,13 +13,14 @@
     margin-bottom: calc(2.5rem* .5);
 }
 
-.podcast-section .left-section .top-section>img {
+.podcast-section .left-section .top-section>.img {
     /* position: absolute;
     left: 0;
     top: 0; */
     width: 100%;
     height: 100%;
     object-fit: cover;
+    background: var(--main-color-one);
 }
 
 .podcast-section .left-section .top-section .text img {
@@ -38,8 +39,8 @@
     flex-direction: column;
     /* align-items: center; */
     justify-content: space-between;
-    padding-left: 50px;
-    padding-bottom: 40px;
+    padding: 40px;
+    /* padding-left: 50px; */
 }
 
 .podcast-section .left-section .top-section .content h2 {
@@ -48,7 +49,7 @@
 }
 
 .podcast-section .left-section .top-section .content p {
-    width: 50%;
+    width: 70%;
 }
 
 .podcast-section .left-section .top-section .youtube-btn a {
@@ -134,7 +135,7 @@
 
 .podcast-section .right-card div {
     background: var(--theme-color-gradiant);
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     color: var(--white-color);
 }
 
@@ -146,6 +147,6 @@
 .podcast-section .right-card p {
     text-transform: capitalize;
     font-size: 1.5rem;
-    width: 60%;
+    width: 80%;
     font-weight: 500;
 }

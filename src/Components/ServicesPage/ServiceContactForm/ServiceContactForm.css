@@ -1,0 +1,41 @@
+.service-conact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-conact-form input {
+    height: 50px;
+}
+
+.service-conact-form input,
+.service-conact-form textarea {
+    border: none;
+    outline: none;
+    margin-bottom: 1rem;
+    padding: 10px;
+    /* padding: 1.5rem 1rem 10px; */
+    background: var(--white-color);
+    color: var(--black-color);
+    position: relative;
+}
+
+
+.service-conact-form input::placeholder,
+.service-conact-form textarea::placeholder {
+    color: var(--black-color);
+    position: absolute;
+    bottom: 10px;
+    font-weight: bolder;
+}
+
+.service-conact-form button {
+    padding: 8px 25px;
+    background: var(--main-color-two);
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+    display: inline-block;
+    width: auto;
+    border: none;
+    outline: none;
+}

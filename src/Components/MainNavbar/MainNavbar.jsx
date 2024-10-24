@@ -3,7 +3,8 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import { FaUser } from 'react-icons/fa';
 import { IoSearch } from 'react-icons/io5';
 import { VscListSelection } from 'react-icons/vsc';
-import Logo from "../../assets/img/logo/DSA-transparent-logo.png";
+import Logo from "../../assets/img/logo/dsa-white-logo.png";
+import HamIcon from "../../assets/img/icons/ham.png";
 
 import "./MainNavbar.css"
 import LoginModal from '../Login/LoginModal';
@@ -38,10 +39,11 @@ export default function MainNavbar() {
     return (
         <div className='px-lg-3 main-navbar-box'>
             <LoginModal/>
-            <Navbar collapseOnSelect expand="lg" className='main-navbar'>
+            <Navbar collapseOnSelect expand="lg" className='main-navbar py-0'>
                 <Container fluid>
                     <div className="side-drawer">
-                        <VscListSelection />
+                        {/* <VscListSelection /> */}
+                        <img src={HamIcon} className='img-fluid' alt="" />
                     </div>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
@@ -50,7 +52,7 @@ export default function MainNavbar() {
                                 <Nav.Link href="/editions">Megazine</Nav.Link>
                                 <Nav.Link href="/newsletter">Newsletters</Nav.Link>
                                 <Nav.Link href="/">Alerts</Nav.Link>
-                                <div className="search-btn ms-2">
+                                <div className="search-btn ms-2 mb-1">
                                     <IoSearch />
                                 </div>
                             </div>

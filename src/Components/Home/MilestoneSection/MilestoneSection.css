@@ -5,6 +5,8 @@
 .milestone-section .mySwiper .milestone-card {
     padding: 1rem;
     border-radius: 50%;
+    width: 100%;
+    height: auto;
     /* background: var(--main-color-two); */
     background: #ebebeb;
     display: flex;
@@ -20,14 +22,16 @@
 }
 
 .milestone-section .mySwiper .milestone-card .count {
-    font-size:3.5rem;
+    font-size:2.5rem;
     font-weight: 500;
     text-decoration: underline;
     text-decoration-color: var(--theme-color);
     color: var(--theme-color);
     text-underline-offset: 10px;
     margin-top: 1rem;
+    text-decoration-thickness: 2px;
     font-family: "bodyfontbold" !important;
+    margin-bottom: 5px !important;
 }
 .milestone-section .mySwiper .milestone-card:hover .count{
     color: var(--white-color) !important;
@@ -36,7 +40,7 @@
 
 .milestone-section .mySwiper .milestone-card .content {
     color: #636669;
-    font-size: 1.5rem;
+    font-size: .8rem;
 }
 .milestone-section .mySwiper .milestone-card:hover .content{
     color: var(--white-color);

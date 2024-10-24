@@ -10,11 +10,11 @@ import { GoArrowRight } from "react-icons/go";
 export default function CurrentAffairs({ banners }) {
     return (
         
-        <section className="section-spacing current-affairs-section">
+        <section className="section-spacing current-affairs-section mt-lg-4">
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-12">
-                        <div className="d-flex main-headin-box justify-content-between mb-4">
+                        <div className="d-flex main-headin-box pb-3 justify-content-between mb-4">
                             <h2 className="main-heading">
                                 Current <span>Affairs</span>
                             </h2>
@@ -37,8 +37,8 @@ export default function CurrentAffairs({ banners }) {
                         </div>
                     </div>
                     
-                    <div className="col-lg-5">
-                        <div className="center-box">
+                    <div className="col-lg-5 ">
+                        <div className="center-box px-lg-2">
                             <div className="top-section">
                                     <div className="btn-box">
                                         <div className="position-relative">

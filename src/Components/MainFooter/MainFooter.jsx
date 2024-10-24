@@ -14,11 +14,11 @@ export default function MainFooter() {
                 <img src={TopImg} className="img-fluid top-img" alt="" />
                 <div className="container-fluid position-relative">
                     <div className="row">
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 font-size">
                             <img src={Logo} className="img-fluid" alt="" />
                             <p>From the house of <b>OCEAN MEDIA PRIVATE LIMITED</b></p>
-                            <p className="my-2">(A Group company of Prabhat Prakashan Pvt. Ltd.) An ISO 9001:2015 Certified Company</p>
-                            <b>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</b>
+                            <p className="mt-2 mb-4">(A Group company of Prabhat Prakashan Pvt. Ltd.) An ISO 9001:2015 Certified Company</p>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
                             <ul className="sm-links">
                                 <li><a href="http://" target="_blank" rel="noopener noreferrer"><FaInstagramSquare /></a></li>
                                 <li><a href="http://" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a></li>
@@ -27,14 +27,14 @@ export default function MainFooter() {
                                 <li><a href="http://" target="_blank" rel="noopener noreferrer"><FaYoutube /></a></li>
                             </ul>
                         </div>
-                        <div className="col-lg-8 footer-links">
+                        <div className="col-lg-8 footer-links ps-lg-5 mt-lg-3">
                             <div className="row">
-                                <div className="col-lg-6 ps-lg-4">
+                                <div className="col-lg-6 ps-lg-5">
                                     <h4>
                                         Contact Info
                                     </h4>
                                     <ul>
-                                        <li>
+                                        <li className="mb-4">
                                             <div className="icon">
                                                 <FaPhoneVolume />
                                             </div>
@@ -44,7 +44,7 @@ export default function MainFooter() {
                                                 <a href="tel:+919958382999">9958382999</a>
                                             </div>
                                         </li>
-                                        <li>
+                                        <li className="mb-4">
                                             <div className="icon">
                                                 <IoMdMail />
                                             </div>
@@ -53,13 +53,13 @@ export default function MainFooter() {
                                                 <a href="mailto:info@dsalert.org">info@dsalert.org</a>
                                             </div>
                                         </li>
-                                        <li>
+                                        <li className="mb-4">
                                             <div className="icon">
                                                 <FaMapLocationDot />
                                             </div>
                                             <div>
                                                 <p>Visit Our location</p>
-                                                <a href="http://" target="_blank" rel="noopener noreferrer"><b>prabhat prakashan tower</b><br />
+                                                <a href="http://" target="_blank" rel="noopener noreferrer"><p>prabhat prakashan tower</p>
                                                     4/19, Asaf ali road, new Delhi, India</a>
                                             </div>
                                         </li>
@@ -102,7 +102,7 @@ export default function MainFooter() {
                                         </li>
                                     </ul>
                                 </div>
-                                <div className="col-lg-3">
+                                <div className="col-lg-3 ps-lg-5">
                                     <h4>
                                         Quick Links
                                     </h4>

@@ -13,10 +13,10 @@ import NoImg from "../../../assets/img/no-image.jpg";
 import { FaArrowRight } from "react-icons/fa";
 export default function ArticlesSection() {
     return (
-        <section className="section-spacing pt-0 px-0 articles-section">
-            <div className="container-fluid">
+        <section className="section-spacing pt-0 articles-section">
+            <div className="container-fluid py-lg-5">
                 <div className="row">
-                    <div className="col-lg-6 pe-lg-0">
+                    <div className="col-lg-6 pe-lg-5">
                         <div className="section-spacing pt-0 pb-2 heading-box mb-2 pe-0">
                             <h2 className="main-heading">
                                 Articles

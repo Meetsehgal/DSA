@@ -18,7 +18,7 @@ import TestimonialSection from "../Components/Home/TestimonialSection/Testimonia
 import GetApiCall from "../Helpers/Api/GetApi";
 import MainFooter from "../Components/MainFooter/MainFooter";
 // import MainNavbar from "../Components/MainNavbar/MainNavbar";
-
+import SubImg from "../assets/img/sub.png"
 export default function Home() {
 
   const [bannersData, setBannersData] = useState([]);
@@ -88,12 +88,13 @@ export default function Home() {
             <ServiceSection />
             <ArticlesSection />
             <DegSecWivesSection />
-            <PodcastSection banners = {filteredPodcastSectionBanners}/>
             <AddBanner banners = {fliteredTestimonialsBanners}/>
+            <PodcastSection banners = {filteredPodcastSectionBanners}/>
             <TestimonialSection/>
             <GroupWebsites />
             <InstagramFeed />
             <DsaUpsSection />
+            <img src={SubImg} className="img-fluid sub-img" alt="" />
             <MainFooter />
         </>
     )
