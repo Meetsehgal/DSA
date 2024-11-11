@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.aaa13498.css",
-    "main.js": "/static/js/main.d4b24def.js",
+    "main.css": "/static/css/main.5ba0c924.css",
+    "main.js": "/static/js/main.e35bedff.js",
     "static/js/334.f2896a00.chunk.js": "/static/js/334.f2896a00.chunk.js",
     "static/js/787.db33642e.chunk.js": "/static/js/787.db33642e.chunk.js",
     "static/media/contact-news.png": "/static/media/contact-news.bcf0f2f6d434728e0a8a.png",
     "static/media/img.png": "/static/media/img.5ec4c1c283687ce6601c.png",
-    "static/media/Journey so far.png": "/static/media/Journey so far.f7c7a0739eb82f25290c.png",
+    "static/media/journey2.png": "/static/media/journey2.4456a9e4a917b6490b45.png",
     "static/media/close-up-podcast-microphone.jpg": "/static/media/close-up-podcast-microphone.258245596cf66729cd3b.jpg",
     "static/media/gallery.png": "/static/media/gallery.c9537192445809d667d6.png",
     "static/media/DSA_Edition.pdf": "/static/media/DSA_Edition.fdd08e2a83e4efaff3a9.pdf",
@@ -54,13 +54,13 @@
     "static/media/BaseNeueTrial-Bold.ttf": "/static/media/BaseNeueTrial-Bold.ee6159fe7d20317d3d8d.ttf",
     "static/media/19.jpg": "/static/media/19.fb4b6c00b9de95f4fe22.jpg",
     "index.html": "/index.html",
-    "main.aaa13498.css.map": "/static/css/main.aaa13498.css.map",
-    "main.d4b24def.js.map": "/static/js/main.d4b24def.js.map",
+    "main.5ba0c924.css.map": "/static/css/main.5ba0c924.css.map",
+    "main.e35bedff.js.map": "/static/js/main.e35bedff.js.map",
     "334.f2896a00.chunk.js.map": "/static/js/334.f2896a00.chunk.js.map",
     "787.db33642e.chunk.js.map": "/static/js/787.db33642e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aaa13498.css",
-    "static/js/main.d4b24def.js"
+    "static/css/main.5ba0c924.css",
+    "static/js/main.e35bedff.js"
   ]
 }
