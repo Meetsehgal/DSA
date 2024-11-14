@@ -8,6 +8,11 @@ import 'swiper/css/pagination';
 // import required modules
 import { Pagination } from 'swiper/modules';
 import NoImg from "../../../assets/img/no-image.jpg";
+import Gallery1 from "../../../assets/img/about/Gallery1.png";
+import Gallery2 from "../../../assets/img/about/Gallery2.png";
+import Gallery3 from "../../../assets/img/about/Gallery3.png";
+import Gallery4 from "../../../assets/img/about/Gallery4.png";
+import Gallery5 from "../../../assets/img/about/Gallery5.png";
 import "./AboutGallerySection.css";
 export default function AboutGallerySection() {
     return (
@@ -28,19 +33,25 @@ export default function AboutGallerySection() {
                         </div>
                         <Swiper pagination={{
                             clickable: true,
-                        }} modules={[Pagination]} className="mySwiper py-5">
+                        }} 
+                        modules={[Pagination]}
+                         className="mySwiper py-5">
+
                             <SwiperSlide className='row'>
                                 <div className="col-lg-4 col-6">
-                                    <img src={NoImg} className='img-fluid' alt="" />
+                                    <img src={Gallery1} className='img-fluid' alt="" />
                                 </div>
                                 <div className="col-lg-4 col-6">
-                                    <img src={NoImg} className='img-fluid' alt="" />
+                                    <img src={Gallery2} className='img-fluid' alt="" />
                                 </div>
                                 <div className="col-lg-4 col-6">
-                                    <img src={NoImg} className='img-fluid' alt="" />
+                                    <img src={Gallery3} className='img-fluid' alt="" />
                                 </div>
-                                <div className="col-lg-8 order-last order-lg-4">
-                                    <img src={NoImg} className='img-fluid' alt="" />
+                                <div className="col-lg-4 order-last order-lg-4">
+                                    <img src={Gallery4} className='img-fluid' alt="" />
+                                </div>
+                                <div className="col-lg-4 col-6 order-lg-last">
+                                    <img src={Gallery5} className='img-fluid' alt="" />
                                 </div>
                                 <div className="col-lg-4 col-6 order-lg-last">
                                     <img src={NoImg} className='img-fluid' alt="" />

@@ -5,6 +5,7 @@ import { IoSearch } from 'react-icons/io5';
 import { VscListSelection } from 'react-icons/vsc';
 import Logo from "../../assets/img/logo/dsa-white-logo.png";
 import HamIcon from "../../assets/img/icons/ham.png";
+import cuurentIssueImage from "../../assets/img/home/home-banner/11 1.png";
 import { FaSearch, FaTimes } from "react-icons/fa";
 
 import "./MainNavbar.css"
@@ -34,7 +35,7 @@ export default function MainNavbar() {
         {
             key: '1',
             label: (
-                <div onClick={() => {
+                <div className='profileDropdownColor' onClick={() => {
                     setShow(true)
                     setModalType("Login")
                 }}>
@@ -45,7 +46,7 @@ export default function MainNavbar() {
         {
             key: '2',
             label: (
-                <div onClick={() => {
+                <div  className='profileDropdownColor' onClick={() => {
                     setShow(true)
                     setModalType("Register")
                 }}>
@@ -78,7 +79,7 @@ export default function MainNavbar() {
                                     <Space>
                                         <FaUser />
                                     </Space>
-                                </a>
+                                </a>    
                             </Dropdown>
 
                         </div>
@@ -173,14 +174,8 @@ export default function MainNavbar() {
 
                                     <li>
                                        
-                                        <NavLink   className={({isActive})=>{
-
-                                            return isActive ? "nav-links active":" nav-links";
-                                        }}
-                                            
-                                            
-                                            onClick={handleCloseOffcanvas} to="/magazine">Magazine
-                                            </NavLink>
+                                        <Link  id='magazine' onClick={handleCloseOffcanvas} to="/magazine"> Magazine
+                                            </Link>
                                        
 
                                     </li>
@@ -205,7 +200,7 @@ export default function MainNavbar() {
 
                                     
                                     <li>
-                                        <Link  onClick={handleCloseOffcanvas} to="/newsletter">Newsletter</Link>
+                                        <Link id='newsletter' onClick={handleCloseOffcanvas} to="/newsletter">Newsletter</Link>
                                     </li>
                                     
                                     <li>
@@ -225,13 +220,13 @@ export default function MainNavbar() {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 mb-4 mb-lg-0">
+                        <div className="col-lg-4  mb-lg-0">
                             <div className="border-left border-left-image">
                                 <p>
                                     CURRENT ISSUE
                                 </p>
                                 <div className="image">
-                                    <img src="" alt="" />
+                                    <img src={cuurentIssueImage} className="img-fluid"alt="" />
                                 </div>
                             </div>
                         </div>

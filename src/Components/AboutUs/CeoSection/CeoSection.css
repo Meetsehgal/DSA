@@ -8,7 +8,7 @@
 .ceo-section .ceo-card img {
     border-radius: 15px;
     width: 100%;
-    aspect-ratio: 1/1;
+    aspect-ratio: 1/0.8;
     object-fit: cover;
     margin-bottom: 1rem;
     object-position: top;
@@ -34,6 +34,9 @@
 
 .ceo-section .ceo-card .text-end{
     font-size: .8rem;
+}
+.ceo-section .ceo-card a:hover{
+   color: var(--theme-color);
 }
 @media (max-width:992px) {
     .ceo-section .ceo-card {

@@ -13,6 +13,7 @@ import Image1 from "../../../assets/img/self.png";
 import Image2 from "../../../assets/img/16.jpg";
 import Image3 from "../../../assets/img/17.jpg";
 import headingImg from "../../../assets/img/Def-sec-edu.png";
+ 
 import { FaArrowRight } from "react-icons/fa";
 export default function ArticlesSection() {
     return (
@@ -20,14 +21,19 @@ export default function ArticlesSection() {
             <div className="container-fluid py-lg-5">
                 <div className="row justify-content-between">
                     <div className="col-lg-6 pe-lg-5">
-                        <div className="section-spacing pt-0 pb-2 heading-box mb-2 pe-0">
+                        <div className=" pt-0 pb-2 heading-box mb-2 pe-0">
                             <h2 className="main-heading">
                                 Articles
                             </h2>
                             <p>
-                                DSA’s articles are crafted by leading subject experts, providing authoritative insights and in-depth research- based analysis on defence, security and International affairs. We cover a diverse range of topics with a unique blend of global and India-specific perspectives, making them a valuable resource for informed decision-making.
+                                DSA’s articles are crafted by leading subject experts, providing authoritative insights and
+                                 in-depth research- based analysis on defence, security and 
+                                 {/* International affairs. We cover a diverse range of topics with a unique 
+                                 
+                                 blend of global and India-specific perspectives, making them a valuable resource
+                                  for informed decision-making. */}
                             </p>
-                            <div className="text-lg-end mt-4">
+                            <div className="text-lg-end mt-2">
                                 <Link to="/articles">
                                     View All
                                     <FaArrowRight />
@@ -63,7 +69,7 @@ export default function ArticlesSection() {
                                                     on June 8, 2020
                                                 </span>
                                                 <p className="des">
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                                    Lorem Ipsum is simply dummy text of the   1500s
                                                 </p>
                                                 <Link to="">Read more</Link>
                                             </div>
@@ -87,7 +93,7 @@ export default function ArticlesSection() {
                                                     on June 8, 2020
                                                 </span>
                                                 <p className="des">
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                                    Lorem Ipsum is simply dummy text of the   1500s
                                                 </p>
                                                 <Link to="">Read more</Link>
                                             </div>
@@ -111,7 +117,7 @@ export default function ArticlesSection() {
                                                     on June 8, 2020
                                                 </span>
                                                 <p className="des">
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                                    Lorem Ipsum is simply dummy text of  1500s
                                                 </p>
                                                 <Link to="">Read more</Link>
                                             </div>

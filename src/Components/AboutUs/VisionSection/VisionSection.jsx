@@ -14,26 +14,28 @@ import Image3 from "../../../assets/img/Editions/January 2024.jpg";
 import { FreeMode, Pagination } from "swiper/modules";
 import { useState } from "react";
 export default function VisionSection() {
-//   const [showOverview, setShowOverview] = useState(true);
-//   const [showVision, setShowVision] = useState(false);
-//   const [showMission, setShowMission] = useState(false);
-//   const handleOverviewClick = () => {
-//     setShowOverview(true);
-//     // setShowMission(false);
-//     // setShowOverview(false);
-//   };
+  const [showOverview, setShowOverview] = useState(true);
+  const [showVision, setShowVision] = useState(false);
+  const [showMission, setShowMission] = useState(false);
 
-//   const handleVisionClick = () => {
-//     setShowVision(true);
-//     setShowMission(false);
-//     // setShowOverview(false);
-//   };
+  const handleOverviewClick = () => {
+    setShowOverview(true);
+    setShowMission(false);
+    setShowVision(false);
+  };
 
-//   const handleMissionClick = () => {
-//     setShowMission(true);
-     
-//     setShowVision(false);
-//   };
+  const handleVisionClick = () => {
+    setShowVision(true);
+    setShowMission(false);
+    setShowOverview(false);
+  };
+
+  const handleMissionClick = () => {
+    setShowMission(true);
+
+    setShowVision(false);
+    setShowOverview(false);
+  };
 
   return (
     <section className="section-spacing vision-section  pt-5 pt-0 mb-5">
@@ -47,11 +49,11 @@ export default function VisionSection() {
             />
 
             <div className="left-section-bottom">
-              <span> OVERVIEW </span>
-              <span>VISION</span>
-              <span>MISSION</span>
+              <span  className={showOverview ? "active": ""}onClick={handleOverviewClick} > OVERVIEW </span>
+              <span className={showVision? "active":""} onClick={handleVisionClick}>VISION</span>
+              <span  className={showMission ? "active":""} onClick={handleMissionClick}>MISSION</span>
             </div>
-            {/* {showOverview ? ( */}
+            {showOverview ? (
               <div>
                 <h5>Defence And Security alert Magazine</h5>
                 <p>
@@ -68,15 +70,15 @@ export default function VisionSection() {
                   International Affairs domain.
                 </p>
               </div>
-            {/* ) : (
+            ) : (
               ""
-            )} */}
+            )}
 
-            {/* {showVision ? ( */}
-              {/* <div>
+            {showVision ? (
+              <div>
                 <h5>Defence And Security alert Magazine</h5>
                 <p>
-                 Vsiion Defence and Security Alert (DSA), established in 2009
+                  Vsiion Defence and Security Alert (DSA), established in 2009
                   following the 26/11 Mumbai attacks, aimed to provide
                   comprehensive analysis on defence, security and International
                   Affairs. Initially India-focused, it swiftly expanded to
@@ -88,16 +90,16 @@ export default function VisionSection() {
                   reinforcing its credibility in the defence, security and
                   International Affairs domain.
                 </p>
-              </div> */}
-            {/* ) : (
+              </div>
+            ) : (
               ""
-            )} */}
+            )}
 
-            {/* {showMission ? ( */}
-              {/* <div>
+            {showMission ? (
+              <div>
                 <h5>Defence And Security alert Magazine</h5>
                 <p>
-                 Mission  Defence and Security Alert (DSA), established in 2009
+                  Mission Defence and Security Alert (DSA), established in 2009
                   following the 26/11 Mumbai attacks, aimed to provide
                   comprehensive analysis on defence, security and International
                   Affairs. Initially India-focused, it swiftly expanded to
@@ -109,10 +111,10 @@ export default function VisionSection() {
                   reinforcing its credibility in the defence, security and
                   International Affairs domain.
                 </p>
-              </div> */}
-            {/* ) : (
+              </div>
+            ) : (
               ""
-            )} */}
+            )}
 
             {/* <h2 className="main-heading">
                             about <span><i>dsa</i></span>
@@ -124,9 +126,9 @@ export default function VisionSection() {
               slidesPerView={1}
               freeMode={true}
               loop={true}
-              pagination={{
-                clickable: true,
-              }}
+                pagination={{
+                  clickable: true,
+                }}
               modules={[FreeMode, Pagination]}
               className="mySwiper ps-lg-5 "
             >

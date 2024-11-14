@@ -55,7 +55,7 @@ export default function DsaUpsSection() {
                                         <p className="name">
                                             ISO 9001:2015 Certification:
                                         </p>
-                                        <p>DSA is the sole magazine in its segment with this prestigious certification.</p>
+                                        <p>DSA is the sole magazine in its segment with this  .</p>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -66,9 +66,9 @@ export default function DsaUpsSection() {
                                     </div>
                                     <div className="content">
                                         <p className="name">
-                                            Exclusive IAF Intranet Availability:
+                                            Exclusive Air Force Access:
                                         </p>
-                                        <p>The only defence and security magazine available on the Indian Air Force (IAF) intranet for the past eight consecutive years.</p>
+                                        <p>The only defence and security magazine available on  (IAF)  .</p>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -81,7 +81,7 @@ export default function DsaUpsSection() {
                                         <p className="name">
                                             High-Profile Interviews
                                         </p>
-                                        <p>DSA has published interviews with 18 Chiefs of the Indian Army, Navy, and Air Force.</p>
+                                        <p>DSA has published interviews with 18 Chiefs of the Indian Army.</p>
                                     </div>
                                 </div>
                             </SwiperSlide>

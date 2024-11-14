@@ -7,6 +7,7 @@ import Icon1 from "../../assets/img/icons/call.png";
 import Icon2 from "../../assets/img/icons/Email.png";
 import Icon3 from "../../assets/img/icons/Address.png";
 import Logo from "../../assets/img/logo/dsa-white-logo.png";
+import whatsApp from  "../../assets/img/icons/WhatsApp.png";
 import "./MainFooter.css";
 import { IoMdMail } from "react-icons/io";
 import { Link } from "react-router-dom";
@@ -44,11 +45,9 @@ export default function MainFooter() {
                                             <div>
                                                 <p>Loading for communication</p>
                                                 <a href="tel:+91-11-41634999">+91-11-41634999</a>,<br /><a href="tel:+91-11-23268999"> 23268999, </a>
-                                                <a href="tel:+919958382999">  
-                                                    <div className="icon">
-                                                        <img src={''} className="img-fluid" alt="" />
-                                                 </div>
-                                            9958382999</a>
+                                                <a href="tel:+919958382999">                                                     
+                                                        <img src={whatsApp} className="img-fluid whatsAppIcon" alt="" />
+                                                  9958382999</a>
                                             </div>
                                         </li>
                                         <li className="mb-4">

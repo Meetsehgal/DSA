@@ -23,9 +23,9 @@ export default function AbouUsSection({banners}) {
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
     return (
-        <section className="section-spacing pb-4 about-section position-relative">
+        <section className="section-spacing pb-4 about-section position-relative ">
             <div className="container-fluid">
-                <div className="row justify-content-between">
+                <div className="row justify-content-evenly">
                     <div className="col-lg-8 left-section">
                         <img alt={banners[0]?.fld_alt} src={banners[0]?.fld_desktop_image} className="img-fluid" />
                         <div className="content">
@@ -53,7 +53,7 @@ export default function AbouUsSection({banners}) {
                         the intranet of the Indian air force
                         </p>
                         <Swiper
-                            style={{
+                            style={{    
                                 // '--swiper-navigation-color': '#fff',
                                 '--swiper-pagination-color': '#fff',
                             }}
@@ -83,6 +83,10 @@ export default function AbouUsSection({banners}) {
                                 <img alt="" src={Image5} />
                             </SwiperSlide>
                         </Swiper>
+
+
+
+
                         <Swiper
                             onSwiper={setThumbsSwiper}
                             spaceBetween={20}

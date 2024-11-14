@@ -24,8 +24,10 @@ export default function MilestoneSection({ HeadingText }) {
                             spaceBetween={20}
                             slidesPerView={2}
                             freeMode={true}
-                            loop={true}
-                            pagination={false}
+                            loop={false}
+                             pagination={{
+                                clickable:"true"
+                            }}
                             breakpoints={{
                                 640: {
                                     slidesPerView: 2,
@@ -36,7 +38,7 @@ export default function MilestoneSection({ HeadingText }) {
                                     spaceBetween: 20,
                                 },
                                 1024: {
-                                    slidesPerView: 6,
+                                    slidesPerView: 5,
                                     spaceBetween: 20,
                                 },
                             }}

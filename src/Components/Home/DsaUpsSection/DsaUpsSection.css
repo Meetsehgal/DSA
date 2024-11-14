@@ -10,7 +10,7 @@
 .dsa-ups-section .dsa-card {
     padding: 1rem;
     border-radius: 20px;
-    background: var(--main-color-one);
+    background: var(--main-color-two);
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -35,10 +35,10 @@
 
 .dsa-ups-section .dsa-card .content {
     /* width: 55%; */
-    font-size: .7rem;
+    font-size: .9rem;
 }
 .dsa-ups-section .dsa-card .content .name {
-    font-size: .8rem;
+    font-size: 1rem;
     font-weight: 500;
     font-family: "bodyfontbold" !important;
     margin-bottom: 6px !important;

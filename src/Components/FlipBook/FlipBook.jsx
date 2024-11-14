@@ -84,7 +84,7 @@ const Flipbook = () => {
         <section className="section-spacing">
             <div className="container">
                 <div className="row">
-                    <div className="col-12">
+                    <div className="col-8">
                         <div className="full-screen-container" >
                             <PageFlip
                                 ref={pageFlipRef}

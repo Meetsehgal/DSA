@@ -11,6 +11,12 @@
 /* .articles-section .heading-box p{
   font-size: .9rem;
 } */
+.articles-section .heading-box{
+  padding-right: -15rem;
+
+}
+
+
 .articles-section .heading-box a {
   padding: 8px 30px;
   border: 2px solid var(--theme-color);
@@ -36,7 +42,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  height: 600px;
+  height: 551px;
   background: var(--main-color-two);
   
 }
@@ -44,7 +50,7 @@
 .articles-section .left-swiper-box .article-left-card .right-content-box {
   position: absolute;
   z-index: 9;
-  top: 50%;
+  top: 52%;
   left: 85%;
   transform: translate(-85%, -50%);
 }
@@ -54,7 +60,7 @@
   .article-left-card
   .right-content-box
   .top-section {
-  transform: translateX(-80px);
+  transform: translateX(-120px);
 }
 
 .articles-section
@@ -77,13 +83,14 @@
   top: 0;
   right: 0;
   bottom: 0;
-  width: 65%;
+  width: 62%;
   height: 100%;
   background: var(--main-color-one);
 }
 
 .articles-section .left-swiper-box .article-left-card .image {
-  width: 200px;
+  width: 275px;
+  
   aspect-ratio: 1/1;
   background-color: var(--main-color-one);
   padding: 10px;
@@ -98,18 +105,19 @@
 }
 
 .articles-section .left-swiper-box .article-left-card .content {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .articles-section .left-swiper-box .article-left-card .content .des{
   color: var(--theme-color);
   font-weight: bolder;
   font-size: .9rem;
+   
 }
 
 .articles-section .left-swiper-box .article-left-card .content span {
   font-size: 0.9rem;
   color: #636669;
-  margin-bottom: 6px;
+  margin-bottom: 5px;
   display: inline-block;
 }
 
@@ -117,6 +125,7 @@
   text-decoration: underline !important;
   text-underline-offset: 4px;
   margin-top: 5px;
+   padding-bottom: 2rem;
   display: inline-block;
 }
 
@@ -129,7 +138,7 @@
   overflow: hidden;
   /* transform: translateX(calc(1.5rem* .5)); */
   width: 100%;
-  height: 85%;
+  height: 90%;
   position: relative;
   display: flex;
 }
@@ -145,13 +154,20 @@
   /* position: relative; */
 }
 
-.articles-section .right-section .heading h2 {
+.articles-section .right-section .heading h2{
+  height: -15vh;
+}
+.articles-section .right-section .heading h2 img {
   /* margin-bottom: 8rem; */
   /* font-size: 3rem; */
-  padding-bottom: 20px;
-  font-weight: bolder;
+  padding-bottom: 25px;
+    
+  /* font-weight:bolder; */
   /* transform: rotate(0deg) translateX(0px); */
   /* margin-bottom: 0; */
+height: 38vh;
+
+  /* height: 100%; */
 }
 
 .articles-section .right-section .cards-box {
@@ -234,7 +250,7 @@
 }
 .articles-section .view-event-btn {
   margin-left: calc(1.5rem * 0.5);
-  margin-top: 2rem;
+  margin-top: 1.7rem;
   display: flex;
   justify-content: center;
 }

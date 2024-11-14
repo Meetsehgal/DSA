@@ -43,9 +43,9 @@ export default function DsaUps() {
                                 </div>
                                 <div className="content">
                                     <p className="name">
-                                        Exclusive IAF Intranet Availability:
+                                        Exclusive Air Force Access:
                                     </p>
-                                    <p>The only defence and security magazine available on the Indian Air Force (IAF) intranet for the past 8 consecutive years.</p>
+                                    <p>The only defence and security magazine available on the .</p>
                                 </div>
                             </div>
                         </div>
@@ -61,9 +61,9 @@ export default function DsaUps() {
                                 </div>
                                 <div className="content">
                                     <p className="name">
-                                        High-Profile Interviews
+                                        Expert Gobal Perspectives
                                     </p>
-                                    <p>DSA has published interviews with 18 Chiefs of the Indian Army, Navy, and Air Force.</p>
+                                    <p>DSA has published interviews with 18 Chiefs of the Indian  .</p>
                                 </div>
                             </div>
                         </div>
@@ -81,7 +81,7 @@ export default function DsaUps() {
                                     <p className="name">
                                         Publication History:
                                     </p>
-                                    <p>The magazine has released 180 editions over a span of 15 years.</p>
+                                    <p>The magazine has released 180 editions over a .</p>
                                 </div>
                             </div>
                         </div>

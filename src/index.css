@@ -54,7 +54,8 @@ ul {
 }
 
 .section-spacing {
-  padding: 50px;
+  /* padding: 50px; */
+  padding: 80px;
 }
 
 /* .bg-section-spacing{
@@ -144,7 +145,7 @@ h5.h6 {
 
 .home-subscribe-section .content {
   position: absolute;
-  top: 50%;
+  top: -4%;
   
   width: 100%;
   transform: translateY(50%);

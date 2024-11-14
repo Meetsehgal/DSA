@@ -1,5 +1,6 @@
     import { Link } from "react-router-dom";
-import NoImg from "../../../assets/img/Bauji-profile-Eng-1.jpg";
+// import NoImg from "../../../assets/img/Bauji-profile-Eng-1.jpg";
+import FounderImage from "../../../assets/img/about/Our Founder.png";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -32,8 +33,8 @@ export default function FounderSection() {
                         </div>
 
 
-                        <div className=" col-lg-4  right-section justify-content-center">
-                            <img src={NoImg} className="img-fluid" alt="" />
+                        <div className=" col-lg-5  right-section justify-content-center">
+                            <img src={FounderImage} className="img-fluid" alt="" />
                             <p className="name">
                             <span>Late</span> Shri Shyam Sunder
                             </p>

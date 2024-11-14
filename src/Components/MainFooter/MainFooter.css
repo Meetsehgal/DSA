@@ -3,8 +3,14 @@
   position: relative;
   color: var(--white-color);
   margin-top: 8rem !important;
-}
+  height: 52vh;
+  /* padding-bottom: -20rem !important; */
+   
+  
 
+  /* margin-bottom: 10px; */
+}
+ 
 .main-footer .font-size {
   font-size: 0.8rem;
 }
@@ -78,6 +84,11 @@
   color: #ecd344;
   width: 2.5rem;
 }
+.main-footer .footer-links ul li .whatsAppIcon{
+  width: 1.3rem;
+  margin-top: -4px;
+
+}
 
 .main-footer .footer-links ul li p {
   text-transform: capitalize;
@@ -90,6 +101,7 @@
 .copyright-section {
   background: #6a0101;
   color: var(--white-color);
+  
 }
 
 .copyright-section a {

@@ -1,7 +1,7 @@
 .home-banner .count-card {
     display: flex;
     flex-direction: column;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .home-banner .count-card:last-child {
@@ -9,9 +9,9 @@
 }
 
 .home-banner .count-card p {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: bold;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     font-family: "headingbold" !important;
     color: var(--theme-color);
     line-height: 1;
@@ -25,6 +25,9 @@
     color: var(--font-dark);
     letter-spacing: 2px;
 
+}
+.home-banner .count-card .content{
+    margin-top: 1.1rem;
 }
 
 .home-banner .banner-section {
@@ -59,7 +62,10 @@
 }
 
 .home-banner .banner-section .banner-btn img {
-    width: 255px !important;
+    /* width: 255px !important; */
+    /* width:600px !important; */
+    width: 270px !important;
+
     margin-left: -1px;
     /* object-fit: contain; */
     /* position: absolute;

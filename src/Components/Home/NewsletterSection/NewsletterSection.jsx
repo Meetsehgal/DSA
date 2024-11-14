@@ -21,7 +21,7 @@ export default function NewsletterSection({ banners }) {
                     <div className="col-12">
                         <Swiper
                             slidesPerView={1.3}
-                            spaceBetween={30}
+                            spaceBetween={40}
                             freeMode={true}
                             pagination={false}
                             breakpoints={{
@@ -34,7 +34,7 @@ export default function NewsletterSection({ banners }) {
                                     spaceBetween: 30,
                                 },
                                 1024: {
-                                    slidesPerView: 3,
+                                    slidesPerView: 3.5,
                                     spaceBetween: 30,
                                 },
                             }}
