@@ -11,6 +11,7 @@ import AboutNewsletterSection from "../../AboutNewsletterSection/AboutNewsletter
 import NewsletterSection from "../../../Home/NewsletterSection/NewsletterSection";
 import BrandParttern from "../../../Home/BrandParttern/BrandParttern";
 import RegionSection from "../RegionSection/RegionSection";
+import SocialIcons from "../../../SocialIcons/SocialIcons";
 
 export default function NewsDetailSection() {
 
@@ -74,11 +75,7 @@ export default function NewsDetailSection() {
                                 </b>
                                 <span>
                                     <ul>
-                                        <li><a href="http://" target="_blank" rel="noopener noreferrer"><FaSquareInstagram /></a></li>
-                                        <li><a href="http://" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a></li>
-                                        <li><a href="http://" target="_blank" rel="noopener noreferrer"><FaXTwitter /></a></li>
-                                        <li><a href="http://" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a></li>
-                                        <li><a href="http://" target="_blank" rel="noopener noreferrer"><FaYoutube /></a></li>
+                                        <SocialIcons/>
                                     </ul>
                                 </span>
                             </div>

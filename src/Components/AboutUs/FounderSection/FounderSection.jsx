@@ -24,10 +24,8 @@ export default function FounderSection() {
                             </h2>
                             <p className="sub"><i>DSA</i> History</p>
                             <p>
-                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,
-                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable There are many variations of passages of Lorem Ipsum available,
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable There are many variations of passages of Lorem Ipsum available,
-                            
+                            A Doyen of Indian Publication Industry.
+He headed the Prabhat Group (incorporating Prabhat Prakashan (P) Ltd., Prabhat Paperbacks, Sahitya Amrit, Ocean Books (P) Ltd. Ocean Media (P) Ltd. Defence and Security Alert (DSA) monthly magazine and Prabhat Paperbacks). Prabhat Prakashan, one of the leading publishing houses of India, has till date published over 6,000 titles of quality books on almost all streams of literature, viz. children’s books, fiction, dictionaries and encyclopaedia, science, quizzes, humanities, personality development, health, etc.
                             </p>
                             <Link to="">Journey So Far</Link>
                         </div>

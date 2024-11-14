@@ -1,6 +1,7 @@
 import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import NoImg from "../../../assets/img/no-image.jpg";
+import ASociate from "../../../assets/img/icons/Associate with DSA.png";
+import subscribe from "../../../assets/img/icons/Subscribe.png";
 import "./ServiceSection.css";
 export default function ServiceSection() {
     return (
@@ -21,15 +22,15 @@ export default function ServiceSection() {
                     <div className="col-12 mb-5">
                         <div className="service-card">
                             <div className="image">
-                                <img src={NoImg} className="img-fluid" alt="" />
+                                <img src={subscribe} className="img-fluid" alt="" />
                             </div>
                             <div className="content">
                                 <div className="text">
                                     <p className="name">
-                                    Subscription
+                                    Subscribe
                                     </p>
                                     <span className="des">
-                                    Stay ahead with our in-depth defence and security worldwide insights! Subscribe now for exclusive online access to expert analysis and the latest updates.
+                                    DSA offers are for online and print magazine. Stay ahead with our in-depth defence and security worldwide insights! Subscribe now for exclusive online access to expert analysis and the latest updates.
                                     </span>
                                 </div>
                                 <div className="arrow-btn">
@@ -43,7 +44,7 @@ export default function ServiceSection() {
                     <div className="col-12 mb-5">
                         <div className="service-card">
                             <div className="image">
-                                <img src={NoImg} className="img-fluid" alt="" />
+                                <img src={ASociate} className="img-fluid" alt="" />
                             </div>
                             <div className="content">
                                 <div className="text">
@@ -51,7 +52,7 @@ export default function ServiceSection() {
                                     Associate with DSA
                                     </p>
                                     <span className="des">
-                                    Write for us, share your unsung stories on our DSA Audit through podcast. Advertise with us , and take Sponsheorhip with us. and oraganised with us. 
+                                    Explore opportunities to partner with us, whether as a contributor, advertiser, or collaborator. Let’s work together to advance the defence and security dialogue.
                                     </span>
                                 </div>
                                 <div className="arrow-btn">

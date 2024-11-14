@@ -3,6 +3,7 @@ import NoImg from "../../../../assets/img/no-image.jpg";
 import "./ArticleDetail.css";
 import { FaSquareInstagram, FaXTwitter } from "react-icons/fa6";
 import moment from "moment";
+import SocialIcons from "../../../SocialIcons/SocialIcons";
 export default function ArticleDetail({ data }) {
     return (
         <section className="section-spacing pt-0 mb-5 article-detail-section">
@@ -39,10 +40,7 @@ export default function ArticleDetail({ data }) {
                                     Share
                                 </p>
                                 <ul>
-                                    <li><a href="http://" target="_blank" rel="noopener noreferrer"><FaSquareInstagram /></a></li>
-                                    <li><a href="http://" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a></li>
-                                    <li><a href="http://" target="_blank" rel="noopener noreferrer"><FaXTwitter /></a></li>
-                                    <li><a href="http://" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a></li>
+                                    <SocialIcons/>
                                 </ul>
                             </div>
                         </div>

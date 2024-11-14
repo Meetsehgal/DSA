@@ -54,7 +54,7 @@ export default function AboutGallerySection() {
                                     <img src={Gallery5} className='img-fluid' alt="" />
                                 </div>
                                 <div className="col-lg-4 col-6 order-lg-last">
-                                    <img src={NoImg} className='img-fluid' alt="" />
+                                    <img src={Gallery1} className='img-fluid' alt="" />
                                 </div>
                             </SwiperSlide>
                         </Swiper>

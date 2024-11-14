@@ -24,6 +24,7 @@ const printhandleClick=()=>{
                         <div className="main-heading">
                             <h2>A. <i>DSA</i> <span>subscriptions</span></h2>
                         </div>
+                        <p>DSA offers are for online and print magazine. Stay ahead with our in-depth defence and security worldwide insights! Subscribe now for exclusive online access to expert analysis and the latest updates.</p>
                         <div className="d-flex gap-4 gap-lg-5 mt-4 mt-lg-5">
                             <div className= "sub-btn" onClick={digitalhandleClick}>
                             
@@ -52,7 +53,7 @@ const printhandleClick=()=>{
                                 <p className="mb-3">Subscriptions</p>
                                 <p className="subscription-card-text">Access Both The <i>DSA's</i> Website And Digital Magazine.</p>
                                 <ul className="features-list">
-                                    <li>The <i>DSA</i> Website</li>
+                                    <li>The <i><span> DSA </span></i> Website</li>
                                     <li>The <i>DSA</i> Magazine Latest Editions</li>
                                     <li>Newsletters</li>
                                     <li>No Third-Part Advertising</li>

@@ -61,8 +61,6 @@ export default function Home() {
     })
   }
 
-  console.log(newsLetterData, "hkhkj")
-
 
 
   const filteredHomeBanners = bannersData?.filter((item) => item?.fld_pagename === "Home" && item?.fld_location === "Main")
@@ -99,7 +97,7 @@ export default function Home() {
         <img src={SubImg} className="img-fluid sub-img" alt="" />
         <div className="content">
           <h2>Subscribe <i>DSA</i> and be Alert!</h2>
-          <p>There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
+          <p>Stay informed with the leading voice in defence and security. Empower your understanding and make informed decisions. Subscribe to DSA – where staying alert means staying ahead.</p>
           <Link to="/services" className="theme-btn">SUBSCRIBE</Link>
         </div>
       </section>

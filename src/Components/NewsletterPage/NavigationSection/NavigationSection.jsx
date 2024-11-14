@@ -2,6 +2,7 @@ import { FaFacebookF, FaInstagramSquare , FaLinkedinIn, FaYoutube } from "react-
 import { FaSquareInstagram, FaXTwitter } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import "./NavigationSection.css";
+import SocialIcons from "../../SocialIcons/SocialIcons";
 export default function NavigationSection() {
     return (
         <section className="section-spacing px-0 mb-5 magazine-navigation">
@@ -29,11 +30,7 @@ export default function NavigationSection() {
                             </ul>
                             <div className="sm-links">
                                 <ul>
-                                    <li><a href="http://" target="_blank" rel="noopener noreferrer"><FaSquareInstagram  /></a></li>
-                                    <li><a href="http://" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a></li>
-                                    <li><a href="http://" target="_blank" rel="noopener noreferrer"><FaXTwitter /></a></li>
-                                    <li><a href="http://" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a></li>
-                                    <li><a href="http://" target="_blank" rel="noopener noreferrer"><FaYoutube /></a></li>
+                                    <SocialIcons/>
                                 </ul>
                             </div>
                         </div>

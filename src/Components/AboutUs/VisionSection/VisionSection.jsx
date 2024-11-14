@@ -49,25 +49,15 @@ export default function VisionSection() {
             />
 
             <div className="left-section-bottom">
-              <span  className={showOverview ? "active": ""}onClick={handleOverviewClick} > OVERVIEW </span>
+              <span className={showOverview ? "active": ""}onClick={handleOverviewClick} > OVERVIEW </span>
               <span className={showVision? "active":""} onClick={handleVisionClick}>VISION</span>
-              <span  className={showMission ? "active":""} onClick={handleMissionClick}>MISSION</span>
+              <span className={showMission ? "active":""} onClick={handleMissionClick}>MISSION</span>
             </div>
             {showOverview ? (
               <div>
                 <h5>Defence And Security alert Magazine</h5>
                 <p>
-                  Defence and Security Alert (DSA), established in 2009
-                  following the 26/11 Mumbai attacks, aimed to provide
-                  comprehensive analysis on defence, security and International
-                  Affairs. Initially India-focused, it swiftly expanded to
-                  address global challenges. The magazine features insightful
-                  articles from top experts worldwide, discussing threats and
-                  solutions for a secure world. DSA holds the prestigious ISO
-                  9001:2015 Certification and has been uniquely featured on the
-                  Indian Air Force (IAF) INTRANET for seven consecutive years,
-                  reinforcing its credibility in the defence, security and
-                  International Affairs domain.
+                Defence and Security Alert (DSA), established in 2009 following the 26/11 Mumbai attacks, aimed to provide comprehensive analysis on defence, security and International Affairs. Initially India-focused, it swiftly expanded to address global challenges. The magazine features insightful articles from top experts worldwide, discussing threats and solutions for a secure world. DSA holds the prestigious ISO 9001:2015 Certification and has been uniquely featured on the Indian Air Force (IAF) INTRANET for seven consecutive years, reinforcing its credibility in the defence, security and International Affairs domain.
                 </p>
               </div>
             ) : (
@@ -78,17 +68,7 @@ export default function VisionSection() {
               <div>
                 <h5>Defence And Security alert Magazine</h5>
                 <p>
-                  Vsiion Defence and Security Alert (DSA), established in 2009
-                  following the 26/11 Mumbai attacks, aimed to provide
-                  comprehensive analysis on defence, security and International
-                  Affairs. Initially India-focused, it swiftly expanded to
-                  address global challenges. The magazine features insightful
-                  articles from top experts worldwide, discussing threats and
-                  solutions for a secure world. DSA holds the prestigious ISO
-                  9001:2015 Certification and has been uniquely featured on the
-                  Indian Air Force (IAF) INTRANET for seven consecutive years,
-                  reinforcing its credibility in the defence, security and
-                  International Affairs domain.
+                To be a globally recognized authority in defence, security and international affairs, Shaping strategic discourse and delivering informed, actionable insights. We envision a future where nations collaborate to create a safe, secured and a peaceful world, guided by expert analysis and innovative solutions to emerging global threats and challenges.
                 </p>
               </div>
             ) : (
@@ -99,17 +79,7 @@ export default function VisionSection() {
               <div>
                 <h5>Defence And Security alert Magazine</h5>
                 <p>
-                  Mission Defence and Security Alert (DSA), established in 2009
-                  following the 26/11 Mumbai attacks, aimed to provide
-                  comprehensive analysis on defence, security and International
-                  Affairs. Initially India-focused, it swiftly expanded to
-                  address global challenges. The magazine features insightful
-                  articles from top experts worldwide, discussing threats and
-                  solutions for a secure world. DSA holds the prestigious ISO
-                  9001:2015 Certification and has been uniquely featured on the
-                  Indian Air Force (IAF) INTRANET for seven consecutive years,
-                  reinforcing its credibility in the defence, security and
-                  International Affairs domain.
+                We are committed to raise an awareness and fostering a deep understanding of defence, security and international affairs. Through expert analysis and thought leadership, we aim to equip decision-makers and the public with the knowledge required to develop informed, strategic responses to emerging global threats and challenges, ultimately contributing to a safe, secured and a peaceful world.
                 </p>
               </div>
             ) : (

@@ -10,10 +10,10 @@ import 'swiper/css/pagination';
 
 // import required modules
 import { FreeMode, Pagination } from 'swiper/modules';
-import One from "../../../assets/img/icons/1.png";
-import Two from "../../../assets/img/icons/2.png";
-import Three from "../../../assets/img/icons/3.png";
-import Four from "../../../assets/img/icons/4.png";
+import One from "../../../assets/img/icons/Apache Helicopter.png";
+import Two from "../../../assets/img/icons/Guarantee.png";
+import Three from "../../../assets/img/icons/India National Emblem.png";
+import Four from "../../../assets/img/icons/Interview.png";
 export default function DsaUpsSection() {
     return (
         <section className="section-spacing dsa-ups-section">
@@ -49,26 +49,39 @@ export default function DsaUpsSection() {
                             <SwiperSlide>
                                 <div className="dsa-card">
                                     <div className="image">
-                                        <img src={One} className="img-fluid" alt="" />
+                                        <img src={Two} className="img-fluid" alt="" />
                                     </div>
                                     <div className="content">
                                         <p className="name">
                                             ISO 9001:2015 Certification:
                                         </p>
-                                        <p>DSA is the sole magazine in its segment with this  .</p>
+                                        <p>Trusted for accurate, high-quality defence and security insights</p>
                                     </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="dsa-card">
                                     <div className="image">
-                                        <img src={Two} className="img-fluid" alt="" />
+                                        <img src={One} className="img-fluid" alt="" />
                                     </div>
                                     <div className="content">
                                         <p className="name">
                                             Exclusive Air Force Access:
                                         </p>
-                                        <p>The only defence and security magazine available on  (IAF)  .</p>
+                                        <p>The only magazine featured on the Indian Air Force intranet</p>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="dsa-card">
+                                    <div className="image">
+                                        <img src={Four} className="img-fluid" alt="" />
+                                    </div>
+                                    <div className="content">
+                                        <p className="name">
+                                            High-Profile Interviews
+                                        </p>
+                                        <p>Insights from leading defence and security subject experts worldwide</p>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -79,35 +92,9 @@ export default function DsaUpsSection() {
                                     </div>
                                     <div className="content">
                                         <p className="name">
-                                            High-Profile Interviews
-                                        </p>
-                                        <p>DSA has published interviews with 18 Chiefs of the Indian Army.</p>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="dsa-card">
-                                    <div className="image">
-                                        <img src={Four} className="img-fluid" alt="" />
-                                    </div>
-                                    <div className="content">
-                                        <p className="name">
                                             Publication History
                                         </p>
-                                        <p>The magazine has released 180 editions over a span of 15 years.</p>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="dsa-card">
-                                    <div className="image">
-                                        <img src={Four} className="img-fluid" alt="" />
-                                    </div>
-                                    <div className="content">
-                                        <p className="name">
-                                            Reliability
-                                        </p>
-                                        <p>Trusted magazine by the Indian Army, Navy and Air Force Chiefs.</p>
+                                        <p>Tailored to India’s defence needs with a global outlook on emerging threats</p>
                                     </div>
                                 </div>
                             </SwiperSlide>

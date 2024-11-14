@@ -32,7 +32,7 @@ export default function AbouUsSection({banners}) {
                             <img src={BgShape} className="img-fluid bg-shape" alt="" />
                             <div className="inner-content">
                                 <h2 className="main-heading">about <span>us</span></h2>
-                                <p>Defence and Security Alert (DSA) is India's first ISO 9001:2015 certified world-class monthly magazine established in October, 2009 focused on defence and security journalism covering the defence security &world affaire related to just not only India but globally Owned by Ocean Media Private Limited, New Delhi, DSA offers research-based insights from renowned experts and has been uniquely available on the Indian Air Force (IAF) INTRANET for the past seven years.</p>
+                                <p>Defence and Security Alert (DSA) is India’s first ISO 9001:2015 certified world-class monthly magazine, established in October 2009. It is dedicated to defence and security journalism, covering defence, security, and international affairs not only in India but also globally. Owned by Ocean Media Private Limited, New Delhi, DSA provides research-based insights from renowned subject experts and has been uniquely available on the Indian Air Force (IAF) INTRANET for the past eight consecutive years.</p>
 
                             </div>
                             <div className="learn-more-btn">

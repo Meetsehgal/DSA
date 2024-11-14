@@ -5,20 +5,20 @@ export default function MagazinePageContentSection() {
                 <div className="row">
                     <div className="col-12 text-center">
                         <p className="fs-2 fw-bolder mb-4 lh-base">
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words...
+                        Welcome to Defence and Security Alert (DSA) Magazine!
+                        Your premier source for cutting-edge updates, in-depth analysis, and expert opinions on global and regional defence and security matters.
                         </p>
                     </div>
                     <div className="col-lg-6 mb-4 mb-lg-0">
                         <p className="fs-4 fw-bolder">
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form There are many variations of passages of  many variations of passages of
+                        Since its inception in October 2009, DSA has been at the forefront of delivering high-quality, research-driven content.
                         </p>
                     </div>
                     <div className="col-lg-6">
                         <p className="mb-3">
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by Lorem Ipsum available, but the majority
-                        </p>
+                        With unwavering dedication to providing insightful perspectives, our magazine features contributions from distinguished experts,                         </p>
                         <p>
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by
+                        many of whom bring first-hand experience from their illustrious careers in various defence and security forces.
                         </p>
                     </div>
                 </div>

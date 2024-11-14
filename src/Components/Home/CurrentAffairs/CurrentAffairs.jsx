@@ -19,9 +19,7 @@ export default function CurrentAffairs({ banners }) {
                                 Current<span> Affairs</span>
                             </h2>
                             <p className="text-lg-end">
-                                Defence and Security Alert (DSA) is committed to extend a supportive hand to
-                                Yyouth, students, professionals to stay updated and aware on the defence, security
-                                and international affairs worldwide.
+                            DSA is committed to extend a supportive hand to youth, students, professionals to stay updated and aware on the defence, security and international affairs worldwide.
                             </p>
                         </div>
                     </div>

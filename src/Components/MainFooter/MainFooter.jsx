@@ -11,6 +11,7 @@ import whatsApp from  "../../assets/img/icons/WhatsApp.png";
 import "./MainFooter.css";
 import { IoMdMail } from "react-icons/io";
 import { Link } from "react-router-dom";
+import SocialIcons from "../SocialIcons/SocialIcons";
 export default function MainFooter() {
     return (
         <>
@@ -24,11 +25,7 @@ export default function MainFooter() {
                             <p className="mt-2 mb-4">(A Group company of Prabhat Prakashan Pvt. Ltd.) An ISO 9001:2015 Certified Company</p>
                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
                             <ul className="sm-links">
-                                <li><a href="http://" target="_blank" rel="noopener noreferrer"><FaSquareInstagram /></a></li>
-                                <li><a href="http://" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a></li>
-                                <li><a href="http://" target="_blank" rel="noopener noreferrer"><FaXTwitter /></a></li>
-                                <li><a href="http://" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a></li>
-                                <li><a href="http://" target="_blank" rel="noopener noreferrer"><FaYoutube /></a></li>
+                                <SocialIcons/>
                             </ul>
                         </div>
                         <div className="col-lg-8 footer-links ps-lg-5 mt-lg-3">

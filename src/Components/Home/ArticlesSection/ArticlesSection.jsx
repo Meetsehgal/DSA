@@ -26,8 +26,7 @@ export default function ArticlesSection() {
                                 Articles
                             </h2>
                             <p>
-                                DSA’s articles are crafted by leading subject experts, providing authoritative insights and
-                                 in-depth research- based analysis on defence, security and 
+                            DSA's articles, crafted by leading subject experts, provide authoritative insights and in-depth analysis on defence, security, and international affairs, backed by exclusive reviewers and research-based evaluations.
                                  {/* International affairs. We cover a diverse range of topics with a unique 
                                  
                                  blend of global and India-specific perspectives, making them a valuable resource

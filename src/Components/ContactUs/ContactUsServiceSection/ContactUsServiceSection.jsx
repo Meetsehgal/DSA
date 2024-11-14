@@ -1,6 +1,7 @@
 import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import NoImg from "../../../assets/img/no-image.jpg";
+import ASociate from "../../../assets/img/icons/Associate with DSA.png";
+import subscribe from "../../../assets/img/icons/Subscribe.png";
 import Image from "../../../assets/img/contact-news.png";
 import "./ContactUsServiceSection.css";
 export default function ContactUsServiceSection() {
@@ -18,13 +19,13 @@ export default function ContactUsServiceSection() {
                                 There are many variations of passages <br></br> of Lorem Ipsum available, but the majority
                             </p>
                             <div className="mt-4 mb-5">
-                                <Link to="" className="theme-btn">Services</Link>
+                                <Link to="/services" className="theme-btn">Services</Link>
                             </div>
                         </div>
                         <div>
                             <div className="contact-service-card">
                                 <div className="image">
-                                    <img src={NoImg} className="img-fluid" alt="" />
+                                    <img src={subscribe} className="img-fluid" alt="" />
                                 </div>
                                 <div className="content">
                                     <div className="text">
@@ -32,11 +33,11 @@ export default function ContactUsServiceSection() {
                                             Subscribe
                                         </p>
                                         <span className="des">
-                                            Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                                        DSA offers are for online and print magazine. Stay ahead with our in-depth defence and security worldwide insights! Subscribe now for exclusive online access to expert analysis and the latest updates.
                                         </span>
                                     </div>
                                     <div className="arrow-btn">
-                                        <Link to="">
+                                        <Link to="/services">
                                             <FaArrowRight />
                                         </Link>
                                     </div>
@@ -44,19 +45,19 @@ export default function ContactUsServiceSection() {
                             </div>
                             <div className="contact-service-card">
                                 <div className="image">
-                                    <img src={NoImg} className="img-fluid" alt="" />
+                                    <img src={ASociate} className="img-fluid" alt="" />
                                 </div>
                                 <div className="content">
                                     <div className="text">
                                         <p className="name">
-                                            Subscribe
+                                        Associate with DSA
                                         </p>
                                         <span className="des">
-                                            Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                                        Explore opportunities to partner with us, whether as a contributor, advertiser, or collaborator. Let’s work together to advance the defence and security dialogue.
                                         </span>
                                     </div>
                                     <div className="arrow-btn">
-                                        <Link to="">
+                                        <Link to="/services">
                                             <FaArrowRight />
                                         </Link>
                                     </div>
@@ -74,7 +75,7 @@ export default function ContactUsServiceSection() {
                                 There are many variations of passages <br></br>of Lorem Ipsum available, but the majority
                             </p>
                             <div className="mt-4 mb-5">
-                                <Link to="" className="theme-btn">Newsletter</Link>
+                                <Link to="/newsletter" className="theme-btn">Newsletter</Link>
                             </div>
                         </div>
                         <div className="bottom-img">
