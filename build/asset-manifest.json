@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ba0c924.css",
-    "main.js": "/static/js/main.e35bedff.js",
+    "main.css": "/static/css/main.93d02e3a.css",
+    "main.js": "/static/js/main.9802f9f2.js",
     "static/js/334.f2896a00.chunk.js": "/static/js/334.f2896a00.chunk.js",
     "static/js/787.db33642e.chunk.js": "/static/js/787.db33642e.chunk.js",
     "static/media/contact-news.png": "/static/media/contact-news.bcf0f2f6d434728e0a8a.png",
@@ -11,9 +11,14 @@
     "static/media/gallery.png": "/static/media/gallery.c9537192445809d667d6.png",
     "static/media/DSA_Edition.pdf": "/static/media/DSA_Edition.fdd08e2a83e4efaff3a9.pdf",
     "static/media/right.png": "/static/media/right.16073fa57a6804df9c67.png",
+    "static/media/Gallery4.png": "/static/media/Gallery4.def871388b17ec3fe742.png",
     "static/media/left.png": "/static/media/left.be0ec9883ed6fb3bea74.png",
+    "static/media/Gallery3.png": "/static/media/Gallery3.2fddd3d143a07f9f3f3e.png",
     "static/media/professional-microphone-sound-studio-with-purple-backdrop.jpg": "/static/media/professional-microphone-sound-studio-with-purple-backdrop.083ea79e009a657443ac.jpg",
     "static/media/left-banner.png": "/static/media/left-banner.56dbe1147308f3da6d36.png",
+    "static/media/Gallery2.png": "/static/media/Gallery2.eb1ae1da2c1ef4af53c2.png",
+    "static/media/Gallery1.png": "/static/media/Gallery1.281480dad1f3291e3789.png",
+    "static/media/Gallery5.png": "/static/media/Gallery5.dfb9b7a7dbcfedff5db6.png",
     "static/media/self.png": "/static/media/self.6d2391e20402b736ad84.png",
     "static/media/contact-mission.png": "/static/media/contact-mission.9c87ad9b2ae1de537313.png",
     "static/media/Rectangle.png": "/static/media/Rectangle.a1a99ae1f8a5bcddd451.png",
@@ -26,7 +31,9 @@
     "static/media/January 2024.jpg": "/static/media/January 2024.bb0c1585017463d5dd29.jpg",
     "static/media/March 2024.jpg": "/static/media/March 2024.0776cce926def707337e.jpg",
     "static/media/February 2024.jpg": "/static/media/February 2024.1099ffd93fc3343abe8c.jpg",
+    "static/media/11 1.png": "/static/media/11 1.cd377ea7216fb82204bc.png",
     "static/media/Pawan-Agrawal.webp": "/static/media/Pawan-Agrawal.31f48154a642473c157d.webp",
+    "static/media/Our Founder.png": "/static/media/Our Founder.d60ab04a19f2d95435d7.png",
     "static/media/20.webp": "/static/media/20.526f5ac4e6f3a79db70a.webp",
     "static/media/DSA-transparent-logo.png": "/static/media/DSA-transparent-logo.52082f3abc99ba8ce4cf.png",
     "static/media/16.jpg": "/static/media/16.db2211e5a873a4c05b6d.jpg",
@@ -54,13 +61,13 @@
     "static/media/BaseNeueTrial-Bold.ttf": "/static/media/BaseNeueTrial-Bold.ee6159fe7d20317d3d8d.ttf",
     "static/media/19.jpg": "/static/media/19.fb4b6c00b9de95f4fe22.jpg",
     "index.html": "/index.html",
-    "main.5ba0c924.css.map": "/static/css/main.5ba0c924.css.map",
-    "main.e35bedff.js.map": "/static/js/main.e35bedff.js.map",
+    "main.93d02e3a.css.map": "/static/css/main.93d02e3a.css.map",
+    "main.9802f9f2.js.map": "/static/js/main.9802f9f2.js.map",
     "334.f2896a00.chunk.js.map": "/static/js/334.f2896a00.chunk.js.map",
     "787.db33642e.chunk.js.map": "/static/js/787.db33642e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ba0c924.css",
-    "static/js/main.e35bedff.js"
+    "static/css/main.93d02e3a.css",
+    "static/js/main.9802f9f2.js"
   ]
 }
