@@ -48,7 +48,7 @@ export default function HomeBanner({banners}) {
                             </span>
                         </div>
                     </div>
-                    <div className="col-lg-10 order-1 order-lg-2">
+                    <div className="col-lg-10 order-1 order-lg-2 ">
                         <div className="banner-section">
                             <Swiper pagination={{
                                 clickable: true,

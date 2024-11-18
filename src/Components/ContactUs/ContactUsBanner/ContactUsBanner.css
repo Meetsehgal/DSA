@@ -1,77 +1,81 @@
 .contact-us-page-banner {
-    width: 100%;
-    height: 75vh;
-    position: relative;
+  width: 100%;
+  height: 75vh;
+  position: relative;
 }
 
 .contact-us-page-banner img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
 }
 
 .contact-us-page-banner .container-fluid {
-    /* position: absolute;
+  /* position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0; */
-    height: 100%;
+  height: 100%;
+}
+.contact-us-page-banner .container-fluid .top-content {
+  margin-top: -2vw;
+}
+.contact-us-page-banner .container-fluid .bottom-content {
+  margin-bottom: -2vw;
 }
 
 .contact-us-page-banner .container-fluid p {
-    padding: 10px 20px;
-    background: var(--theme-color);
-    border-radius: 20px;
-    text-transform: capitalize;
-    font-weight: bold;
-    color: var(--white-color);
+  padding: 10px 20px;
+  background: var(--theme-color);
+  border-radius: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: var(--white-color);
 }
 
 .contact-us-page-banner .container-fluid h1 {
-    font-family: "headingbold" !important;
-    font-size: 4rem;
-    color: var(--white-color);
+  font-family: "headingbold" !important;
+  font-size: 4rem;
+  color: var(--white-color);
 }
 
 .contact-us-page-banner .container-fluid h1 span {
-    color: var(--white-color);
-    font-style: italic;
-    font-family: "heading" !important;
-    font-weight: bolder;
+  color: var(--white-color);
+  font-style: italic;
+  font-family: "heading" !important;
+  font-weight: bolder;
 }
 
 .contact-us-page-banner-bottom-text {
-    background-color: var(--theme-color);
-    padding: 1rem;
-    color: var(--white-color);
-   
+  background-color: var(--theme-color);
+  padding: 1rem;
+  color: var(--white-color);
 }
- 
 
 .contact-us-page-banner-bottom-text h2 {
-    font-family: "headingbold" !important;
-    font-size: 3.6rem;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 0;
-    color: var(--dark-light);
+  font-family: "headingbold" !important;
+  font-size: 3.6rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  color: var(--dark-light);
 }
 
-@media (max-width:992px) {
-    .contact-us-page-banner{
-        height: 60vh;
-    }
-    .contact-us-page-banner .container-fluid h1{
-        font-size: 2rem;
-    }
-    .contact-us-page-banner-bottom-text h2{
-        font-size: 1.5rem;
-    }
+@media (max-width: 992px) {
+  .contact-us-page-banner {
+    height: 60vh;
+  }
+  .contact-us-page-banner .container-fluid h1 {
+    font-size: 2rem;
+  }
+  .contact-us-page-banner-bottom-text h2 {
+    font-size: 1.5rem;
+  }
 }

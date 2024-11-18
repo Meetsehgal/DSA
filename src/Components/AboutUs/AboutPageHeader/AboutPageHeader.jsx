@@ -22,7 +22,7 @@ export default function AboutPageHeader() {
 
   return (
     <section className="about-page-header">
-      <div className="content">
+      <div className="content"> 
         {/* <h1>about</h1> */}
         <img src={fliteredAboutUsBanners[0]?.fld_desktop_image} className="img-fluid" alt="" />
       </div>

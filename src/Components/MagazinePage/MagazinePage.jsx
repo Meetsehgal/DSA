@@ -10,7 +10,7 @@ import PostApiCall from "../../Helpers/Api/PostApi";
 import { store } from "../../Helpers/Store/Store";
 
 export default function  MagazinePage() {
-
+    
     const [podCastData, setPodCastData] = useState([]);
     const [magazinesEditionData, setMagazinesEditionData] = useState([]);
     const [articleData, setArticleData] = useState([]);

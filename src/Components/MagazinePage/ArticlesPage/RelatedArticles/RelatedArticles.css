@@ -44,7 +44,7 @@
     padding: 1.5rem 10px;
 }
 
-.related-articles-section .edition-card .box h2 {
+.related-articles-section .edition-card .box h5 {
     text-transform: uppercase;
     font-weight: bold;
     color: var(--font-light);

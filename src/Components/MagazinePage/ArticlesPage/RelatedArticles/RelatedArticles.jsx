@@ -23,7 +23,7 @@ export default function RelatedArticles({ data }) {
                                     <div className="image">
                                         <img src={item?.fld_image} className="img-fluid" alt={item?.fld_alt} />
                                     </div>
-                                    <h2> {item?.fld_heading}</h2>
+                                    <h5> {item?.fld_heading}</h5>
                                     {/* not sure if its the correct key */}
                                     {/* <p>
                                         {item?.fld_long_desc}

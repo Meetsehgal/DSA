@@ -68,7 +68,7 @@ export default function ArticlesSection() {
                                                     on June 8, 2020
                                                 </span>
                                                 <p className="des">
-                                                    Lorem Ipsum is simply dummy text of the   1500s
+                                                    Lorem Ipsum is simply dummy te  xt of the   1500s
                                                 </p>
                                                 <Link to="">Read more</Link>
                                             </div>

@@ -82,6 +82,7 @@ export default function AbouUsSection({banners}) {
                             <SwiperSlide>
                                 <img alt="" src={Image5} />
                             </SwiperSlide>
+                            
                         </Swiper>
 
 
@@ -89,8 +90,8 @@ export default function AbouUsSection({banners}) {
 
                         <Swiper
                             onSwiper={setThumbsSwiper}
-                            spaceBetween={20}
-                            slidesPerView={4}
+                            spaceBetween={5}
+                            slidesPerView={4.5}
                             freeMode={true}
                             watchSlidesProgress={true}
                             pagination={{
@@ -110,6 +111,9 @@ export default function AbouUsSection({banners}) {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img alt="" src={Image4} />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img alt="" src={Image5} />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img alt="" src={Image5} />

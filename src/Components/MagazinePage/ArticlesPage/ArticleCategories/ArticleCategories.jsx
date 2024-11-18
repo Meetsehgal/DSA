@@ -160,6 +160,41 @@ export default function ArticleCategories({data}) {
                                     <img src={NoImg} className="img-fluid" alt="" />
                                 </div>
                             </div>
+                            <div className="col-12">
+                                <div className="magazine-card">
+                                    <h5>
+                                        Print Magazine 1
+                                    </h5>
+                                    <h2>
+                                        03/ 2022
+                                    </h2>
+                                    <img src={NoImg} className="img-fluid" alt="" />
+                                </div>
+                            </div>
+
+                            <div className="col-12">
+                                <div className="magazine-card">
+                                    <h5>
+                                        Print Magazine 1
+                                    </h5>
+                                    <h2>
+                                        03/ 2022
+                                    </h2>
+                                    <img src={NoImg} className="img-fluid" alt="" />
+                                </div>
+                            </div>
+
+                            <div className="col-12">
+                                <div className="magazine-card">
+                                    <h5>
+                                        Print Magazine 1
+                                    </h5>
+                                    <h2>
+                                        03/ 2022
+                                    </h2>
+                                    <img src={NoImg} className="img-fluid" alt="" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

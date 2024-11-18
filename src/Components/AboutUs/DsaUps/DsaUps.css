@@ -1,8 +1,8 @@
 .about-dsa-section .dsa-card {
     padding: 1rem;
     border-radius: 20px;
-    background: var(--main-color-two);
-     
+    /* background: var(--main-color-two); */
+     background:#E6E4E3;
     /* display: flex; */
     position: relative;
     height: 100%;
@@ -33,6 +33,7 @@
     align-items: center;
     justify-content: center;
     background: var(--main-color-one);
+    /* background: var(--white-color); */
 }
 
 .about-dsa-section .dsa-card .image img {

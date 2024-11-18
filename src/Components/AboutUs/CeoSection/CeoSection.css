@@ -35,9 +35,13 @@
 .ceo-section .ceo-card .text-end{
     font-size: .8rem;
 }
-.ceo-section .ceo-card a:hover{
-   color: var(--theme-color);
+
+.ceo-section .ceo-card .text-end a:hover{
+    
+ color: var(--theme-color) !important;
 }
+
+
 @media (max-width:992px) {
     .ceo-section .ceo-card {
         margin-bottom: 3rem;

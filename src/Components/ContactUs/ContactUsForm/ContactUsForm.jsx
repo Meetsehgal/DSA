@@ -47,7 +47,7 @@ export default function ContactUsForm() {
                             <input type="text" placeholder="Name" />
                             <input type="text" placeholder="Mobile No" />
                             <input type="email" placeholder="Email" />
-                            <textarea placeholder="TYPE YOUR CONCERN" rows="5"></textarea>
+                            <textarea placeholder="TYPE YOUR CONCERN" rows="6"></textarea>
                             <div className="mt-3">
                                 <button type="submit" className="theme-btn mt-4"> Submit</button>
                             </div>

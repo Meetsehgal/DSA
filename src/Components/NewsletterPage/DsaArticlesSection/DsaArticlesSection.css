@@ -9,7 +9,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 90%;
-    margin-left: 6vw;
+    /* margin-left: 0vw; */
 }
 .dsa-articles-section .left-section .main-heading h2{
 font-family: "headingbold" !important;
@@ -44,14 +44,14 @@ font-family: "headingbold" !important;
 }
 
 .dsa-articles-section .image {
-    height: 50%;
+    height: 45%;
     margin-left: 1.9vw;
 }
 
 .dsa-articles-section .image img {
     border-radius: 20px;
-    width: 85%;
-    aspect-ratio: 1/1.3;
+    width: 98%;
+    aspect-ratio: 0.8/0.8;
     object-fit: cover;
 }
 @media (max-width:992px) {

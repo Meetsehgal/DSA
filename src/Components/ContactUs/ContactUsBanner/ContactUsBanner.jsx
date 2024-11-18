@@ -10,7 +10,7 @@ export default function ContactUsBanner() {
                         <div className="col-12">
                             <div className="d-flex h-100 flex-column justify-content-between">
 
-                                <div className="d-flex justify-content-between">
+                                <div className="d-flex top-content justify-content-between mb-5">
                                     <p>
                                         NATIONALISM  
                                     </p>
@@ -23,7 +23,7 @@ export default function ContactUsBanner() {
                                         <h1>Magazine <br /><span>DSA</span></h1>
                                     </div>
                                 </div>
-                                <div className="d-flex justify-content-between">
+                                <div className="d-flex  bottom-content justify-content-between">
                                     <p>
                                         RESILIENCE  
                                     </p>

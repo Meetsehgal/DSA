@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 1rem;
+     
+     
 }
 
 .home-banner .count-card:last-child {
@@ -23,7 +25,7 @@
     /* text-decoration-color: #636669; */
     text-underline-offset: 10px;
     color: var(--font-dark);
-    letter-spacing: 2px;
+    letter-spacing: 2px;    
 
 }
 .home-banner .count-card .content{
@@ -37,6 +39,7 @@
 
 .home-banner .banner-section .mySwiper {
     height: 100%;
+ 
 }
 
 .home-banner .banner-section .mySwiper img {

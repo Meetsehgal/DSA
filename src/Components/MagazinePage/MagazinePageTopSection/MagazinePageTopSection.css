@@ -11,7 +11,7 @@
 
 .magazine-page-top-section .left-img {
     position: absolute;
-    left: 15rem;
+    left: 12rem;
     bottom: 0.8rem;
     width: 280px;
     z-index: 15;
@@ -22,8 +22,8 @@
 }
 
 .magazine-page-top-section .center-banner-wrapper{
-    /* background-color:var(--theme-color); */
-     background: var(--main-color-one);
+    background-color:var(--theme-color);
+     /* background: var(--main-color-one); */
     width: 45vw;
     height: 98vh;
     border-radius: 20px;
@@ -32,23 +32,23 @@
 
 .magazine-page-top-section .center-banner {
     border-radius: 20px;
-    height: 90vh;
+    height: 87vh;
     transform: rotate(-3deg);
     /* background-color: yellow; */
-    margin-top: 1.5rem;
+    margin-top: 2.3rem;
 }
  
 
 .magazine-page-top-section .content-box {
-    width: 38%;
+    width: 32%;
     aspect-ratio: 1/1;
     position: absolute;
-    right: -1rem;
+    right: 3rem;
     bottom: 7rem;
     background: var(--main-color-one);
     border-radius: 20px;
     padding: 2rem;
-    height: 50vh;
+    height: 59vh;
 }
 
 .magazine-page-top-section .content-box h2 {
@@ -63,8 +63,8 @@
 
 .magazine-page-top-section .content-box p {
     margin-top: .3rem;
-    font-size: 0.9rem;
-    line-height: 1.5;
+    font-size: 1.2rem;
+        line-height: 1.5;
 }
 
 .magazine-page-top-section .content-box a {
@@ -75,8 +75,8 @@
     text-transform: capitalize;
     font-weight: bold;
     display: inline-block; */
-    margin-top: 0.1rem;
-    margin-left: 4rem;
+    margin-top: 0.8rem;
+    /* margin-left: 0.5rem; */
      
 }
 

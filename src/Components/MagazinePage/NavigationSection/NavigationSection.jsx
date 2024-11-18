@@ -1,6 +1,6 @@
 import { FaFacebookF, FaInstagramSquare , FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import { FaSquareInstagram, FaXTwitter } from "react-icons/fa6";
-import { Link } from "react-router-dom";
+import { Link,NavLink } from "react-router-dom";
 import "./NavigationSection.css";
 import SocialIcons from "../../SocialIcons/SocialIcons";
 export default function NavigationSection() {
@@ -11,21 +11,26 @@ export default function NavigationSection() {
                     <div className="col-12">
                         <h1 className="main-heading">DefenCe <span>&</span> security Alert</h1>
                         <div className="navigation-bar">
-                            <p className="name">
+                            {/* <p className="name">
                                 Magazine
-                            </p>
+                            </p> */}
+                            <p className="name">
+                              <NavLink to="/magazine">Magazine</NavLink>
+                              </p> 
+
+
                             <ul className="inner-links">
                                 <li>
-                                    <Link to="/editions">Editions</Link>
+                                    <NavLink to="/editions">Editions</NavLink>
                                 </li>
                                 <li>
-                                    <Link to="/articles">Articles</Link>
+                                    <NavLink to="/articles">Articles</NavLink>
                                 </li>
                                 <li>
-                                    <Link to="/podcast-and-events">Podcast</Link>
+                                    <NavLink to="/podcast-and-events">Podcast</NavLink>
                                 </li>
                                 <li>
-                                    <Link to="/def-sec-edu">Def-Sec Edu</Link>
+                                    <NavLink to="/def-sec-edu">Def-Sec Edu</NavLink>
                                 </li>
                             </ul>
                             <div className="sm-links">

@@ -6,7 +6,7 @@
 
 .magazine-deg-sec-wives-section .top-section .image-section {
     position: relative;
-    gap: 1rem;
+    gap: 0.8rem;
     display: flex;
 }
 
@@ -14,13 +14,13 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: -30px;
-    background: var(--main-color-one);
+    top: -1.8rem;
+    /* background: var(--main-color-one); */
     padding: 10px;
     border-radius: 0 0 20px 20px;
     width: 80%;
     text-align: center;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .magazine-deg-sec-wives-section .top-section .main-heading h2 {
@@ -29,14 +29,30 @@
 }
 
 .magazine-deg-sec-wives-section .top-section .image {
-    /* width: 50%; */
-    margin-bottom: 2rem;
+    width: 65%;
+    /* margin-bottom: 0.5rem; */
+    margin-top: 4rem;
     position: relative;
+    z-index: 1;
+    padding: 0.5rem;
+
 }
 
 .magazine-deg-sec-wives-section .top-section .image img {
+    width: 100%;
+    height: 65%;
     aspect-ratio: 1/1;
+    /* object-fit: cover; */
+    border-radius: 20px;
+    /* margin-top: 1rem; */
 }
+.magazine-deg-sec-wives-section .top-section .image p{
+    margin-left: 4rem;
+    margin-top: 0.2rem;
+    color: var(--white-color);
+    font-size: 1.5rem;
+}
+ 
 
 .magazine-deg-sec-wives-section .top-section .image h5 {
     position: absolute;
@@ -47,35 +63,39 @@
     font-family: "bodyfontbold" !important;
 }
 
-.magazine-deg-sec-wives-section .top-section .image img {
-    width: 100%;
-    height: 100%;
-    /* object-fit: cover; */
-    border-radius: 20px;
-}
+
 
 .magazine-deg-sec-wives-section .top-section p {
     font-weight: bolder;
 }
 
 .magazine-deg-sec-wives-section .bottom-section {
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     position: relative;
-    height: 400px;
+    height: 78vh;
     border-radius: 20px;
     overflow: hidden;
+    margin-top: -11rem;
+    background-color: var(--theme-color);
+    
+
 }
 
 .magazine-deg-sec-wives-section .bottom-section .content {
     position: absolute;
     left: 0;
-    bottom: 0;
+    top:15rem;
+    /* bottom: 0; */
     padding: 2rem;
-    background: var(--theme-color-gradiant);
+    /* background: var(--theme-color-gradiant); */
     color: var(--white-color);
 }
+.magazine-deg-sec-wives-section .bottom-section .content p{
+    font-size: 1.4rem;
+}
 
-.magazine-deg-sec-wives-section .bottom-section .content h3 {
+
+.magazine-deg-sec-wives-section .bottom-section .content h2 {
     font-family: "headingbold" !important;
     text-transform: capitalize;
 }
@@ -85,6 +105,7 @@
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    
 }
 
 .magazine-deg-sec-wives-section .bottom-section img {
@@ -99,9 +120,13 @@
     margin-bottom: 2rem;
 }
 
-.magazine-deg-sec-wives-section .top-heading h3 {
+.magazine-deg-sec-wives-section .top-heading h4 {
+    margin-top: -0.5rem;
     text-transform: uppercase;
     font-family: "bodyfontbold" !important;
+}
+.magazine-deg-sec-wives-section .top-heading p{
+    font-size: 1.1rem;
 }
 
 .magazine-deg-sec-wives-section .personal-card {
@@ -115,13 +140,13 @@
 }
 
 .magazine-deg-sec-wives-section .personal-card .image {
-    width: 30%;
+    width: 60%;
 }
 
 .magazine-deg-sec-wives-section .personal-card .image img {
     width: 100%;
     border-radius: 20px;
-    height: 150px;
+    height: 170px;
     object-fit: cover;
 }
 
@@ -143,6 +168,7 @@
     font-weight: bold;
     display: inline-block; */
     margin-top: 4rem;
+     
 }
 
 @media (max-width:992px) {

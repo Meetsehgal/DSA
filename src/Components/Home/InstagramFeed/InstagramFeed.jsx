@@ -3,14 +3,14 @@ import NoImg from "../../../assets/img/no-image.jpg";
 import "./InstagramFeed.css";
 export default function InstagramFeed() {
     return (
-        <section className="section-spacing px-0 insta-feed-section px-lg-5">
+        <section className="section-spacing px-0 insta-feed-section ">
             {/* <div className="animation-text">
                 testimonial
             </div> */}
-            <div className="container-fluid">
-                <div className="row">
+            <div className="container-fluid ">
+                <div className="row section-spacing">
                     <div className="col-12">
-                        <div className="d-lg-flex section-spacing py-0 mb-4 align-items-end heading-box justify-content-between">
+                        <div className="d-lg-flex  py-0 mb-4 align-items-end heading-box justify-content-between">
                             <h2 className="main-heading">
                                 <span>Instagram</span> Feed
                             </h2>

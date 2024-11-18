@@ -22,7 +22,7 @@ export default function EditionsCategories({data}) {
     }
    }
 
-   useEffect(() => {
+   useEffect(() => {    
     setFilteredData(data || []); 
 }, [data]);
 

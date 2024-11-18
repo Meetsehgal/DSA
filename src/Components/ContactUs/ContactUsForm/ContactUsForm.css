@@ -10,6 +10,7 @@
 
 .contact-us-form .contact-links {
     border-right: 2px solid var(--black-color);
+    height: 71vh;
 }
 
 .contact-us-form .contact-links .box {
@@ -37,13 +38,18 @@
     height: 71px;
     
 }
+.contact-us-form .conact-form textarea{
+     padding: 25rem;
+     height: 29vh;
+     
+}
 
 .contact-us-form .conact-form input,
 .contact-us-form .conact-form textarea {
     border: none;
     outline: none;
     margin-bottom: 2rem;
-    padding: 1rem;
+    padding: 2rem;
     /* padding: 1.5rem 1rem 10px; */
     background: var(--main-color-one);
     position: relative;
@@ -78,11 +84,15 @@
     background: var(--main-color-one);
     margin-bottom: 6rem;
     position: relative;
-    top: 84px;
+    top: 12vh;
+    padding: 50px !important;
+    /* height: 15vh; */
     
 }
 
 .contact-call-section a {
+
+
     padding: 8px 30px;
     background: var(--main-color-two);
     border-radius: 40px;

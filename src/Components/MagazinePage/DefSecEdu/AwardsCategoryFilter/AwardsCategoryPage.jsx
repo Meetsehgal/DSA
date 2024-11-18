@@ -48,7 +48,7 @@ export default function AwardsCategoryPage({ data }) {
                 {filteredData?.map((item) => {
                     return (
                         <div className="row awad-page-card">
-                            <div className="col-lg-5 image-section">
+                            <div className="col-lg-5 image-section text-center">
                                 <img src={item?.fld_image} className="img-fluid" alt="" />
                             </div>
                             <div className="col-lg-7 ps-lg-4">

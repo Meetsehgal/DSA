@@ -1,18 +1,19 @@
 .article-detail-section .article-card {
-    display: flex;
+    /* display: flex; */
     padding-bottom: 2rem;
     border-bottom: 1px solid var(--font-light);
     margin-bottom: 2rem;
 }
 
 .article-detail-section .article-card .image {
-    width: 40%;
+    width: 100%;
     margin-right: 2rem;
 }
 
 .article-detail-section .article-card .image img {
     aspect-ratio: 1/1;
-    border-radius: 50%;
+    width: 100%;
+    /* border-radius: 50%; */
     object-fit: cover;
 }
 
@@ -22,6 +23,7 @@
     font-size: 1.5rem;
     letter-spacing: 2px;
     color: var(--font-dark);
+    margin-top: 2rem;
 }
 
 .article-detail-section .date .box {
@@ -33,14 +35,18 @@
     width: 50%;
     font-family: "bodyfontbold" !important;
     text-transform: capitalize;
+    font-size: 1.5rem;
 }
-
+.article-detail-section .date .box p{
+    font-size: 1.2rem;
+}
 .article-detail-section .date .box ul {
     display: flex;
     gap: 0 10px;
 }
 .article-detail-section .date .box ul svg{
     transition: .3s;
+    font-size: 1.4rem;
 }
 .article-detail-section .date .box ul svg:hover{
     color: var(--theme-color);
@@ -49,8 +55,8 @@
 .article-detail-section b.d-block {
     text-transform: capitalize;
 }
-.article-detail-section .scroll-section{
-    max-height: 50vh;
+.article-detail-section .scroll-section{    
+    max-height: 90vh;
     padding-right: 1rem;
     overflow-y: auto;
 }

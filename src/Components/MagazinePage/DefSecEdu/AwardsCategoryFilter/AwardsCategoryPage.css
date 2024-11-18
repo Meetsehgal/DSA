@@ -28,7 +28,8 @@
 }
 
 .awards-page .image-section img {
-    width: 100%;
+    width: 50%;
+    height: 100%;
     border-radius: 20px;
     object-fit: contain;
 }

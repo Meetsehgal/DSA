@@ -9,7 +9,7 @@ export default function ArticleDetail({ data }) {
         <section className="section-spacing pt-0 mb-5 article-detail-section">
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-lg-4 pe-lg-5">
+                    <div className="col-lg-5 pe-lg-5">
                         <div className="article-card">
                             <div className="image">
                                 <img src={data[0]?.fld_image} className="img-fluid" alt={data[0]?.fld_alt} />
@@ -45,7 +45,7 @@ export default function ArticleDetail({ data }) {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-8">
+                    <div className="col-lg-7">
                         <div className="scroll-section">
                             {/* <b className="mb-4 d-block">
                           {data[0]?.fld_short_desc}

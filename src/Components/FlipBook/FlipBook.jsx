@@ -84,7 +84,7 @@ const Flipbook = () => {
         <section className="section-spacing">
             <div className="container">
                 <div className="row">
-                    <div className="col-8">
+                    <div className="col-12">
                         <div className="full-screen-container" >
                             <PageFlip
                                 ref={pageFlipRef}
@@ -95,7 +95,7 @@ const Flipbook = () => {
                                 onFlip={onFlip}
                             >
                                 {pages.reduce((pairs, page, index) => {
-                                    if (index % 2 === 0) {
+                                    if (index % 2 === 0) {  
                                         const pairedPages = (
                                             <div className="page-pair" key={index}>
                                                 <div className="left-page">

@@ -8,6 +8,10 @@
     font-family: "bodyfontbold" !important;
 }
 
+.active{
+    color: var(--theme-color) !important;
+    
+}
 .magazine-navigation .navigation-bar .name{
     font-size: 1.2rem;
     font-family: "bodyfontbold" !important;

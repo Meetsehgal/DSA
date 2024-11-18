@@ -105,7 +105,7 @@
 }
 
 .articles-section .left-swiper-box .article-left-card .content {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 .articles-section .left-swiper-box .article-left-card .content .des{
   color: var(--theme-color);
@@ -124,7 +124,7 @@
 .articles-section .left-swiper-box .article-left-card .content a {
   text-decoration: underline !important;
   text-underline-offset: 4px;
-  margin-top: 5px;
+  margin-top: 3px;
    padding-bottom: 2rem;
   display: inline-block;
 }

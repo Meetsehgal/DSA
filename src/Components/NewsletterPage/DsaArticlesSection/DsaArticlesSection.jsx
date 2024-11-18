@@ -11,7 +11,7 @@ export default function DsaArticlesSection({ data }) {
         <section className="section-spacing dsa-articles-section  mb-4">
             <div className="container-fluid ">
                 <div className="row ">
-                    <div className="col-lg-6">
+                    <div className="col-lg-5">
                         <div className="left-section">
                             <div className="top-section">
                                 <div className="main-heading">
@@ -39,7 +39,7 @@ export default function DsaArticlesSection({ data }) {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-7">
                         <div className="image">
                             {article && (
                                 <img src={article.fld_image} className="img-fluid" alt={article.fld_alt} />

@@ -15,7 +15,7 @@
 }
 .milestone-section .mySwiper .milestone-card {
     padding: 1rem 1.5rem;
-    padding-top: 2rem;
+    padding-top: 1.9rem;
     border-radius: 50%;
     width: 100%;
     height: auto;
@@ -39,7 +39,8 @@
 }
 
 .milestone-section .mySwiper .milestone-card .count {
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
+    font-size: 2.9rem;
     font-weight: 500;
     /* text-decoration: underline;
     text-decoration-color: var(--theme-color); */

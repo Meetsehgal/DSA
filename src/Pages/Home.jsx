@@ -81,6 +81,7 @@ export default function Home() {
       <HomeBanner banners={filteredHomeBanners} />
       <NewsletterSection banners={filteredNewsletterSectionBanners} />
       <BrandParttern />
+      
       <CurrentAffairs banners={filteredCurrentAffairsBanners} />
       <AbouUsSection banners={fliteredAboutUsBanners} />
       <MilestoneSection />
