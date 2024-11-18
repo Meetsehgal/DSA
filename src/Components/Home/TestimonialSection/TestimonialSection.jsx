@@ -13,7 +13,30 @@ import 'swiper/css/pagination';
 // import required modules
 import { FreeMode, Pagination } from 'swiper/modules';
 import bgImg from "../../../assets/img/testimonial-bg.png";
+import axios from "axios";
+import { useEffect, useState } from "react";
+import GetApiCall from "../../../Helpers/Api/GetApi";
 export default function TestimonialSection() {
+    const [reviews, setReviews] = useState([]);
+    const [error, setError] = useState(null);
+    const [loading, setLoading] = useState(true);
+  
+    const placeId = 'ChIJ6XMyHyf9DDkRIe21qe62t-s';  // Replace with your Google Place ID
+    const apiKey = 'AIzaSyCFAyiNJjmO1DlmVNAs6ut34k8Z_EzYUAo';  // Replace with your Google API Key
+  
+    useEffect(() => {
+      GetApiCall.getRequest("GetReviews"
+      ).then((results) => {
+        results.json().then((obj) => {
+          if (results.status === 200 || results.status === 201) {
+    console.log(obj.data)
+  
+          //   setBannersData(obj.data);
+          } else {
+          }
+        });
+      });
+    }, [placeId, apiKey]);
     return (
         <section className="section-spacing px-0 testimonial-section position-relative">
             <img src={bgImg} className="img-fluid bg-img" alt="" />

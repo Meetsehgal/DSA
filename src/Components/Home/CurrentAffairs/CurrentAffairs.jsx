@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import NoImg from "../../../assets/img/no-image.jpg";
 import Img from "../../../assets/img/img.png";
 import NoVideo from "../../../assets/img/no-video.png";
@@ -8,6 +8,7 @@ import BgShape from "../../../assets/img/bg-shapes/2.png";
 import Horn from "../../../assets/img/icons/Megaphone.png";
 import { GoArrowRight } from "react-icons/go";
 export default function CurrentAffairs({ banners }) {
+    let navigate = useNavigate()
     return (
 
         <section className="section-spacing current-affairs-section mt-lg-4">
@@ -23,7 +24,7 @@ export default function CurrentAffairs({ banners }) {
                             </p>
                         </div>
                     </div>
-                    <div className="col-lg-4 mb-5 mb-lg-0">
+                    <div className="col-lg-4 mb-5 mb-lg-0"  onClick={()=> navigate(`/news/${banners[0]?.fld_id}`)}>
                         <div className="left-box">
                             <img src={banners[0]?.fld_image} alt={banners[0]?.fld_alt} className="img-fluid" />
                             <div className="bottom-text">
@@ -31,7 +32,7 @@ export default function CurrentAffairs({ banners }) {
                                     {banners[0]?.fld_createdon}
                                 </span>
                                 <p>
-                                    {banners[0]?.fld_short_desc}
+                                    {banners[0]?.fld_heading}
                                 </p>
                             </div>
                         </div>
@@ -48,12 +49,12 @@ export default function CurrentAffairs({ banners }) {
                                         </Link>
                                     </div>
                                 </div>
-                                <img src={banners[1]?.fld_image} className="img-fluid" alt={banners[1]?.fld_alt} />
+                                <img src={banners[1]?.fld_image} className="img-fluid" alt={banners[1]?.fld_alt} onClick={()=> navigate(`/news/${banners[1]?.fld_id}`)}/>
                                 <div className="content">
                                     <p>
                                         {banners[1]?.fld_short_desc}
                                     </p>
-                                    <span>On June 8, 2024</span>
+                                    <span>{banners[1]?.fld_createdon}</span>
                                 </div>
                             </div>
                             <div className="bottom-vido-section">
@@ -66,11 +67,11 @@ export default function CurrentAffairs({ banners }) {
                     <div className="col-lg-3 mb-5 mb-lg-0">
                         <div className="right-box">
                             <div className="top-section">
-                                <img src={banners[3]?.fld_image} className="img-fluid" alt={banners[3]?.fld_alt} />
+                                <img src={banners[3]?.fld_image} className="img-fluid" alt={banners[3]?.fld_alt}   onClick={()=> navigate(`/news/${banners[3]?.fld_id}`)} />
                                 <div className="content">
                                     <span>{banners[3]?.fld_createdon}</span>
                                     <p>
-                                        {banners[1]?.fld_short_desc}
+                                    {banners[3]?.fld_heading}
                                     </p>
                                 </div>
                             </div>

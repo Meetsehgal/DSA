@@ -20,14 +20,17 @@ import MainFooter from "../Components/MainFooter/MainFooter";
 // import MainNavbar from "../Components/MainNavbar/MainNavbar";
 import SubImg from "../assets/img/sub.png"
 import { Link } from "react-router-dom";
+import PostApiCall from "../Helpers/Api/PostApi";
 export default function Home() {
 
   const [bannersData, setBannersData] = useState([]);
   const [newsLetterData, setNewsLetterData] = useState([]);
+  const [newsLetterPageData, setNewsLetterPageData] = useState([])
 
   useEffect(() => {
     getBanners();
     getNewsLetter();
+    getNewsLetterPageData()
   }, [])
 
   const getBanners = () => {
@@ -61,7 +64,20 @@ export default function Home() {
     })
   }
 
-
+  const getNewsLetterPageData = () => {
+    PostApiCall.postRequest({whereClause:""},"GetNews").then((results)=> {
+      results.json().then((obj) => {
+        if (results.status === 200 || results.status === 201) {
+          setNewsLetterPageData(obj.data); 
+      }else {
+        // notification.error({
+        //   message: `Notification error`,
+        //   description: obj.data,
+        // });
+        }
+      })
+    })
+  }
 
   const filteredHomeBanners = bannersData?.filter((item) => item?.fld_pagename === "Home" && item?.fld_location === "Main")
   const fliteredAboutUsBanners = bannersData?.filter((item) => item?.fld_pagename === "Home" && item?.fld_location === "AboutUs")
@@ -82,7 +98,7 @@ export default function Home() {
       <NewsletterSection banners={filteredNewsletterSectionBanners} />
       <BrandParttern />
       
-      <CurrentAffairs banners={filteredCurrentAffairsBanners} />
+      <CurrentAffairs banners={newsLetterPageData} />
       <AbouUsSection banners={fliteredAboutUsBanners} />
       <MilestoneSection />
       <ServiceSection />
@@ -102,7 +118,7 @@ export default function Home() {
           <Link to="/services" className="theme-btn">SUBSCRIBE</Link>
         </div>
       </section>
-      <MainFooter />
+      {/* <MainFooter /> */}
     </>
   )
 }

@@ -96,44 +96,6 @@ export default function ArticleCategories({data}) {
                                 </div>
                             </div>
                             )})}
-                            <div className="col-12">
-                                <div className="article-card">
-                                    <div className="image">
-                                        <img src={NoImg} className="img-fluid" alt="" />
-                                    </div>
-                                    <div className="content">
-                                        <h2 className="main-heading">
-                                            <i>dsa</i> <span>
-                                                mission
-                                            </span>
-                                        </h2>
-                                        <p className="mb-1">
-                                            <b>
-                                                Imagine if you could
-                                            </b>
-                                        </p>
-                                        <p>
-                                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words
-                                        </p>
-                                        <div className="d-flex justify-content-between mt-3">
-                                            <ul className="d-flex flex-wrap justify-content-between gap-4 gap-lg-5">
-                                                <li>
-                                                    By-
-                                                </li>
-                                                <li>
-                                                    Date-
-                                                </li>
-                                                <li>
-                                                    Time-
-                                                </li>
-                                            </ul>
-                                            <Link to="">
-                                                full article
-                                            </Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                     <div className="col-lg-3 mt-5 mt-lg-0">
