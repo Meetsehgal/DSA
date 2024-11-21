@@ -11,7 +11,7 @@ export default function Header() {
                 {/* <MainNavbar /> */}
                 <div className="container-fluid pt-lg-5">
                     <div className="content px-lg-3 pt-lg">
-                        <div className="left-content d-none d-lg-flex">
+                        <div className="left-content  d-lg-flex">
                             <div className="d-flex align-items-end">
                                 <p className="name">
                                     Defence <span>&</span></p>
@@ -26,14 +26,16 @@ export default function Header() {
                                 </p>
                             </div>
                         </div>
-                        <div className="left-content d-block d-lg-none">
+
+
+                         {/* <div className="left-content d-block d-lg-none">
                             <h1>Commited to Defence <br /> and Security Worlwide</h1>
                             <div className="d-block  align-items-end">
                                 <div className="d-flex mb-2">
                                     <p className="name">
                                         Defence <span>&</span></p>
                                     <div className="logo">
-                                        <img src={Flag} className="img-fluid" alt="Indian Flag" />
+                                         <img src={Flag} className="img-fluid" alt="Indian Flag" />
                                     </div>
 
                                 </div>
@@ -50,7 +52,10 @@ export default function Header() {
                                     Security Alert
                                 </p> */}
                             {/* </div> */}
-                        </div>
+                             {/* </div> */}
+
+
+
                         <div className="right-sm-links pb-lg-3 mb-lg-1">
                             <ul>
                                 <SocialIcons/>

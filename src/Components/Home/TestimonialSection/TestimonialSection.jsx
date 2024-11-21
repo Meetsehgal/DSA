@@ -16,6 +16,11 @@ import bgImg from "../../../assets/img/testimonial-bg.png";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import GetApiCall from "../../../Helpers/Api/GetApi";
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> dev
 export default function TestimonialSection() {
     const [reviews, setReviews] = useState([]);
     const [error, setError] = useState(null);
@@ -53,7 +58,7 @@ export default function TestimonialSection() {
                         </div>
                         <Swiper
                             spaceBetween={20}
-                            slidesPerView={1.1}
+                            slidesPerView={2.5}
                             freeMode={true}
                             loop={true}
                             pagination={false}
@@ -67,7 +72,7 @@ export default function TestimonialSection() {
                                     spaceBetween: 40,
                                 },
                                 1024: {
-                                    slidesPerView: 1.8,
+                                    slidesPerView: 2.5,
                                     spaceBetween: 40,
                                 },
                             }}

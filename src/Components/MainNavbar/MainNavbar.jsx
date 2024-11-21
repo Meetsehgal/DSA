@@ -5,7 +5,7 @@ import { IoSearch } from 'react-icons/io5';
 import { VscListSelection } from 'react-icons/vsc';
 import Logo from "../../assets/img/logo/dsa-white-logo.png";
 import HamIcon from "../../assets/img/icons/ham.png";
-import cuurentIssueImage from "../../assets/img/home/home-banner/11 1.png";
+import cuurentIssueImage from "../../assets/img/home/home-banner/11 1 (1).png";
 import { FaSearch, FaTimes } from "react-icons/fa";
 
 import "./MainNavbar.css"

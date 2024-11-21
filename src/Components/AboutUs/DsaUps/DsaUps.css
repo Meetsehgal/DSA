@@ -18,7 +18,7 @@
 .about-dsa-section .dsa-card .count {
     width: 100%;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     position: absolute;
     transform: translateY(-2.9rem);
 }
@@ -32,8 +32,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--main-color-one);
-    /* background: var(--white-color); */
+    /* background: var(--main-color-one); */
+    /* background: var(--main-color-two); */
+    background-color: #EBEBEB;
 }
 
 .about-dsa-section .dsa-card .image img {
@@ -51,9 +52,10 @@
 .about-dsa-section .dsa-card .content .name {
     font-weight: bolder;
     font-family: "bodyfontbold" !important;
-    margin-bottom: 3px !important;
+    margin-bottom: 4px !important;
     font-size: 1rem;
     color: var(--theme-color);
+    line-height: 1.3rem;
 }
 .about-dsa-section .dsa-card .content p{
     font-size: .7rem;

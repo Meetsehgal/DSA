@@ -6,7 +6,8 @@ import TopImg from "../../assets/img/footer-bg.png";
 import Icon1 from "../../assets/img/icons/call.png";
 import Icon2 from "../../assets/img/icons/Email.png";
 import Icon3 from "../../assets/img/icons/Address.png";
-import Logo from "../../assets/img/logo/dsa-white-logo.png";
+// import Logo from "../../assets/img/logo/dsa-white-logo.png";
+import Logo1 from "../../assets/img/logo/DSA logo black 1.png";
 import whatsApp from  "../../assets/img/icons/WhatsApp.png";
 import "./MainFooter.css";
 import { IoMdMail } from "react-icons/io";
@@ -20,7 +21,7 @@ export default function MainFooter() {
                 <div className="container-fluid position-relative">
                     <div className="row">
                         <div className="col-lg-4 font-size">
-                            <img src={Logo} className="img-fluid" alt="" />
+                            <img src={Logo1} className="img-fluid" alt="" />
                             <p>From the house of <b>OCEAN MEDIA PRIVATE LIMITED</b></p>
                             <p className="mt-2 mb-4">(A Group company of Prabhat Prakashan Pvt. Ltd.) An ISO 9001:2015 Certified Company</p>
                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>

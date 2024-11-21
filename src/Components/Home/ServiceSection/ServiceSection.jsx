@@ -1,7 +1,14 @@
 import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
+<<<<<<< HEAD
 import ASociate from "../../../assets/img/icons/Associate with DSA.png";
 import subscribe from "../../../assets/img/icons/Subscribe.png";
+=======
+// import Asociate from "../../../assets/img/icons/Associate with DSA.png";
+// import subscribe from "../../../assets/img/icons/Subscribe.png";
+import Associate from  "../../../assets/img/home/home-banner/Associate with DSA.png";
+import Subscribe from "../../../assets/img/home/home-banner/Subscribe.png";
+>>>>>>> dev
 import "./ServiceSection.css";
 export default function ServiceSection() {
     return (
@@ -22,7 +29,11 @@ export default function ServiceSection() {
                     <div className="col-12 mb-5">
                         <div className="service-card">
                             <div className="image">
+<<<<<<< HEAD
                                 <img src={subscribe} className="img-fluid" alt="" />
+=======
+                                <img src={Subscribe} className="img-fluid" alt="" />
+>>>>>>> dev
                             </div>
                             <div className="content">
                                 <div className="text">
@@ -44,7 +55,11 @@ export default function ServiceSection() {
                     <div className="col-12 mb-5">
                         <div className="service-card">
                             <div className="image">
+<<<<<<< HEAD
                                 <img src={ASociate} className="img-fluid" alt="" />
+=======
+                                <img src={Associate} className="img-fluid" alt="" />
+>>>>>>> dev
                             </div>
                             <div className="content">
                                 <div className="text">

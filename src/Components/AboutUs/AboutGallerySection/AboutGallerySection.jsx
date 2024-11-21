@@ -31,11 +31,14 @@ export default function AboutGallerySection() {
                             </h2>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
                         </div>
-                        <Swiper pagination={{
+                        <Swiper
+                        slidesPerView={1}
+                        spaceBetween={12} 
+                        pagination={{
                             clickable: true,
                         }} 
                         modules={[Pagination]}
-                         className="mySwiper py-5">
+                         className="mySwiper py-5 ">
 
                             <SwiperSlide className='row'>
                                 <div className="col-lg-4 col-6">
@@ -56,9 +59,33 @@ export default function AboutGallerySection() {
                                 <div className="col-lg-5 col-6 order-lg-last">
                                     <img src={Gallery5} className='img-fluid' alt="" />
                                 </div>
+<<<<<<< HEAD
                                 <div className="col-lg-4 col-6 order-lg-last">
                                     <img src={Gallery1} className='img-fluid' alt="" />
                                 </div>
+=======
+                                
+                            </SwiperSlide>
+
+                            <SwiperSlide className='row'>
+                                <div className="col-lg-4 col-6">
+                                    <img src={Gallery1} className='img-fluid' alt="" />
+                                </div>
+                                <div className="col-lg-4 col-6">
+                                    <img src={Gallery2} className='img-fluid' alt="" />
+                                </div>
+                                <div className="col-lg-4 col-6">
+                                    <img src={Gallery3} className='img-fluid' alt="" />
+                                </div>
+                                <div className="col-lg-7 order-last order-lg-4">
+                                    <img src={Gallery4} className='img-fluid' alt="" />
+                                </div>
+                                
+                                <div className="col-lg-5 col-6 order-lg-last">
+                                    <img src={Gallery5} className='img-fluid' alt="" />
+                                </div>
+                                
+>>>>>>> dev
                             </SwiperSlide>
                         </Swiper>
                     </div>

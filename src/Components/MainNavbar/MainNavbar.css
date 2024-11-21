@@ -46,7 +46,7 @@
 }
 
 
- .profileDropdown:hover{
+ .profileDropdownColor:hover{
   color: var(--theme-color);
 
 }
@@ -183,9 +183,10 @@
   width: 75%;
    
   
-  object-fit:contain;
+  object-fit:cover;
    
   object-position:center;
+  padding: 0.1rem;
 }
 /* 
 .border-left-image .image img{

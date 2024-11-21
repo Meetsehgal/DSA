@@ -40,6 +40,12 @@
     color: var(--theme-color);
 }
 
+.swiper-button-prev,
+.swiper-button-next{
+    color: var(--theme-color);
+}
+
+
 @media (max-width:992px) {
     
     .newsletter-section .newsletter-card .content h5{

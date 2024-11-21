@@ -16,6 +16,7 @@
     flex-direction: column;
     margin-left: -4px;
     width: 90%;
+    
 }
 
 .home-header .content .left-content .name {
@@ -72,12 +73,15 @@
 }
 
 @media (max-width:992px) {
+    
     .home-header .content .left-content .name {
-        font-size: 1.8rem;
+        /* font-size: 1.8rem; */
+        font-size: 4rem;
     }
 
     .home-header .content .left-content h1 {
-        font-size: 1rem;
+        /* font-size: 1.5rem; */
+        font-size: 1.4rem;
         margin: 1rem 0;
     }
 
@@ -92,3 +96,16 @@
 
 
 }
+
+@media (max-width:768px){
+    .home-header .content .left-content .name {
+        font-size: 3.5rem;
+    }
+    .home-header .content .left-content h1 {
+        font-size: 1.5rem;
+        margin: 1rem 0;
+
+
+}
+}
+ 

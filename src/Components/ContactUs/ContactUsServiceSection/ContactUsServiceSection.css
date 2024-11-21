@@ -52,11 +52,15 @@
     border-radius: 15px;
     overflow: hidden;
     width: 20%;
+    
+    
 }
 
 .contact-us-service-section .contact-service-card .image img {
     width: 100%;
     height: 100%;
+      
+    
 }
 
 .contact-us-service-section .contact-service-card .content {

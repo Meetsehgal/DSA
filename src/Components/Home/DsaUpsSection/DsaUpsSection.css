@@ -23,6 +23,7 @@
     border-radius: 15px;
     overflow: hidden;
     /* width: 45%; */
+    width: 25%;
     aspect-ratio: 1/1;
     margin-bottom: 10px;
 }

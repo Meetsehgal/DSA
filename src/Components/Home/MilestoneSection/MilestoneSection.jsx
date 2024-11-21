@@ -4,9 +4,12 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
+import 'swiper/css/navigation'; 
+import 'swiper/css/scrollbar';
+
 
 // import required modules
-import { FreeMode, Pagination } from 'swiper/modules';
+import { FreeMode, Pagination,Navigation} from 'swiper/modules';
 import bgImg from "../../../assets/img/milestones-bg.png";
 import "./MilestoneSection.css";
 export default function MilestoneSection({ HeadingText }) {
@@ -24,11 +27,13 @@ export default function MilestoneSection({ HeadingText }) {
                             spaceBetween={20}
                             slidesPerView={2}
                             freeMode={true}
+                            navigation
                             loop={false}
                              pagination={{
                                 clickable:"true"
                                 
                             }}
+                            // scrollbar={{draggable:true}}
                             breakpoints={{
                                 640: {
                                     slidesPerView: 2,
@@ -43,7 +48,7 @@ export default function MilestoneSection({ HeadingText }) {
                                     spaceBetween: 20,
                                 },
                             }}
-                            modules={[FreeMode, Pagination]}
+                            modules={[FreeMode, Pagination,Navigation]}
                             className="mySwiper pt-5 pt-lg-0"
                         >
                             <SwiperSlide>
