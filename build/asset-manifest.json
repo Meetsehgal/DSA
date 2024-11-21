@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e7fcbf81.css",
-    "main.js": "/static/js/main.befeb663.js",
+    "main.css": "/static/css/main.618596e6.css",
+    "main.js": "/static/js/main.3888e4b0.js",
     "static/js/334.f2896a00.chunk.js": "/static/js/334.f2896a00.chunk.js",
     "static/js/787.db33642e.chunk.js": "/static/js/787.db33642e.chunk.js",
     "static/media/contact-news.png": "/static/media/contact-news.bcf0f2f6d434728e0a8a.png",
@@ -15,7 +15,9 @@
     "static/media/left.png": "/static/media/left.be0ec9883ed6fb3bea74.png",
     "static/media/Gallery3.png": "/static/media/Gallery3.2fddd3d143a07f9f3f3e.png",
     "static/media/professional-microphone-sound-studio-with-purple-backdrop.jpg": "/static/media/professional-microphone-sound-studio-with-purple-backdrop.083ea79e009a657443ac.jpg",
+    "static/media/11 1 (1).png": "/static/media/11 1 (1).63a71ae14dc085d37a1f.png",
     "static/media/left-banner.png": "/static/media/left-banner.56dbe1147308f3da6d36.png",
+    "static/media/Journey so far_ mockup copy.jpg": "/static/media/Journey so far_ mockup copy.5519dfc01f94cbed77bd.jpg",
     "static/media/Gallery2.png": "/static/media/Gallery2.eb1ae1da2c1ef4af53c2.png",
     "static/media/Gallery1.png": "/static/media/Gallery1.281480dad1f3291e3789.png",
     "static/media/Gallery5.png": "/static/media/Gallery5.dfb9b7a7dbcfedff5db6.png",
@@ -25,18 +27,16 @@
     "static/media/magazine-mockup.png": "/static/media/magazine-mockup.3dbdbd67a895faae5230.png",
     "static/media/sub.png": "/static/media/sub.3dbab935e9eebc76f55a.png",
     "static/media/25.webp": "/static/media/25.f5575aaa2df9834aaa8c.webp",
-    "static/media/May 2024.jpg": "/static/media/May 2024.69b54a3294708f739119.jpg",
     "static/media/April 2024.jpg": "/static/media/April 2024.aa4759fe66d57344534a.jpg",
     "static/media/contact-banner.png": "/static/media/contact-banner.f2d2b464bd26f6e4dddd.png",
     "static/media/January 2024.jpg": "/static/media/January 2024.bb0c1585017463d5dd29.jpg",
-    "static/media/March 2024.jpg": "/static/media/March 2024.0776cce926def707337e.jpg",
     "static/media/February 2024.jpg": "/static/media/February 2024.1099ffd93fc3343abe8c.jpg",
-    "static/media/11 1.png": "/static/media/11 1.cd377ea7216fb82204bc.png",
     "static/media/Pawan-Agrawal.webp": "/static/media/Pawan-Agrawal.31f48154a642473c157d.webp",
     "static/media/Our Founder.png": "/static/media/Our Founder.d60ab04a19f2d95435d7.png",
     "static/media/20.webp": "/static/media/20.526f5ac4e6f3a79db70a.webp",
     "static/media/DSA-transparent-logo.png": "/static/media/DSA-transparent-logo.52082f3abc99ba8ce4cf.png",
     "static/media/16.jpg": "/static/media/16.db2211e5a873a4c05b6d.jpg",
+    "static/media/DSA logo black 1.png": "/static/media/DSA logo black 1.afedf150384f347160a2.png",
     "static/media/milestones-bg.png": "/static/media/milestones-bg.9b84358cdeb229c1941f.png",
     "static/media/indian-flag.jpg": "/static/media/indian-flag.7272562f5f2a57810d91.jpg",
     "static/media/prabhatprakashan.png": "/static/media/prabhatprakashan.445b16e9f544b34fb01b.png",
@@ -63,13 +63,13 @@
     "static/media/19.jpg": "/static/media/19.fb4b6c00b9de95f4fe22.jpg",
     "static/media/Subscribe.png": "/static/media/Subscribe.f6d55180af2065ba4683.png",
     "index.html": "/index.html",
-    "main.e7fcbf81.css.map": "/static/css/main.e7fcbf81.css.map",
-    "main.befeb663.js.map": "/static/js/main.befeb663.js.map",
+    "main.618596e6.css.map": "/static/css/main.618596e6.css.map",
+    "main.3888e4b0.js.map": "/static/js/main.3888e4b0.js.map",
     "334.f2896a00.chunk.js.map": "/static/js/334.f2896a00.chunk.js.map",
     "787.db33642e.chunk.js.map": "/static/js/787.db33642e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7fcbf81.css",
-    "static/js/main.befeb663.js"
+    "static/css/main.618596e6.css",
+    "static/js/main.3888e4b0.js"
   ]
 }
