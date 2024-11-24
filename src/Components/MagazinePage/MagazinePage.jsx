@@ -54,7 +54,7 @@ export default function  MagazinePage() {
             <MagazinePageContentSection />
             <DsaArticlesSection data={latestArticle} />
             <DsaAuditSection />
-            <MagazineDegSecWivesSection insignia={insignia[0]} awards={awards[0]} careers={careers[0]} />
+            <MagazineDegSecWivesSection insignia={insignia} awards={awards[0]} careers={careers[0]} />
         </div>
     );
 }

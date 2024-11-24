@@ -17,7 +17,7 @@ export default function CeoSection() {
                                 Editor-in-Chief
                             </span>
                             <div className="text-end">
-                                <Link to="" >Read The Blog</Link>
+                                <Link to="/articles" >Read The Blog</Link>
                             </div>
                         </div>
                     </div>
@@ -31,7 +31,7 @@ export default function CeoSection() {
                                 Publisher & CEO
                             </span>
                             <div className="text-end">
-                                <Link to="" >Read The Blog</Link>
+                                <Link to="/articles" >Read The Blog</Link>
                             </div>
                         </div>
                     </div>

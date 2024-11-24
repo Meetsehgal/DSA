@@ -29,7 +29,7 @@ export default function AboutGallerySection() {
                             <h2>
                                 <span><i>dsa</i></span> galley
                             </h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                            <p>Showcasing DSA's Commitment: High-Level Defence Conversations and Global Collaborations in Focus.</p>
                         </div>
                         <Swiper
                         slidesPerView={1}

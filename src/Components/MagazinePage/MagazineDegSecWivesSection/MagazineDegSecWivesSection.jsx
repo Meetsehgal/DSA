@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
-import NoImg from "../../../assets/img/no-image.jpg";
+import Insigina from "../../../assets/img/defsecedu/Group 925.png";
+import Awards from "../../../assets/img/defsecedu/Group 927.png";
+import Careers from "../../../assets/img/defsecedu/Group 965.png";
 import "./MagazineDegSecWivesSection.css";
 
 export default function MagazineDegSecWivesSection({ insignia, awards, careers }) {
@@ -17,15 +19,15 @@ export default function MagazineDegSecWivesSection({ insignia, awards, careers }
                                     </h2>
                                 </div>
                                 <div className="image ">
-                                  <img src="https://manmeetawsbucket.s3.eu-north-1.amazonaws.com/Indian+Army+Flag.png" className="img-fluid" alt="" />
+                                  <img src={Insigina} className="img-fluid" alt="Insigina" />
                                   <p>Insigina</p>
                                 </div>
                                 <div className="image">
-                                <img src="https://manmeetawsbucket.s3.eu-north-1.amazonaws.com/Indian+Navy+Flag.png" className="img-fluid" alt="" />
+                                <img src={Awards} className="img-fluid" alt="Awards" />
                                 <p>Awards</p>
                                 </div>
                                 <div className="image">
-                                <img src="https://manmeetawsbucket.s3.eu-north-1.amazonaws.com/Airforce+Flag.png" className="img-fluid" alt="" />
+                                <img src={Careers} className="img-fluid" alt="Careers" />
                                 <p>Careers</p>
                                 </div>
                             </div>
@@ -42,11 +44,11 @@ export default function MagazineDegSecWivesSection({ insignia, awards, careers }
                                     learn with us
                                 </h2>
                                 <p>
-                                    learn career opportunities with DSA learn career opportunities with DSA learn career opportunities with DSA
+                                Get to know the Indian Armed Forces, our nation's defenders across land, air and sea, standing guard to protect and secure us from every threat.
                                 </p>
 
                                  <div className="col-12 "> 
-                                    <Link to="/def-sec-edu" className="theme-btn">Know more</Link>
+                                    <Link to="/def-sec-edu" className="theme-btn know-more">Know more</Link>
                                 </div> 
 
                                 {/* <div className="col-12 text-center">
@@ -63,39 +65,21 @@ export default function MagazineDegSecWivesSection({ insignia, awards, careers }
                             opportunities with DSA learn career opportunities with DSA</p> */}
                             <p className="w-75 mx-auto"> Tri-Services</p>
                         </div>
-                        <div className="personal-card">
+                        {insignia?.map((data)=>{
+                            return(
+                            <div className="personal-card">
                             <div className="image">
-                                <img src={insignia?.fld_image} className="img-fluid" alt={insignia?.fld_alt} />
+                                <img src={data?.fld_thumbnail} className="img-fluid" alt={data?.fld_alt} />
                             </div>
                             <div className="content">
                                 <h4>
-                                    {insignia?.fld_type}
+                                    {data?.fld_category}
                                 </h4>
-                                <p>{insignia?.fld_short_desc}</p>
+                                <p>{data?.fld_short_desc}</p>
                             </div>
                         </div>
-                        <div className="personal-card">
-                            <div className="image">
-                                <img src={awards?.fld_image} className="img-fluid" alt={awards?.fld_alt} />
-                            </div>
-                            <div className="content">
-                                <h4>
-                                    {awards?.fld_type}
-                                </h4>
-                                <p>{awards?.fld_short_desc}</p>
-                            </div>
-                        </div>
-                        <div className="personal-card">
-                            <div className="image">
-                                <img src={careers?.fld_image} className="img-fluid" alt={careers?.fld_alt} />
-                            </div>
-                            <div className="content">
-                                <h4>
-                                    {careers?.fld_type}
-                                </h4>
-                                <p>{careers?.fld_short_desc}</p>    
-                            </div>
-                        </div>
+                            )
+                        })}
                     </div>
  
                      {/* <div className="col-12 text-center">

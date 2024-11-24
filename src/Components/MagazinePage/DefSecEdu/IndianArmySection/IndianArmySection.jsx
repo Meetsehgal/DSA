@@ -35,13 +35,13 @@ export default function IndianArmySection({data, setDefenceForceType}) {
                                     Categories
                                 </p>
                                 <ul>
-                                    <li onClick={() => getFilteredData('Indian Army')}>
+                                    <li className={currentCategory === "Indian Army" ? "defsec-cat Active": "defsec-cat"} onClick={() => getFilteredData('Indian Army')}>
                                         Indian Army
                                     </li>
-                                    <li onClick={() => getFilteredData('Indian Navy')}>
+                                    <li className={currentCategory === "Indian Navy" ? "defsec-cat Active": "defsec-cat"} onClick={() => getFilteredData('Indian Navy')}>
                                         Indian Navy
                                     </li>
-                                    <li onClick={() => getFilteredData('Indian Air Force')}>Indian Air Force</li>
+                                    <li className={currentCategory === "Indian Air Force" ? "defsec-cat Active": "defsec-cat"} onClick={() => getFilteredData('Indian Air Force')}>Indian Air Force</li>
                                 </ul>
                             </div>
                         </div>
