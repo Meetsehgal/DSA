@@ -21,11 +21,12 @@ export default function MainFooter() {
                 <div className="container-fluid position-relative">
                     <div className="row">
                         <div className="col-lg-4 font-size">
-                            <img src={Logo1} className="img-fluid" alt="" />
+                            <img src={Logo1} className="img-fluid mb-2" alt="" />
                             <p>From the house of <b>OCEAN MEDIA PRIVATE LIMITED</b></p>
-                            <p className="mt-2 mb-4">(A Group company of Prabhat Prakashan Pvt. Ltd.) An ISO 9001:2015 Certified Company</p>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
-                            <ul className="sm-links">
+                            <p className=" mb-3"> An ISO 9001:2015 Certified Company <br></br> (A Group company of Prabhat Prakashan Pvt. Ltd.) </p>
+                            {/* <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p> */}
+                            <p className="mb-2"> <b>A premier monthly magazine  delivering in-depth analysis of defence, security, and geopolitics in modern warfare. Exlpore emerging technologies like AI,ML and advanced systems,offering insights into the future of defense and security strategies </b></p>
+                            <ul className="sm-links ">
                                 <SocialIcons/>
                             </ul>
                         </div>
@@ -69,7 +70,7 @@ export default function MainFooter() {
                                         </li>
                                     </ul>
                                 </div>
-                                <div className="col-lg-4 ps-lg-5">
+                                <div className="col-lg-4 ps-lg-5 quicklinks">
                                     <h4>
                                         Quick Links
                                     </h4>
@@ -111,7 +112,7 @@ export default function MainFooter() {
                                         </li>
                                     </ul>
                                 </div>
-                                <div className="col-lg-3">
+                                <div className="col-lg-3 resources">
                                     <h4>
                                         Resources
                                     </h4>
@@ -129,7 +130,7 @@ export default function MainFooter() {
                                         <li>
                                             <Link to="/services">
                                                 Subscribe
-                                                                                            </Link>
+                                            </Link>
                                         </li>
                                         <li>
                                             <Link to="/services">

@@ -1,6 +1,9 @@
 .journey-section {
+  width: 100%;
+  height: 100%;
    
-    
+ 
+   
   
   /* position: relative; */
   /* background-color: var(--main-color-one); */
@@ -24,15 +27,46 @@
   margin-left: 4px;
 }
 
+ 
+.journey-section .bgImage{
+  width: 100%;
+  height: 92vh;
+   background-image: url("../../../assets/img/about/Journey\ so\ far_\ Background.png");
+
+
+
+}
+
+.journey-section .image{
+   width: 100%;
+  height: 90vh;
+  /* margin-right: 4rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -41.5rem;
+    
+  /* background-image: url("../../../assets/img/about/Journey\ so\ far_\ Background.png"); */
+  background-size: cover;
+  /* background-color: pink; */
+  
+  
+
+}
 .journey-section img {
-  height: 823px;
+  /* height: 823px; */
   /* width: 100vw; */
    /* width: 50%; */
-   width: 100%;
-     
-    
+   width: 60%;
+   height: 100%;
+         aspect-ratio: 1/1;
+   /* margin-right: -4rem; */
+      /* background-color: yellow; */
   object-fit: contain;
   object-position: center;
+  /* margin-top: 2rem; */
+
   /* border-radius: 20px; */
   /* margin-left: 60px; */
 }

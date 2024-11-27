@@ -18,10 +18,10 @@ export default function NewArticlesSection({ data }) {
 
 
                             <b>
-                                written by - {data[0]?.fld_published_by}
+                                {/* written by - {data[0]?.fld_published_by} */}
                             </b>
                             <b>
-                                Date - {moment(data[0]?.fld_createdon).format('MMMM D, YYYY')}
+                                {/* Date - {moment(data[0]?.fld_createdon).format('MMMM D, YYYY')} */}
                             </b>
                             {/* <b>Time - {moment(data[0]?.fld_createdon).format('HH:mm:ss')}</b> */}
                         </div>

@@ -18,17 +18,27 @@ export default function MagazineDegSecWivesSection({ insignia, awards, careers }
                                         Def-sec <span>edu</span>
                                     </h2>
                                 </div>
+
+                                <div className=" container-Wrapper">
+                        
+
+
+
                                 <div className="image ">
                                   <img src={Insigina} className="img-fluid" alt="Insigina" />
                                   <p>Insigina</p>
                                 </div>
+
                                 <div className="image">
                                 <img src={Awards} className="img-fluid" alt="Awards" />
                                 <p>Awards</p>
                                 </div>
+
                                 <div className="image">
                                 <img src={Careers} className="img-fluid" alt="Careers" />
                                 <p>Careers</p>
+                                </div>
+
                                 </div>
                             </div>
 

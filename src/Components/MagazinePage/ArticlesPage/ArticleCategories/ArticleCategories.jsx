@@ -7,6 +7,8 @@ export default function ArticleCategories({data}) {
     const [filteredData, setFilteredData] = useState(data);
     // const [selectedNews, setSelectedNews] = useState(null);
 
+    const ActiveClassArray=[""];
+
     useEffect(() => {
         setFilteredData(data);
     }, [data]);
@@ -18,6 +20,11 @@ export default function ArticleCategories({data}) {
             const filtered = data.filter(item => item.fld_category === category);
             setFilteredData(filtered);
         }
+
+        ActiveClassArray.push("active"); 
+
+
+
     }
     return (
         <section className="section-spacing pt-0 article-category-section">
@@ -29,10 +36,10 @@ export default function ArticleCategories({data}) {
                                 Categories
                             </p>
                             <ul>
-                                <li onClick={() => getFilteredData('Contributors')}>
+                                <li className={ActiveClassArray.join(" ")} onClick={() => getFilteredData('Contributors')}>
                                     Contributors
                                 </li>
-                                <li onClick={() => getFilteredData('Defence')}>
+                                <li  className={ActiveClassArray.join(" ")} onClick={() => getFilteredData('Defence')}>
                                     Defence
                                 </li>
                                 <li onClick={() => getFilteredData('Security')}>

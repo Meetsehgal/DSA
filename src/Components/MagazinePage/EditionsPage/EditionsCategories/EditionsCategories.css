@@ -2,7 +2,7 @@
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin-bottom: 1rem;
 }
 
 .editions-category-section .category-tab p {
@@ -25,6 +25,25 @@
 .editions-category-section .category-tab ul li:hover {
     color: var(--theme-color);
 }
+
+.editions-category-section .select-edition{
+    display: flex;
+    justify-content: flex-end;
+    gap: 3rem;
+    margin-bottom: 1rem;
+    border: none;
+}
+.editions-category-section .select-edition label:hover{
+    color: var(--theme-color);
+
+}
+.editions-category-section .select-edition select{
+    border: none;
+    
+}
+
+
+
 
 .editions-category-section .edition-card {
     border: 1px solid #e3e3e3;

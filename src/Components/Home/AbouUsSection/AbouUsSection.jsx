@@ -12,7 +12,7 @@ import 'swiper/css/thumbs';
 
 
 // import required modules
-import { FreeMode, Pagination, Thumbs } from 'swiper/modules';
+import { FreeMode, Navigation, Pagination, Thumbs } from 'swiper/modules';
 import BgShape from "../../../assets/img/bg-shapes/3.png";
 import PostApiCall from "../../../Helpers/Api/PostApi";
 export default function AbouUsSection({banners}) {
@@ -107,6 +107,7 @@ export default function AbouUsSection({banners}) {
                             spaceBetween={5}
                             slidesPerView={4.5}
                             freeMode={true}
+                            
                             watchSlidesProgress={true}
                             pagination={{
                                 clickable: "true"

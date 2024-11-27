@@ -67,9 +67,9 @@
 .article-category-section .article-card .content a {
     /* padding: 0 25px; */
     /* border: 2px solid var(--theme-color); */
-    text-decoration: underline !important;
+    /* text-decoration: underline !important; */
     text-underline-offset: 5px;
-    color: var(--theme-color) !important;
+    /* color: var(--theme-color) !important; */
     background: transparent !important;
     border-radius: 40px !important;
     transition: .3s all;
@@ -79,6 +79,10 @@
     width: fit-content;
     font-size: .9rem;
     /* margin-right: 2rem; */
+}
+
+.article-category-section .article-card .content a:hover{
+color: var(--theme-color) !important;
 }
 
 /* .article-category-section .article-card .content a:hover {

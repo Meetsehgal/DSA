@@ -3,6 +3,7 @@ import PageFlip from 'react-pageflip';
 import { getDocument, GlobalWorkerOptions } from 'pdfjs-dist/webpack';
 import pdfFile from '../../assets/img/DSA_Edition.pdf';
 import './FlipBook.css';
+ 
 
 GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.worker.min.js`;
 
@@ -63,6 +64,83 @@ const Flipbook = () => {
             pageFlipRef.current.pageFlip().flipPrev();
         }
     };
+
+
+
+
+
+
+
+
+
+    // // this code is generate through chatgpt
+
+    // const renderPageToImage = async (pdf, pageNum) => {
+    //     const page = await pdf.getPage(pageNum);
+    //     const viewport = page.getViewport({ scale: 1.5 }); // Higher scale for better resolution
+    
+    //     const canvas = document.createElement('canvas');
+    //     const context = canvas.getContext('2d');
+    //     canvas.width = viewport.width;
+    //     canvas.height = viewport.height;
+    
+    //     const renderContext = {
+    //         canvasContext: context,
+    //         viewport,
+    //     };
+    
+    //     await page.render(renderContext).promise;
+    
+    //     return {
+    //         src: canvas.toDataURL(),
+    //         aspectRatio: viewport.height / viewport.width,
+    //     };
+    // };
+    
+    // const loadPDF = async () => {
+    //     const loadingTask = getDocument(pdfFile);
+    //     const pdf = await loadingTask.promise;
+    
+    //     const numPages = pdf.numPages;
+    //     const pagesWithAspect = [];
+    //     for (let i = 1; i <= numPages; i++) {
+    //         const page = await renderPageToImage(pdf, i);
+    //         pagesWithAspect.push(page);
+    //     }
+    
+    //     // Ensure even number of pages
+    //     if (pagesWithAspect.length % 2 !== 0) {
+    //         const blankPage = {
+    //             src: null,
+    //             aspectRatio: pagesWithAspect[0]?.aspectRatio || 1,
+    //         };
+    //         pagesWithAspect.push(blankPage);
+    //     }
+    
+    //     setPages(pagesWithAspect);
+    // };
+    
+    // const handleNext = () => {
+    //     if (pageFlipRef.current && currentPage < pages.length / 2 - 1) {
+    //         pageFlipRef.current.pageFlip().flipNext();
+    //         setCurrentPage((prev) => prev + 1);
+    //     }
+    // };
+    
+    // const handlePrev = () => {
+    //     if (pageFlipRef.current && currentPage > 0) {
+    //         pageFlipRef.current.pageFlip().flipPrev();
+    //         setCurrentPage((prev) => prev - 1);
+    //     }
+    // };
+    
+
+    // end here code chat gpt
+
+
+ 
+
+
 
     const onFlip = (e) => {
         const newPage = e.data;

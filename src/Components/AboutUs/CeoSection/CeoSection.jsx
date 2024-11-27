@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
-import Left from "../../../assets/img/man.jpg";
-import Right from "../../../assets/img/Pawan-Agrawal.webp";
+// import Left from "../../../assets/img/man.jpg";
+// import Right from "../../../assets/img/Pawan-Agrawal.webp";
+import Left1 from "../../../assets/img/about/Manvendra Singh (Right).png";
+import Right1  from "../../../assets/img/about/Pawan ji.png";
+
 import "./CeoSection.css";
 export default function CeoSection() {
     return (
@@ -9,9 +12,9 @@ export default function CeoSection() {
                 <div className="row justify-content-center">
                     <div className="col-lg-5 pe-lg-5">
                         <div className="ceo-card">
-                            <img src={Left} className="img-fluid" alt="" />
+                            <img src={Left1} className="img-fluid" alt="" />
                             <p className="name">
-                                Manvendra <span>Singh</span>
+                                Manvendra  Singh 
                             </p>
                             <span>
                                 Editor-in-Chief
@@ -23,9 +26,10 @@ export default function CeoSection() {
                     </div>
                     <div className="col-lg-5 ps-lg-5">
                         <div className="ceo-card mb-0">
-                            <img src={Right} className="img-fluid" alt="" />
+                            <img src={Right1} className="img-fluid" alt="" />
                             <p className="name">
-                                Pawan <span>agarwal</span>
+                                Pawan agrawal
+                                {/* Pawan <span>agarwal</span> */}
                             </p>
                             <span>
                                 Publisher & CEO

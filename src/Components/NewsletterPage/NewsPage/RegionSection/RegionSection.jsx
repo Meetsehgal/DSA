@@ -1,4 +1,13 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
+import northAmerica from "../../../../assets/img/News/Asset 6@300x.png";
+import southAmerica from "../../../../assets/img/News/Asset 7@300x.png";
+import asia from "../../../../assets/img/News/Asset 3@300x.png";
+import europe from "../../../../assets/img/News/Asset 5@300x.png";
+import australia from "../../../../assets/img/News/Asset 4@300x.png";
+import antratica from "../../../../assets/img/News/Asset 2@300x.png";
+
+ 
+
 
 // Import Swiper styles
 import 'swiper/css';
@@ -6,7 +15,7 @@ import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 
 // import required modules
-import { FreeMode, Pagination } from 'swiper/modules';
+import { FreeMode, Navigation, Pagination } from 'swiper/modules';
 import "./RegionSection.css";
 import NoImg from "../../../../assets/img/no-image.jpg";
 export default function RegionSection() {
@@ -24,6 +33,7 @@ export default function RegionSection() {
                             slidesPerView={1.5}
                             spaceBetween={20}
                             freeMode={true}
+                            navigation
                             pagination={false}
                             breakpoints={{
                                 640: {
@@ -35,33 +45,33 @@ export default function RegionSection() {
                                     spaceBetween: 20,
                                 },
                                 1024: {
-                                    slidesPerView: 4.5,
+                                    slidesPerView: 5,
                                     spaceBetween: 30,
                                 },
                             }}
-                            modules={[FreeMode, Pagination]}
+                            modules={[FreeMode, Pagination,Navigation]}
                             className="mySwiper"
                         >
                             <SwiperSlide>
-                                <img src={NoImg} className="img-fluid" alt="" />
+                                <img src={northAmerica} className="img-fluid" alt="" />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img src={southAmerica} className="img-fluid" alt="" />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img src={asia} className="img-fluid" alt="" />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img src={europe} className="img-fluid" alt="" />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img src={NoImg} className="img-fluid" alt="" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src={NoImg} className="img-fluid" alt="" />
+                                <img src={australia} className="img-fluid" alt="" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src={NoImg} className="img-fluid" alt="" />
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <img src={NoImg} className="img-fluid" alt="" />
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <img src={NoImg} className="img-fluid" alt="" />
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <img src={NoImg} className="img-fluid" alt="" />
+                                <img src={antratica} className="img-fluid" alt="" />
                             </SwiperSlide>
                         </Swiper>
                     </div>
