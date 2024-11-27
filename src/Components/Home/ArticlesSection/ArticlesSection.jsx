@@ -70,7 +70,7 @@ export default function ArticlesSection() {
                             <h2 className="main-heading">
                                 Articles
                             </h2>
-                            <p>
+                            <p className="des">
                             DSA's articles, crafted by leading subject experts, provide authoritative insights and in-depth analysis on defence, security, and international affairs, backed by exclusive reviewers and research-based evaluations.
                                  {/* International affairs. We cover a diverse range of topics with a unique 
                                  
@@ -104,9 +104,9 @@ export default function ArticlesSection() {
                                     <div className="article-left-card">
                                         <div className="right-content-box">
                                             <div className="top-section">
-                                                <h3>
-                                                {heading.slice(0, 2).join(' ') + '...'}
-                                                </h3>
+                                                <h4>
+                                                {heading.slice(0,2).join(' ') + '...'}
+                                                </h4>
                                                 <div className="image">
                                                 <img src={item?.fld_image} className="img-fluid" alt="" />
                                                 </div>
@@ -116,7 +116,7 @@ export default function ArticlesSection() {
                                                 {moment(item?.fld_createdon).format('MMMM D, YYYY')}
                                                 </span>
                                                 <p className="des">
-                                                {words.slice(0, 25).join(' ') + '...'}
+                                                {words.slice(0, 11).join(' ') + '...'}
                                                 </p>
                                                 <Link to={`/article/${item?.fld_id}`}>Read more</Link>
                                             </div>

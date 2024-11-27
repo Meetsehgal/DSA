@@ -8,12 +8,12 @@ export default function RelatedArticles({ data }) {
                 <div className="row">
                     <div className="col-12">
                         <h2 className="main-heading">
-                            Related Articles
+                            <span>Related</span> Articles
                         </h2>
                     </div>
                     {
                         data?.map((item, id) => {
-                            return (<div className="col-lg-4 edition-card" key={id}>
+                            return (<div className="col-lg-3 edition-card" key={id}>
                                 <div className="box">
                                     <div className="date">
                                         {/* //cannot find proper key */}

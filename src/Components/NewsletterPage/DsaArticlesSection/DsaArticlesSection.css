@@ -3,6 +3,7 @@
     margin-top: 40px;
     display: flex;
     justify-content: center;
+    /* padding-bottom: 50px; */
 }
 .dsa-articles-section .left-section {
     display: flex;
@@ -14,7 +15,9 @@
 .dsa-articles-section .left-section .main-heading h2{
 font-family: "headingbold" !important;
 }
-
+.dsa-articles-section .left-section .top-section{
+    margin-top: 0.2rem;
+}
 .dsa-articles-section .left-section .top-section b {
     font-family: "bodyfontbold" !important;
 }
@@ -28,8 +31,20 @@ font-family: "headingbold" !important;
     background: var(--black-color); */
 }
 
+
+.dsa-articles-section .left-section .top-section p{
+    
+ overflow: hidden;
+ text-overflow: ellipsis;
+ display: -webkit-box;
+ -webkit-line-clamp: 6;
+ -webkit-box-orient: vertical;
+
+}
+
 .dsa-articles-section .left-section .bottom-section {
     text-align: right;
+    margin-top: 12.5rem;
 }
 
 .dsa-articles-section .left-section .bottom-section h2 {
@@ -41,8 +56,24 @@ font-family: "headingbold" !important;
 }
 .dsa-articles-section .left-section .bottom-section p{
     font-size: .9rem;
-}
+    
+ overflow: hidden;
+ text-overflow: ellipsis;
+ display: -webkit-box;
+ -webkit-line-clamp: 3;
+ -webkit-box-orient: vertical;
 
+}
+.dsa-articles-section .left-section .bottom-section a{
+    
+    font-size: 0.9rem;
+
+}
+.dsa-articles-section .left-section .bottom-section a:hover{
+    color: var(--theme-color) !important;
+    font-size: 0.9rem;
+
+}
 .dsa-articles-section .image {
     height: 45%;
     margin-left: 1.9vw;

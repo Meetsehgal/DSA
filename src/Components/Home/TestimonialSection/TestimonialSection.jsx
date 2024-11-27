@@ -11,7 +11,7 @@ import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 
 // import required modules
-import { FreeMode, Pagination } from 'swiper/modules';
+import { FreeMode, Navigation, Pagination } from 'swiper/modules';
 import bgImg from "../../../assets/img/testimonial-bg.png";
 import axios from "axios";
 import { useEffect, useState } from "react";
@@ -58,6 +58,7 @@ export default function TestimonialSection() {
                             slidesPerView={2.5}
                             freeMode={true}
                             loop={true}
+                            navigation
                             pagination={false}
                             breakpoints={{
                                 640: {
@@ -73,7 +74,7 @@ export default function TestimonialSection() {
                                     spaceBetween: 40,
                                 },
                             }}
-                            modules={[FreeMode, Pagination]}
+                            modules={[FreeMode, Pagination,Navigation]}
                             className="mySwiper"
                         >
                             <SwiperSlide>

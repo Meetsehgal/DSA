@@ -47,10 +47,19 @@
   font-size: 1.4rem;
   background: #992b2b;
 }
+.main-footer .sm-links a:hover{
+  font-size: 1.8rem;
+}
 
 
 .main-footer a {
   color: var(--white-color) !important;
+}
+.quicklinks li:hover{
+  text-decoration: underline;
+}
+.resources  li:hover{
+  text-decoration: underline;
 }
 
 .main-footer h4 {

@@ -38,12 +38,14 @@
 .about-section .left-section .content {
     /* background: var(--main-color-two); */
     width: 62%;
+    /* height: %; */
     margin: 0 auto;
     border-radius: 20px;
     /* transform: translateY(-80px); */
-    transform: translateY(-76px);
+    transform: translateY(-78px);
     position: relative;
 }
+
 
 .about-section .left-section .content .inner-content {
     position: absolute;
@@ -121,6 +123,24 @@
     /* margin-bottom: 1.5rem; */
     /* padding-bottom: 1rem; */
 }
+
+/*  
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 1rem;
+  width: calc(var(--swiper-navigation-size) / 44 * 27);
+  height: var(--swiper-navigation-size);
+  margin-top: 1rem;
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--swiper-navigation-color, var(--swiper-theme-color));
+} */
+  
+
 
 .about-section .about-section-swiper .mySwiper {
     height: 130px;

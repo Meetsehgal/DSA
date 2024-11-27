@@ -47,14 +47,14 @@ export default function CurrentAffairs({ banners }) {
                                         <Link to="">
                                             <img src={Horn} className="img-fluid" alt="" />
                                         </Link>
-                                    </div>
+                                    </div>  
                                 </div>
                                 <img src={banners[1]?.fld_image} className="img-fluid" alt={banners[1]?.fld_alt} onClick={()=> navigate(`/news/${banners[1]?.fld_id}`)}/>
                                 <div className="content">
                                     <p>
                                         {banners[1]?.fld_short_desc}
                                     </p>
-                                    <span>{banners[1]?.fld_createdon}</span>
+                                        <span>{banners[1]?.fld_createdon}</span>
                                 </div>
                             </div>
                             <div className="bottom-vido-section">
@@ -68,7 +68,7 @@ export default function CurrentAffairs({ banners }) {
                         <div className="right-box">
                             <div className="top-section">
                                 <img src={banners[3]?.fld_image} className="img-fluid" alt={banners[3]?.fld_alt}   onClick={()=> navigate(`/news/${banners[3]?.fld_id}`)} />
-                                <div className="content">
+                                <div className="content ">
                                     <span>{banners[3]?.fld_createdon}</span>
                                     <p>
                                     {banners[3]?.fld_heading}

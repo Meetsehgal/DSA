@@ -29,9 +29,9 @@ export default function DsaArticlesSection({ data }) {
                                         <h2>{article.fld_heading}</h2>
                                         <span>
                                             {moment(article.fld_createdon).format('MMMM Do YYYY, h:mm a')}
-                                        </span>
+                                        </span> 
                                         <p>{article.fld_short_desc}</p>
-                                        <Link to={article.fld_redirect_url} className="theme-btn mt-5">Read more</Link>
+                                        <Link to={article.fld_redirect_url} className="btn mt-2">Read more</Link>
                                     </>
                                 ) : (
                                     <p>No articles available.</p>

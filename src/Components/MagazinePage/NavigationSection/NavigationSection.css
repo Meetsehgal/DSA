@@ -10,11 +10,21 @@
 
 .active{
     color: var(--theme-color) !important;
+    font-family: bodyfontbold;
     
 }
+
+/* .magazine-navigation .name a, */
+.magazine-navigation .navigation-bar NavLink:hover{
+   /* background-color: var(--theme-color); */
+   color: pink;
+
+}
+
+
 .magazine-navigation .navigation-bar .name{
     font-size: 1.2rem;
-    font-family: "bodyfontbold" !important;
+    /* font-family: "bodyfontbold" !important; */
 }
 .magazine-navigation .navigation-bar {
     background: var(--main-color-one);

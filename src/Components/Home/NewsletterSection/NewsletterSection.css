@@ -42,7 +42,11 @@
 
 .swiper-button-prev,
 .swiper-button-next{
+    --swiper-navigation-size:25px;
+    
     color: var(--theme-color);
+     font-weight:900;
+     /* margin-top: 2rem; */
 }
 
 

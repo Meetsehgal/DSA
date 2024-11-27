@@ -23,6 +23,7 @@ export default function PodcastAccordion({ podcastdata }) {
                             {data.fld_heading}
                         </h4>
                         <p>{data.fld_short_desc}</p>
+                        {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, explicabo?</p> */}
 
                     </div>
                     <div className="date flex-wrap d-flex gap-4 gap-lg-5">

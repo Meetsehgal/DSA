@@ -20,7 +20,13 @@
     height: 318px;
     object-fit: cover;
     margin-bottom: 1.5rem;
+
 }
+
+
+.about-gallery-section .mySwiper .swiper-pagination-bullet-active {
+    background-color: var(--theme-color) !important;
+  }
 @media (max-width:992px) {
     .about-gallery-section {
         padding-bottom: 0;

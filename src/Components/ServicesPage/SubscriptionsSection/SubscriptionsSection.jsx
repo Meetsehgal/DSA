@@ -7,16 +7,29 @@ import { useState } from "react";
 export default function SubscriptionsSection() {
 
 const [showSubscription,setShowSubscription ] =useState(true);
-const [showAssociate,setShowAssociate]=useState(true);
+const [showAdvertising,setShowAdvertising]=useState(true);
+const [showSponsorship,setShowSponsorship]=useState(false);
+const [showContributor,setShowContributor]=useState(false);
 
 
 
 const advertisingHandleClick=()=>{
-    setShowAssociate(true)
+    setShowAdvertising(true);
+    setShowSponsorship(false);
+    setShowContributor(false);
 }
 
 const sponsorshipHandleClick=()=>{
-    setShowAssociate(false)
+    setShowSponsorship(true);
+    setShowAdvertising(false);
+    setShowContributor(false);
+}
+const contributorHandleClick=()=>{
+    setShowContributor(true);
+    setShowAdvertising(false);
+    setShowSponsorship(false);
+
+
 }
 
 
@@ -38,11 +51,11 @@ const printHandleClick=()=>{
                         </div>
                         <p>DSA offers are for online and print magazine. Stay ahead with our in-depth defence and security worldwide insights! Subscribe now for exclusive online access to expert analysis and the latest updates.</p>
                         <div className="d-flex gap-4 gap-lg-5 mt-4 mt-lg-5">
-                            <div className= "sub-btn" onClick={digitalHandleClick}>
+                            <div className={`sub-btn ${showSubscription?"active":""}`} onClick={digitalHandleClick}>
                             
-                                <img src={DigitalIcon} alt="" /> Digital
+                                <img className={showSubscription?"active":""} src={DigitalIcon} alt="" /> Digital
                             </div>
-                            <div className="sub-btn" onClick={printHandleClick}>
+                            <div className={`sub-btn ${showSubscription?"":"active"}`} onClick={printHandleClick}>
                                 <img src={PrintIcon} alt="" /> print
                             </div>
                         </div>
@@ -51,7 +64,7 @@ const printHandleClick=()=>{
                         </div>
                     </div>
 
-
+{/* onClick of digital show the    digital subscription other wise show the print Subscription */}
 
                  {showSubscription?  <div className="col-12 my-5">
                         <div className="main-heading mt-4">
@@ -103,7 +116,7 @@ const printHandleClick=()=>{
 
 
 
-
+                        // Print Subscription
                     <div className="col-12 mb-lg-5">
                         <div className="main-heading mt-4">
                             <h2>2. print <span>subscription</span></h2>
@@ -195,21 +208,22 @@ const printHandleClick=()=>{
 
                 </div>
 
+{/* first contact from not show in digital section but show in print section  */}
 
-
-
+              {showSubscription?"":
                  <div className="py-5 my-5 contact-form-bg">
                     <div className="col-lg-8 mx-auto ">
                         <ServiceContactForm />
                     </div>
                 </div> 
+}
 
 
 
 
-
-
-             {/*   {showSubscription? */}
+            {/* B. Associate with DSA Section*/}
+ 
+              
 
                 <div className="row my-5">
                     <div className="col-12 mt-5 top-section">
@@ -221,12 +235,18 @@ const printHandleClick=()=>{
                             {/* <div className="sub-btn">
                                 Partnership Opportunities
                             </div> */}
-                            <div className="sub-btn" onClick={advertisingHandleClick}>
+                            <div className={`sub-btn ${showAdvertising?"active":""}`} onClick={advertisingHandleClick}>
                                 Advertising 
                             </div>
-                            <div className="sub-btn" onClick={sponsorshipHandleClick}>
+
+                            <div className={`sub-btn ${showSponsorship?"active":""}`}onClick={sponsorshipHandleClick}>
                                 Sponsorship
                             </div>
+                            
+                            <div className={`sub-btn ${showContributor?"active":""}`} onClick={contributorHandleClick}>
+                                Contributor
+                            </div>
+
                         </div>
                         <div className="divider">
                             <MdExpandCircleDown />
@@ -237,7 +257,7 @@ const printHandleClick=()=>{
 
                     <div className="col-12 my-5">
 
-                       {showAssociate ? 
+                       {showAdvertising ? 
 
                         <div className="d-flex mt-5">
                             <div className="no">
@@ -252,11 +272,12 @@ const printHandleClick=()=>{
                                 <p className="bottom-p">Maximize your visibility through our tailored advertising packages, designed to connect your brand with key decision-makers and professionals in the defense industry.</p>
                             </div>
                         </div>
+                        :""}
 
 
 
 
-                        :
+                        {showSponsorship?
 
 
                         <div className="d-flex mt-5">
@@ -272,8 +293,28 @@ const printHandleClick=()=>{
                                 <p className="bottom-p">Support <i>DSA's</i> initiatives through sponsorship and gain exclusive recognition across our platforms, aligning your brand with excellence in defense journalism.</p>
                             </div>
                         </div>
+                        :""}
 
-                       }
+
+                         {showContributor?
+
+
+                        <div className="d-flex mt-5">
+                            <div className="no">
+                                3.
+                            </div>
+                            <div>                                
+                                <div className="main-heading">
+                                    <h2>
+                                        Contributor  with DAS
+                                    </h2>
+                                </div>
+                                <p className="bottom-p">Support <i>DSA's</i> Contributor through sponsorship and gain exclusive recognition across our platforms, aligning your brand with excellence in defense journalism.</p>
+                            </div>
+                        </div>
+                        :""}
+ 
+                       
 
                     </div>
                 </div>

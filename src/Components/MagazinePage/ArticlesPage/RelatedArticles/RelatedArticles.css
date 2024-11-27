@@ -1,8 +1,11 @@
 .related-articles-section .main-heading {
     margin-bottom: 2rem;
-    font-size: 4rem;
+    font-size: 2rem;
     padding: 0;
     color: var(--font-dark) !important;
+}
+.related-articles-section .main-heading span{
+    color: var(--theme-color);
 }
 
 .related-articles-section .edition-card {
@@ -38,6 +41,8 @@
     aspect-ratio: 1/1;
     object-fit: cover;
     margin-bottom: 1rem;
+    border-radius: 20px;
+    
 }
 
 .related-articles-section .edition-card .box {

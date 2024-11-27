@@ -12,7 +12,8 @@
     object-fit: cover;
     margin-bottom: 1rem;
     object-position: top;
-    filter: grayscale(1) contrast(1) brightness(1.3);
+    /* object-position: center; */
+    filter: grayscale(1) contrast(1) brightness(1);
     mix-blend-mode: multiply;
 }
 

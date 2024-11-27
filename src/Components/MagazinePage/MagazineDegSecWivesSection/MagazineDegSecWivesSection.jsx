@@ -16,17 +16,27 @@ export default function MagazineDegSecWivesSection({ insignia, awards, careers }
                                         Def-sec <span>edu</span>
                                     </h2>
                                 </div>
+
+                                <div className=" container-Wrapper">
+                        
+
+
+
                                 <div className="image ">
                                   <img src="https://manmeetawsbucket.s3.eu-north-1.amazonaws.com/Indian+Army+Flag.png" className="img-fluid" alt="" />
                                   <p>Insigina</p>
                                 </div>
+
                                 <div className="image">
                                 <img src="https://manmeetawsbucket.s3.eu-north-1.amazonaws.com/Indian+Navy+Flag.png" className="img-fluid" alt="" />
                                 <p>Awards</p>
                                 </div>
+
                                 <div className="image">
                                 <img src="https://manmeetawsbucket.s3.eu-north-1.amazonaws.com/Airforce+Flag.png" className="img-fluid" alt="" />
                                 <p>Careers</p>
+                                </div>
+
                                 </div>
                             </div>
 
@@ -46,7 +56,7 @@ export default function MagazineDegSecWivesSection({ insignia, awards, careers }
                                 </p>
 
                                  <div className="col-12 "> 
-                                    <Link to="/def-sec-edu" className="theme-btn">Know more</Link>
+                                    <Link to="/def-sec-edu" className="btn">Know more</Link>
                                 </div> 
 
                                 {/* <div className="col-12 text-center">
