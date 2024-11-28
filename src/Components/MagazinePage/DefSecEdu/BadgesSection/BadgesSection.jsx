@@ -22,7 +22,9 @@ export default function BadgesSection({data, type, setType}) {
     useEffect(() => {
         const defaultData = data?.filter(item => 
             // item?.fld_badge_type === "Commissioned" &&
-             item?.fld_category === type.defenceForceType || "Indian Army")
+             item?.fld_category ===
+            //  type.defenceForceType ||
+             "Indian Army")
         const allBadges = defaultData?.flatMap(item => JSON.parse(item?.badges));
         const filteredBadges = allBadges?.filter(item => item.badge_type === "Commissioned")
         setFilteredData(filteredBadges);
@@ -78,7 +80,7 @@ export default function BadgesSection({data, type, setType}) {
                                     <p>Badges</p>
                                 </div>
                             </div>
-                            {filteredData?.map((item, id) => {
+                            {filteredData?.sort((a,b)=>a.badge_sequence - b.badge_sequence).map((item, id) => {
                                     return (<div className="badge-card" key={id}>
                                         <div className="image">
                                             <img src={item?.badge_image} className="img-fluid" alt={item?.badge_alt} />

@@ -266,7 +266,7 @@ const printHandleClick=()=>{
                             <div>
                                 <div className="main-heading">
                                     <h2>
-                                        Advertising with DAS
+                                        Advertising with DSA
                                     </h2>
                                 </div>
                                 <p className="bottom-p">Maximize your visibility through our tailored advertising packages, designed to connect your brand with key decision-makers and professionals in the defense industry.</p>
@@ -287,7 +287,7 @@ const printHandleClick=()=>{
                             <div>                                
                                 <div className="main-heading">
                                     <h2>
-                                        Sponsorship  with DAS
+                                        Sponsorship  with DSA
                                     </h2>
                                 </div>
                                 <p className="bottom-p">Support <i>DSA's</i> initiatives through sponsorship and gain exclusive recognition across our platforms, aligning your brand with excellence in defense journalism.</p>
@@ -306,7 +306,7 @@ const printHandleClick=()=>{
                             <div>                                
                                 <div className="main-heading">
                                     <h2>
-                                        Contributor  with DAS
+                                        Contributor  with DSA
                                     </h2>
                                 </div>
                                 <p className="bottom-p">Support <i>DSA's</i> Contributor through sponsorship and gain exclusive recognition across our platforms, aligning your brand with excellence in defense journalism.</p>
@@ -370,7 +370,7 @@ const printHandleClick=()=>{
                                 
                                 <div className="main-heading">
                                     <h2>
-                                        Sponsorship  with DAS
+                                        Sponsorship  with DSA
                                     </h2>
                                 </div>
                                 <p className="bottom-p">Support <i>DSA's</i> initiatives through sponsorship and gain exclusive recognition across our platforms, aligning your brand with excellence in defense journalism.</p>

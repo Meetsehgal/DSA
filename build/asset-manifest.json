@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0c77ec30.css",
-    "main.js": "/static/js/main.8d102541.js",
+    "main.js": "/static/js/main.2a80d04b.js",
     "static/js/334.25c9b4b9.chunk.js": "/static/js/334.25c9b4b9.chunk.js",
     "static/js/787.db33642e.chunk.js": "/static/js/787.db33642e.chunk.js",
     "static/media/contact-news.png": "/static/media/contact-news.bcf0f2f6d434728e0a8a.png",
@@ -20,17 +20,24 @@
     "static/media/Gallery2.png": "/static/media/Gallery2.eb1ae1da2c1ef4af53c2.png",
     "static/media/Gallery1.png": "/static/media/Gallery1.281480dad1f3291e3789.png",
     "static/media/Gallery5.png": "/static/media/Gallery5.dfb9b7a7dbcfedff5db6.png",
+    "static/media/DSA_Edition-01.png": "/static/media/DSA_Edition-01.f2d65c4987ef253967d7.png",
+    "static/media/DSA_Edition-02.png": "/static/media/DSA_Edition-02.6f964ca7d17b6dcc7346.png",
     "static/media/Pawan ji.png": "/static/media/Pawan ji.f1ffd0b7801f7799de7c.png",
     "static/media/Manvendra Singh (Right).png": "/static/media/Manvendra Singh (Right).4fe4ec2120bdf2f03411.png",
+    "static/media/DSA_Edition-03.png": "/static/media/DSA_Edition-03.f8e68099b0aa7d17354c.png",
+    "static/media/DSA_Edition-04.png": "/static/media/DSA_Edition-04.03cfc9717060e3340456.png",
     "static/media/self.png": "/static/media/self.6d2391e20402b736ad84.png",
     "static/media/contact-mission.png": "/static/media/contact-mission.9c87ad9b2ae1de537313.png",
+    "static/media/DSA_Edition-07.png": "/static/media/DSA_Edition-07.03f2a5c94a64f7d2f834.png",
     "static/media/Rectangle.png": "/static/media/Rectangle.a1a99ae1f8a5bcddd451.png",
+    "static/media/DSA_Edition-05.png": "/static/media/DSA_Edition-05.f77f024fe88c8f595c74.png",
     "static/media/magazine-mockup.png": "/static/media/magazine-mockup.3dbdbd67a895faae5230.png",
     "static/media/sub.png": "/static/media/sub.3dbab935e9eebc76f55a.png",
     "static/media/25.webp": "/static/media/25.f5575aaa2df9834aaa8c.webp",
     "static/media/April 2024.jpg": "/static/media/April 2024.aa4759fe66d57344534a.jpg",
     "static/media/contact-banner.png": "/static/media/contact-banner.f2d2b464bd26f6e4dddd.png",
     "static/media/January 2024.jpg": "/static/media/January 2024.bb0c1585017463d5dd29.jpg",
+    "static/media/DSA_Edition-06.png": "/static/media/DSA_Edition-06.bfd3c5110a2e7f6a9817.png",
     "static/media/February 2024.jpg": "/static/media/February 2024.1099ffd93fc3343abe8c.jpg",
     "static/media/Our Founder.png": "/static/media/Our Founder.d60ab04a19f2d95435d7.png",
     "static/media/20.webp": "/static/media/20.526f5ac4e6f3a79db70a.webp",
@@ -73,12 +80,12 @@
     "static/media/Subscribe.png": "/static/media/Subscribe.f6d55180af2065ba4683.png",
     "index.html": "/index.html",
     "main.0c77ec30.css.map": "/static/css/main.0c77ec30.css.map",
-    "main.8d102541.js.map": "/static/js/main.8d102541.js.map",
+    "main.2a80d04b.js.map": "/static/js/main.2a80d04b.js.map",
     "334.25c9b4b9.chunk.js.map": "/static/js/334.25c9b4b9.chunk.js.map",
     "787.db33642e.chunk.js.map": "/static/js/787.db33642e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c77ec30.css",
-    "static/js/main.8d102541.js"
+    "static/js/main.2a80d04b.js"
   ]
 }

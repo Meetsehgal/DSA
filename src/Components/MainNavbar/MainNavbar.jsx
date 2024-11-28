@@ -56,7 +56,7 @@ export default function MainNavbar() {
         }
     ]
     return (
-        <div className={window.location.pathname == "/" ? "px-lg-2" : ""}>
+        <div className={window.location.pathname == "/" ? "" : ""}>
         <div className='px-lg-3 main-navbar-box'>
             <LoginModal />
             <Navbar collapseOnSelect expand="lg" className='main-navbar py-0'>
@@ -91,7 +91,7 @@ export default function MainNavbar() {
                             <div className="d-flex align-items-center">
                                 <Nav.Link href="/magazine">Magazine</Nav.Link>
                                 <Nav.Link href="/newsletter">Newsletter</Nav.Link>
-                                <Nav.Link href="/">Alerts</Nav.Link>
+                                <Nav.Link href="/newsletter-alert-page">Alerts</Nav.Link>
 
 
                                 {/* <div className="search-btn ms-2 mb-1">
