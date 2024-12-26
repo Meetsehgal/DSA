@@ -287,7 +287,7 @@ const printHandleClick=()=>{
                             <div>                                
                                 <div className="main-heading">
                                     <h2>
-                                        Sponsorship  with DSA
+                                        Sponsorship with DSA
                                     </h2>
                                 </div>
                                 <p className="bottom-p">Support <i>DSA's</i> initiatives through sponsorship and gain exclusive recognition across our platforms, aligning your brand with excellence in defense journalism.</p>

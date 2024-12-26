@@ -1,5 +1,5 @@
-var urlString = "http://208.109.244.236/dsalert-api/";
-// var urlString = "http://localhost:3307/trainhighgym-api/";
+// var urlString = "http://208.109.244.236/dsalert-api/";
+var urlString = "http://localhost:3309/dsalert-api/";
 var access = sessionStorage.getItem("access");
 const GetApiCall = {
   getRequest(url) {

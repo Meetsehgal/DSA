@@ -15,7 +15,7 @@ export default function Header() {
                             <div className="d-flex align-items-end">
                                 <p className="name">
                                     Defence <span>&</span></p>
-                                <h1>Commited to Defence <br /> and Security Worlwide</h1>
+                                <h1>Committed to Defence <br /> and Security Worldwide</h1>
                             </div>
                             <div className="d-flex align-items-center">
                                 <div className="logo">

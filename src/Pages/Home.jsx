@@ -16,7 +16,7 @@ import PodcastSection from "../Components/Home/PodcastSection/PodcastSection";
 import ServiceSection from "../Components/Home/ServiceSection/ServiceSection";
 import TestimonialSection from "../Components/Home/TestimonialSection/TestimonialSection";
 import GetApiCall from "../Helpers/Api/GetApi";
-import MainFooter from "../Components/MainFooter/MainFooter";
+// import MainFooter from "../Components/MainFooter/MainFooter";
 // import MainNavbar from "../Components/MainNavbar/MainNavbar";
 import SubImg from "../assets/img/sub.png"
 import { Link } from "react-router-dom";
@@ -86,7 +86,7 @@ export default function Home() {
   const filteredNewsletterSectionBanners = newsLetterData?.filter((item) => item?.fld_type === "MainNews")
 
   const filteredPodcastSectionBanners = newsLetterData?.filter((item) => item?.fld_type === "PodCast")
-  const filteredCurrentAffairsBanners = newsLetterData?.filter((item) => item?.fld_type === "CurrentAffairs")
+  // const filteredCurrentAffairsBanners = newsLetterData?.filter((item) => item?.fld_type === "CurrentAffairs")
 
 
 

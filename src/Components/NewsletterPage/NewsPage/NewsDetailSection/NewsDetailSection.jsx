@@ -1,5 +1,3 @@
-import { FaFacebookF, FaInstagramSquare, FaLinkedinIn, FaYoutube } from "react-icons/fa";
-import { FaSquareInstagram, FaXTwitter } from "react-icons/fa6";
 import NoImg from "../../../../assets/img/no-image.jpg";
 import "./NewsDetailSection.css";
 import { useParams } from "react-router-dom";
@@ -35,7 +33,7 @@ export default function NewsDetailSection() {
         })
     }
 
-    const newsItem = newsLetterPageData?.find(item => item.fld_id === parseInt(id));
+    // const newsItem = newsLetterPageData?.find(item => item.fld_id === parseInt(id));
 
     useEffect(() => {
         getNewsLetterPageData()
