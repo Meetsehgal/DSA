@@ -35,13 +35,13 @@ export default function IndianArmySection({data, setDefenceForceType}) {
                                     Categories
                                 </p>
                                 <ul>
-                                    <li onClick={() => getFilteredData('Indian Army')}>
+                                    <li className={currentCategory === "Indian Army" ? "defsec-cat Active": "defsec-cat"} onClick={() => getFilteredData('Indian Army')}>
                                         Indian Army
                                     </li>
-                                    <li onClick={() => getFilteredData('Indian Navy')}>
+                                    <li className={currentCategory === "Indian Navy" ? "defsec-cat Active": "defsec-cat"} onClick={() => getFilteredData('Indian Navy')}>
                                         Indian Navy
                                     </li>
-                                    <li onClick={() => getFilteredData('Indian Air Force')}>Indian Air Force</li>
+                                    <li className={currentCategory === "Indian Air Force" ? "defsec-cat Active": "defsec-cat"} onClick={() => getFilteredData('Indian Air Force')}>Indian Air Force</li>
                                 </ul>
                             </div>
                         </div>
@@ -50,8 +50,7 @@ export default function IndianArmySection({data, setDefenceForceType}) {
             </section>
             <section className="section-spacing indian-army-section pt-0 mb-5">
                 <div className="container-fluid">
-                    {
-                        filteredData?.map((item,id)=>{
+                    {filteredData?.map((item,id)=>{
                             return( <div className="row" key={id}>
                         <div className="col-12">
                             <div className="main-heading text-center pb-4 pb-lg-5 pt-4 mb-2">
@@ -62,7 +61,7 @@ export default function IndianArmySection({data, setDefenceForceType}) {
                         </div>
                         <div className="col-lg-5 left-section">
                             <div className="image">
-                                <img src={LeftBanner} className="img-fluid" alt={item?.fld_alt} />
+                                <img src={item?.fld_image} className="img-fluid" alt={item?.fld_alt} />
                             </div>
                         </div>
                         <div className="col-lg-7 right-section">

@@ -29,15 +29,15 @@ export default function NewsletterSection({ banners }) {
                             pagination={false}
                             breakpoints={{
                                 640: {
-                                    slidesPerView: 2,
+                                    slidesPerView: 2.5,
                                     spaceBetween: 30,
                                 },
                                 768: {
-                                    slidesPerView: 2,
+                                    slidesPerView: 2.5,
                                     spaceBetween: 30,
                                 },
                                 1024: {
-                                    slidesPerView: 3.5,
+                                    slidesPerView: 2.5,
                                     spaceBetween: 30,
                                 },
                             }}

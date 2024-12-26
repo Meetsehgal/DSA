@@ -10,7 +10,7 @@ export default function CeoSection() {
         <section className="section-spacing ceo-section my-5">
             <div className="container-fluid">
                 <div className="row justify-content-center">
-                    <div className="col-lg-5 pe-lg-5">
+                    <div className="col-lg-5 col-md-5 pe-md-5 pe-lg-5">
                         <div className="ceo-card">
                             <img src={Left1} className="img-fluid" alt="" />
                             <p className="name">
@@ -20,11 +20,11 @@ export default function CeoSection() {
                                 Editor-in-Chief
                             </span>
                             <div className="text-end">
-                                <Link to="" >Read The Blog</Link>
+                                <Link to="/articles" >Read The Blog</Link>
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-5 ps-lg-5">
+                    <div className="col-lg-5 col-md-5 ps-md-5 ps-lg-5">
                         <div className="ceo-card mb-0">
                             <img src={Right1} className="img-fluid" alt="" />
                             <p className="name">
@@ -35,7 +35,7 @@ export default function CeoSection() {
                                 Publisher & CEO
                             </span>
                             <div className="text-end">
-                                <Link to="" >Read The Blog</Link>
+                                <Link to="/articles" >Read The Blog</Link>
                             </div>
                         </div>
                     </div>

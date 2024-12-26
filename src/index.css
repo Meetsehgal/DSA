@@ -188,6 +188,8 @@ h5.h6 {
   .home-subscribe-section {
     height: 550px;
     margin-top: 2rem;
+    margin-bottom: -19rem;
+  
   }
 
   .home-subscribe-section img {

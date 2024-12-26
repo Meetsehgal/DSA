@@ -10,18 +10,9 @@
 
 .active{
     color: var(--theme-color) !important;
-    font-family: bodyfontbold;
-    
+    font-family: bodyfontbold;    
 }
-
-/* .magazine-navigation .name a, */
-.magazine-navigation .navigation-bar NavLink:hover{
-   /* background-color: var(--theme-color); */
-   color: pink;
-
-}
-
-
+ 
 .magazine-navigation .navigation-bar .name{
     font-size: 1.2rem;
     /* font-family: "bodyfontbold" !important; */
@@ -59,6 +50,22 @@
     justify-content: center;
     margin-left: 8px;
 }
+
+
+@media(max-width:1400px){
+    .magazine-navigation h1{
+        font-size: 4.1rem;
+    }
+
+}
+
+@media(max-width:1200px){
+    .magazine-navigation h1{
+        font-size: 3.4rem;
+    }
+
+}
+
 @media (max-width:992px) {
     .magazine-navigation h1{
         font-size: 2rem;

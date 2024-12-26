@@ -3,6 +3,15 @@ import PageFlip from 'react-pageflip';
 import { getDocument, GlobalWorkerOptions } from 'pdfjs-dist/webpack';
 import pdfFile from '../../assets/img/DSA_Edition.pdf';
 import './FlipBook.css';
+import HTMLFlipBook from 'react-pageflip';
+import image1 from '../../assets/img/dsa-additions/DSA_Edition-01.png'
+import image2 from '../../assets/img/dsa-additions/DSA_Edition-02.png'
+import image3 from '../../assets/img/dsa-additions/DSA_Edition-03.png'
+import image4 from '../../assets/img/dsa-additions/DSA_Edition-04.png'
+import image5 from '../../assets/img/dsa-additions/DSA_Edition-05.png'
+import image6 from '../../assets/img/dsa-additions/DSA_Edition-06.png'
+import image7 from '../../assets/img/dsa-additions/DSA_Edition-07.png'
+
  
 
 GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.worker.min.js`;
@@ -13,57 +22,56 @@ const Flipbook = () => {
     const pageFlipRef = useRef(null);
     const [currentPage, setCurrentPage] = useState(0);
 
-    const loadPDF = async () => {
-        const loadingTask = getDocument(pdfFile);
-        const pdf = await loadingTask.promise;
-        const numPages = pdf.numPages;
+    // const loadPDF = async () => {
+    //     const loadingTask = getDocument(pdfFile);
+    //     const pdf = await loadingTask.promise;
+    //     const numPages = pdf.numPages;
 
-        const imgPromises = [];
-        for (let i = 1; i <= numPages; i++) {
-            imgPromises.push(renderPageToImage(pdf, i));
-        }
-        const imgUrls = await Promise.all(imgPromises);
+    //     const imgPromises = [];
+    //     for (let i = 1; i <= numPages; i++) {
+    //         imgPromises.push(renderPageToImage(pdf, i));
+    //     }
+    //     const imgUrls = await Promise.all(imgPromises);
 
-        if (imgUrls.length % 2 !== 0) {
-            imgUrls.push(null); // Adds a blank page if pages are odd
-        }
+    //     if (imgUrls.length % 2 !== 0) {
+    //         imgUrls.push(null); // Adds a blank page if pages are odd
+    //     }
+    //     setPages(imgUrls);
+    // };
 
-        setPages(imgUrls);
-    };
+    // const renderPageToImage = async (pdf, pageNum) => {
+    //     const page = await pdf.getPage(pageNum);
+    //     const viewport = page.getViewport({ scale: 1 }); // Get the actual aspect ratio
 
-    const renderPageToImage = async (pdf, pageNum) => {
-        const page = await pdf.getPage(pageNum);
-        const viewport = page.getViewport({ scale: 1 }); // Get the actual aspect ratio
+    //     if (pageNum === 1) {
+    //         setPageAspectRatio(viewport.height / viewport.width); // Set the aspect ratio based on the first page
+    //     }
 
-        if (pageNum === 1) {
-            setPageAspectRatio(viewport.height / viewport.width); // Set the aspect ratio based on the first page
-        }
+    //     const canvas = document.createElement('canvas');
+    //     const context = canvas.getContext('2d');
+    //     canvas.height = viewport.height;
+    //     canvas.width = viewport.width;
 
-        const canvas = document.createElement('canvas');
-        const context = canvas.getContext('2d');
-        canvas.height = viewport.height;
-        canvas.width = viewport.width;
+    //     const renderContext = {
+    //         canvasContext: context,
+    //         viewport: viewport,
+    //     };
 
-        const renderContext = {
-            canvasContext: context,
-            viewport: viewport,
-        };
+    //     await page.render(renderContext).promise;
+    //     return canvas.toDataURL();
+    // };
 
-        await page.render(renderContext).promise;
-        return canvas.toDataURL();
-    };
+    // const handleNext = () => {
+    //     if (pageFlipRef.current) {
+    //         pageFlipRef.current.pageFlip().flipNext();
+    //     }
+    // };
 
-    const handleNext = () => {
-        if (pageFlipRef.current) {
-            pageFlipRef.current.pageFlip().flipNext();
-        }
-    };
-
-    const handlePrev = () => {
-        if (pageFlipRef.current) {
-            pageFlipRef.current.pageFlip().flipPrev();
-        }
-    };
+    // const handlePrev = () => {
+    //     if (pageFlipRef.current) {
+    //         pageFlipRef.current.pageFlip().flipPrev();
+    //     }
+    // };
 
 
 
@@ -149,22 +157,47 @@ const Flipbook = () => {
         }
     };
 
-    useEffect(() => {
-        loadPDF();
-    }, []);
+    // useEffect(() => {
+    //     loadPDF();
+    // }, []);
     useEffect(()=>{
         window.scrollTo({ top: 0, behavior: 'smooth' });
     },[])
 
-    const flipbookHeight = Math.min(window.innerWidth * pageAspectRatio, window.innerHeight * 0.9); // Limit height to 90% of viewport
-
+    // const flipbookHeight = Math.min(window.innerWidth * pageAspectRatio, window.innerHeight * 0.9); // Limit height to 90% of viewport
+    const pages1 = [{imrurl:image1},
+        {imrurl:image2},
+        {imrurl:image3},
+        {imrurl:image4},
+        {imrurl:image5},
+        {imrurl:image6},
+        {imrurl:image7},
+    ]
     return (
         <section className="section-spacing">
             <div className="container">
                 <div className="row">
                     <div className="col-12">
                         <div className="full-screen-container" >
-                            <PageFlip
+                            <HTMLFlipBook
+                            width={350}
+                            height={500}
+                            size="stretch"
+                            // maxShadowOpacity={0.5}
+                            showCover={true}
+                            // mobileScrollSupport={true}
+                            // className="demo-book"
+                            >
+                                
+                                {pages1.map((dat)=>{
+                                    return(
+                                        <div>
+                                            <img style={{width:"100%"}} src={dat.imrurl}/>
+                                        </div>
+                                    )
+                                })}
+                            </HTMLFlipBook>
+                            {/* <PageFlip
                                 ref={pageFlipRef}
                                 width={window.innerWidth}
                                 height={window.innerHeight}
@@ -188,9 +221,9 @@ const Flipbook = () => {
                                     }
                                     return pairs;
                                 }, [])}
-                            </PageFlip>
+                            </PageFlip> */}
 
-                            <div className="pagination align-items-center">
+                            {/* <div className="pagination align-items-center">
                                 <button className="theme-btn theme-btn-bg" onClick={handlePrev} disabled={currentPage === 0}>
                                     Previous
                                 </button>
@@ -200,7 +233,7 @@ const Flipbook = () => {
                                 <button className="theme-btn theme-btn-bg" onClick={handleNext} disabled={currentPage === pages.length - 1}>
                                     Next
                                 </button>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

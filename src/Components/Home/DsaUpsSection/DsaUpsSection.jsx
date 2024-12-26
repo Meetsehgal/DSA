@@ -30,12 +30,17 @@ export default function DsaUpsSection() {
                             loop={true}
                             pagination={false}
                             breakpoints={{
+
+                                375: {
+                                    slidesPerView: 1.5,
+                                    spaceBetween: 20,
+                                  },
                                 640: {
-                                  slidesPerView: 2,
+                                  slidesPerView: 2.5,
                                   spaceBetween: 20,
                                 },
                                 768: {
-                                  slidesPerView: 3,
+                                  slidesPerView: 2.5,
                                   spaceBetween: 20,
                                 },
                                 1024: {

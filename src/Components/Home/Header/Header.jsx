@@ -8,7 +8,7 @@ export default function Header() {
     return (
         <>
             <header className="px-lg-2 home-header">
-                <MainNavbar />
+                {/* <MainNavbar /> */}
                 <div className="container-fluid pt-lg-5">
                     <div className="content px-lg-3 pt-lg">
                         <div className="left-content  d-lg-flex">

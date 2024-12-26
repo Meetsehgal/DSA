@@ -33,7 +33,7 @@ export default function ContactUsServiceSection() {
                                             Subscribe
                                         </p>
                                         <span className="des">
-                                        DSA offers are for online and print magazine. Stay ahead with our in-depth defence and security worldwide insights! Subscribe now for exclusive online access to expert analysis and the latest .
+                                        DSA offers are for online and print magazine. Stay ahead with our in-depth defence and security worldwide insights! Subscribe now for exclusive online access to expert analysis and the latest updates.
                                         </span>
                                     </div>
                                     <div className="arrow-btn">

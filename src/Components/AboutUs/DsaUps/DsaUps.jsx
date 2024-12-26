@@ -13,7 +13,7 @@ export default function DsaUps() {
                             <span><i>DSA</i></span> USP’s
                         </h2>
                     </div>
-                    <div className="col-md-6 col-lg-3">
+                    <div className="col-md-3 col-lg-3">
                         <div className="dsa-card">
                             <div className="count">
                                 01
@@ -31,7 +31,7 @@ export default function DsaUps() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-lg-3">
+                    <div className="col-md-3 col-lg-3">
                         <div className="dsa-card">
                             <div className="count">
                                 02
@@ -49,7 +49,7 @@ export default function DsaUps() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-lg-3">
+                    <div className="col-md-3 col-lg-3">
                         <div className="dsa-card">
                             <div className="count">
                                 03
@@ -67,7 +67,7 @@ export default function DsaUps() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-lg-3 mb-0">
+                    <div className="col-md-3  col-lg-3 ">
                         <div className="dsa-card last-dsa-card">
                             <div className="count">
                                 04

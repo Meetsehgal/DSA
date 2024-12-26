@@ -79,7 +79,15 @@
         width: 90%;
         text-align: center;
     }
+    .dsa-audit-section .center-heading span{
+        font-size: 2rem;
+    }
     .dsa-audit-section .center-heading h2{
-        font-size: 1.5rem;
+        /* font-size: 1.5rem; */
+        font-size: 2.5rem;
+    }
+    .dsa-audit-section img{
+        height: 70%;
+
     }
 }

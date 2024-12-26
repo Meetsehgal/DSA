@@ -30,9 +30,9 @@ function App() {
   // const location = useLocation();
   const WebsiteLayout = () => (
     <div>
-      {window.location.pathname === "/" ? " " : <MainNavbar />}
+      <MainNavbar />
       <Outlet />
-      {window.location.pathname === "/" ? " " : <MainFooter />}
+      <MainFooter />
       {/* {window.location.pathname === '/' ? " " : <TestimonialSection />}
       {window.location.pathname === '/' ? " " : <GroupWebsites />} */}
     </div>

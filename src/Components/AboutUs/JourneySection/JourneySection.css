@@ -1,6 +1,8 @@
 .journey-section {
   width: 100%;
   height: 100%;
+  /* display: flex; */
+  position: relative;
    
  
    
@@ -30,7 +32,8 @@
  
 .journey-section .bgImage{
   width: 100%;
-  height: 92vh;
+  height: 95vh;
+  
    background-image: url("../../../assets/img/about/Journey\ so\ far_\ Background.png");
 
 
@@ -40,33 +43,120 @@
 .journey-section .image{
    width: 100%;
   height: 90vh;
-  /* margin-right: 4rem; */
+ 
+  position: absolute;
+  bottom: 0;
   display: flex;
-  flex-direction: column;
+   
   align-items: center;
   justify-content: center;
-  margin-top: -41.5rem;
+ 
     
   /* background-image: url("../../../assets/img/about/Journey\ so\ far_\ Background.png"); */
   background-size: cover;
-  /* background-color: pink; */
   
   
 
 }
 .journey-section img {
-  /* height: 823px; */
-  /* width: 100vw; */
-   /* width: 50%; */
+   
    width: 60%;
    height: 100%;
          aspect-ratio: 1/1;
-   /* margin-right: -4rem; */
-      /* background-color: yellow; */
+   
   object-fit: contain;
   object-position: center;
-  /* margin-top: 2rem; */
+   
+}
 
-  /* border-radius: 20px; */
-  /* margin-left: 60px; */
+@media (max-width:992px){
+
+  .journey-section{
+    position: relative;
+  }
+  .journey-section .bgImage{
+    width: 100%;
+    height: 83vh;
+     
+  }
+
+  .journey-section .image{
+    height: 78vh; 
+   
+    position: absolute;
+    bottom: 0;
+    display: flex; 
+    
+    background-size: cover;
+
+  }
+
+
+  .journey-section img {
+     
+width: 100%;
+    height: 100%;
+    
+
+  }
+
+}
+
+ @media (max-width:768px){
+
+
+
+
+  .journey-section{
+    position: relative;
+  }
+  .journey-section .bgImage{
+    width: 100%;
+    height: 83vh;
+     
+  }
+
+  .journey-section .image{
+    height: 78vh; 
+   
+    position: absolute;
+    bottom: 0;
+    display: flex; 
+    
+    background-size: cover;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .journey-section img {
+    
+    width: 100%;
+        height: 100%;
+      }
+    
+
+ }
+
+
+
+
+@media (max-width:576px){  
+  .journey-section img {
+    
+width: 100%;
+    height: 100%;
+  } 
+  
 }

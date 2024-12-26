@@ -21,11 +21,7 @@
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
-
-
 }
-
-
 .articles-section .heading-box a {
   padding: 8px 30px;
   border: 2px solid var(--theme-color);
@@ -104,8 +100,7 @@
 
 .articles-section .left-swiper-box .article-left-card .image {
   /* width: 275px; */
-  width: 20vw;
-  
+  width: 20vw;  
   aspect-ratio: 1/1;
   background-color: var(--main-color-one);
   padding: 10px;
@@ -294,21 +289,48 @@ height: 38vh;
 }
 
 @media (max-width:992px) {
-  .articles-section
+  /* .articles-section
   .left-swiper-box
   .article-left-card
   .right-content-box
   .top-section
   h3 {
     font-size: 1.5rem;
+  } */
+
+  .articles-section .heading-box a{
+    padding: 3px 20px;
   }
   .articles-section .left-swiper-box .article-left-card .right-content-box .top-section{
     transform: translate(0);
   }
+  .articles-section .left-swiper-box .article-left-card .right-content-box .top-section h4{
+    font-size: 1.6rem;
+  }
+
+  .articles-section .left-swiper-box .article-left-card::before{
+    /* width: 53%; */
+    width: 62%;
+
+  }
+
+  .articles-section .left-swiper-box .article-left-card .image{
+    width: 28vw;
+  }
+  
+  .articles-section .left-swiper-box .article-left-card .right-content-box {
+    position: absolute;
+    transform:translate(-80%, -50%);
+
+  }
+  .articles-section .left-swiper-box .article-left-card .content{
+    margin-left: 4.5rem;
+  } 
   .articles-section .right-section{
     margin-top: 3rem;
     height: auto;
-    aspect-ratio: 1/2.5;
+    /* aspect-ratio: 1/2.5; */
+    aspect-ratio: 1/1;
   }
   .articles-section .right-section .cards-box .content p{
     font-size: 1.1rem;
@@ -316,4 +338,32 @@ height: 38vh;
   .articles-section .view-event-btn a{
     font-size: 1.2rem;
   }
+}
+
+
+@media (max-width:768px){
+  .articles-section .left-swiper-box .article-left-card .image{
+    width: 32vw;
+  }
+  
+  .articles-section .left-swiper-box .article-left-card .right-content-box {
+    position: absolute;
+    transform:translate(-105%, -50%);
+
+  }
+
+}
+
+@media(max-width:576px){
+
+  .articles-section .left-swiper-box .article-left-card .image{
+    width: 43vw;
+  }
+
+  .articles-section .left-swiper-box .article-left-card .right-content-box {
+    position: absolute;
+    transform:translate(-86%, -50%);
+
+  }
+
 }

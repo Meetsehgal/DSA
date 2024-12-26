@@ -29,10 +29,10 @@ export default function PodcastsSection() {
                     </div>
                 </div>
                 <div className="row position-relative py-5 align-items-center justify-content-center center-section">
-                    <div className="col-lg-4 col-6">
+                    <div className="col-lg-4 col-4">
                         <img src={Image1} className="img-fluid left-img" alt="" />
                     </div>
-                    <div className="col-lg-5 col-6">
+                    <div className="col-lg-5 col-5">
                         <img src={Image2} className="img-fluid right-img" alt="" />
                     </div>
                     <div className="center-heading">

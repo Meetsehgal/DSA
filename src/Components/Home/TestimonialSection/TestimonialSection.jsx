@@ -16,8 +16,6 @@ import bgImg from "../../../assets/img/testimonial-bg.png";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import GetApiCall from "../../../Helpers/Api/GetApi";
-
-
 export default function TestimonialSection() {
     const [reviews, setReviews] = useState([]);
     const [error, setError] = useState(null);
@@ -61,12 +59,20 @@ export default function TestimonialSection() {
                             navigation
                             pagination={false}
                             breakpoints={{
-                                640: {
-                                    slidesPerView: 1,
+                                320:{
+                                    slidesPerView: 1.3,
+                                    spaceBetween: 20,
+                                },
+                                576:{
+                                    slidesPerView: 1.3,
+                                    spaceBetween: 20,
+                                },
+                                640:{
+                                    slidesPerView: 1.2,
                                     spaceBetween: 20,
                                 },
                                 768: {
-                                    slidesPerView: 1.8,
+                                    slidesPerView: 1.5,
                                     spaceBetween: 40,
                                 },
                                 1024: {

@@ -118,7 +118,7 @@ export default function Home() {
           <Link to="/services" className="theme-btn">SUBSCRIBE</Link>
         </div>
       </section>
-      <MainFooter />
+      {/* <MainFooter /> */}
     </>
   )
 }

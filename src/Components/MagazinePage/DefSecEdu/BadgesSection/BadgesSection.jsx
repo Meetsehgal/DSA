@@ -7,27 +7,32 @@ export default function BadgesSection({data, type, setType}) {
 
 
     const [filteredData, setFilteredData] = useState([]);
-    console.log(type)
-  
+    const [currentCategory, setCurrentCategory] = useState("Commissioned")
     const getFilteredData = (badgeType) => {
             const filtered = data?.filter(item => 
                 // item?.fld_badge_type === badgeType &&
                  item?.fld_category === type.defenceForceType
             );
-            console.log(filtered)
             const allBadges = filtered?.flatMap(item => JSON.parse(item?.badges));
             const filteredBadges = allBadges?.filter(item => item.badge_type === badgeType)
             setFilteredData(filteredBadges);
+            setCurrentCategory(badgeType)
     }
 
     useEffect(() => {
         const defaultData = data?.filter(item => 
             // item?.fld_badge_type === "Commissioned" &&
-             item?.fld_category === "Indian Army")
+             item?.fld_category ===
+            //  type.defenceForceType ||
+             "Indian Army")
         const allBadges = defaultData?.flatMap(item => JSON.parse(item?.badges));
         const filteredBadges = allBadges?.filter(item => item.badge_type === "Commissioned")
         setFilteredData(filteredBadges);
     }, [data,type]);
+
+    useEffect(()=>{
+        getFilteredData(currentCategory)
+    },[type.defenceForceType])
 
     return (
         <section className="section-spacing badges-section pt-0">
@@ -35,20 +40,20 @@ export default function BadgesSection({data, type, setType}) {
                 <div className="row">
                     <div className="col-lg-10 mx-auto">
                         <h2 className="heading">
-                            All Badges of the Indian Army and Their Meaning
+                            All Badges of the {type.defenceForceType} and Their Meaning
                         </h2>
                     </div>
                     <div className="col-lg-7 mb-4 mx-auto">
 
                         <div className="badge-category">
                             <ul>
-                                <li onClick={() => getFilteredData("Commissioned")}>
+                                <li className={currentCategory === "Commissioned" ? "defsec-cat Active": "defsec-cat"} onClick={() => getFilteredData("Commissioned")}>
                                     <p>Commissioned</p>
                                 </li>
-                                <li onClick={() => getFilteredData("Junior Commissioned")}>
+                                <li className={currentCategory === "Junior Commissioned" ? "defsec-cat Active": "defsec-cat"} onClick={() => getFilteredData("Junior Commissioned")}>
                                     <p>Junior Commissioned</p>
                                 </li>
-                                <li onClick={() => getFilteredData("Non- Commissioned")}>
+                                <li className={currentCategory === "Non- Commissioned" ? "defsec-cat Active": "defsec-cat"} onClick={() => getFilteredData("Non- Commissioned")}>
                                     <p>Non-Commissioned</p>
                                 </li>
                             </ul>
@@ -75,8 +80,7 @@ export default function BadgesSection({data, type, setType}) {
                                     <p>Badges</p>
                                 </div>
                             </div>
-                            {
-                                filteredData?.map((item, id) => {
+                            {filteredData?.sort((a,b)=>a.badge_sequence - b.badge_sequence).map((item, id) => {
                                     return (<div className="badge-card" key={id}>
                                         <div className="image">
                                             <img src={item?.badge_image} className="img-fluid" alt={item?.badge_alt} />

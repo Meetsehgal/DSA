@@ -5,12 +5,12 @@ export default function NewArticlesSection({ data }) {
         <section className="section-spacing pt-0 new-articles-section">
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 mt-1">
                         <h2 className="main-heading">
                             {data[0]?.fld_heading}
                         </h2>
                     </div>
-                    <div className="col-lg-8">
+                    <div className="col-lg-8 mt-1">
                         <p>
                             {data[0]?.fld_short_desc}
                         </p>

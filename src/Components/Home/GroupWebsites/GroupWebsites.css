@@ -8,6 +8,7 @@
 .group-company-section .company-card a {
     display: inline-block;
     width: 18%;
+    /* width: 20%; */
     aspect-ratio: 1/1;
     height: auto;
     border-radius: 50%;
@@ -55,6 +56,34 @@
 
 @media (max-width:992px) {
     .group-company-section .company-card img {
-        width: 27%;
+        /* width: 27%; */
+        width: 100%;
+    }
+    .group-company-section .company-card a{
+        width: 22%;
     }
 }
+
+ @media (max-width:768px) {
+    .group-company-section .company-card img {
+        /* width: 27%; */
+        width: 100%;
+    }
+    .group-company-section .company-card a{
+        width: 23%;
+    }
+}
+ 
+
+
+@media (max-width:576px) {
+    .group-company-section .company-card img {
+        /* width: 27%; */
+        width: 100%;
+    }
+    .group-company-section .company-card a{
+        width: 24%;
+    }
+}
+
+

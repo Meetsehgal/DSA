@@ -75,8 +75,6 @@ export default function AlertPage() {
                                             <span>
                                                 Date -  {item?.fld_date || "Not available"}
                                             </span>
-                                            <Link to="" className="theme-btn">
-                                                Full news</Link>
                                         </div>
                                     </div>
                                 </div>

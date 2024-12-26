@@ -43,7 +43,7 @@ export default function AbouUsSection({banners}) {
         <section className="section-spacing pb-4 about-section position-relative ">
             <div className="container-fluid">
                 <div className="row justify-content-evenly">
-                    <div className="col-lg-8 left-section">
+                    <div className="col-lg-8 col-md-8 left-section">
                         <img alt={banners[0]?.fld_alt} src={banners[0]?.fld_desktop_image} className="img-fluid" />
                         <div className="content">
                             <img src={BgShape} className="img-fluid bg-shape" alt="" />
@@ -61,7 +61,7 @@ export default function AbouUsSection({banners}) {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 about-section-swiper">
+                    <div className="col-lg-4 col-md-4 about-section-swiper">
                         <h2 className="main-heading text-center mb-0 mt-4">
                             <i>dsa</i> <span>editions</span>
                         </h2>
@@ -104,7 +104,7 @@ export default function AbouUsSection({banners}) {
 
                         <Swiper
                             onSwiper={setThumbsSwiper}
-                            spaceBetween={5}
+                            spaceBetween={5}    
                             slidesPerView={4.5}
                             freeMode={true}
                             

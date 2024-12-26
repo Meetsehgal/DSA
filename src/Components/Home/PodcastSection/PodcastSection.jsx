@@ -45,7 +45,7 @@ export default function PodcastSection({ banners }) {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-5">
+                    <div className="col-lg-5 col-md-12 ">
                         <div className="right-card">
                             <img src={banners[0]?.fld_image} alt="" className="img-fluid" />
                             <div>

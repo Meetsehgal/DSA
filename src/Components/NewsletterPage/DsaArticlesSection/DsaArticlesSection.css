@@ -90,6 +90,17 @@ font-family: "headingbold" !important;
         font-size: 2rem;
     }
     .dsa-articles-section .left-section .bottom-section{
-        margin: 3rem 0;
+        margin: 5rem 0;
     }
+
+    /* dsa-articles-section .image {
+        height: 45%;
+        margin-left: 1.9vw;
+    } */
+    
+    .dsa-articles-section .image img {
+        
+        aspect-ratio: 0.8/0.4;
+    }
+         
 }

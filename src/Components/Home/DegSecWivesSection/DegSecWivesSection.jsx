@@ -18,7 +18,7 @@ export default function DegSecWivesSection() {
                             </h2>
                         </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-6">
                         <div className="top-section">
                             <div className="image-section">
 
@@ -52,10 +52,10 @@ export default function DegSecWivesSection() {
                                 <p>
                                     learn career opportunities with DSA learn career opportunities with DSA learn career opportunities with DSA
                                 </p>
-                            </div>
+                            </div>  
                         </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-6">
                         <div className="d-flex flex-column h-100 justify-content-between">
                             <div>
                                 <div className="top-heading">

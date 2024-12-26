@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+    import { Link } from "react-router-dom";
 import "./ArticlesSection.css";
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -65,7 +65,7 @@ export default function ArticlesSection() {
         <section className="section-spacing pt-0 articles-section">
             <div className="container-fluid py-lg-5">
                 <div className="row justify-content-between">
-                    <div className="col-lg-6 pe-lg-5">
+                    <div className="col-lg-6 col-md-6 pe-lg-5">
                         <div className=" pt-0 pb-2 heading-box mb-2 pe-0">
                             <h2 className="main-heading">
                                 Articles
@@ -128,7 +128,7 @@ export default function ArticlesSection() {
                             </Swiper>
                         </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-6">
                         <div className="right-section">
                             <div className="heading">
                                 <h2 className="main-heading">

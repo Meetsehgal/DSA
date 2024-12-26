@@ -20,28 +20,28 @@ export default function InstagramFeed() {
                             </Link>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-6 mb-3 test ">
+                    <div className="col-lg-3 col-md-3  col-sm-4 col-6 mb-3 test ">
                         <img src={NoImg} className="img-fluid" alt="" />
                     </div>
-                    <div className="col-lg-3 col-6 mb-3">
+                    <div className="col-lg-3  col-md-3  col-sm-4 col-6 mb-3">
                         <img src={NoImg} className="img-fluid" alt="" />
                     </div>
-                    <div className="col-lg-3 col-6 mb-3">
+                    <div className="col-lg-3 col-md-3  col-sm-4 col-6 mb-3">
                         <img src={NoImg} className="img-fluid" alt="" />
                     </div>
-                    <div className="col-lg-3 col-6 mb-3">
+                    <div className="col-lg-3 col-md-3   col-sm-4 col-6 mb-3">
                         <img src={NoImg} className="img-fluid" alt="" />
                     </div>
-                    <div className="col-lg-3 col-6 mb-3 mb-lg-0">
+                    <div className="col-lg-3 col-md-3  col-sm-4 col-6 mb-3 mb-lg-0">
                         <img src={NoImg} className="img-fluid" alt="" />
                     </div>
-                    <div className="col-lg-3 col-6 mb-3 mb-lg-0">
+                    <div className="col-lg-3 col-md-3   col-sm-4 col-6 mb-3 mb-lg-0">
                         <img src={NoImg} className="img-fluid" alt="" />
                     </div>
-                    <div className="col-lg-3 col-6 mb-3 mb-lg-0">
+                    <div className="col-lg-3 col-md-3   col-sm-4 col-6 mb-3 mb-lg-0">
                         <img src={NoImg} className="img-fluid" alt="" />
                     </div>
-                    <div className="col-lg-3 col-6 mb-3 mb-lg-0">
+                    <div className="col-lg-3 col-md-3   col-sm-4   col-6 mb-3 mb-lg-0">
                         <img src={NoImg} className="img-fluid" alt="" />
                     </div>
                 </div>

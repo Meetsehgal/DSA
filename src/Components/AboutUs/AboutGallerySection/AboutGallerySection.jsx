@@ -29,7 +29,7 @@ export default function AboutGallerySection() {
                             <h2>
                                 <span><i>dsa</i></span> galley
                             </h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                            <p>Showcasing DSA's Commitment: High-Level Defence Conversations and Global Collaborations in Focus.</p>
                         </div>
                         <Swiper
                         slidesPerView={1}
@@ -59,9 +59,11 @@ export default function AboutGallerySection() {
                                 <div className="col-lg-5 col-6 order-lg-last">
                                     <img src={Gallery5} className='img-fluid' alt="" />
                                 </div>
-                                
                             </SwiperSlide>
 
+
+
+                            
                             <SwiperSlide className='row'>
                                 <div className="col-lg-4 col-6">
                                     <img src={Gallery1} className='img-fluid' alt="" />
@@ -75,11 +77,12 @@ export default function AboutGallerySection() {
                                 <div className="col-lg-7 order-last order-lg-4">
                                     <img src={Gallery4} className='img-fluid' alt="" />
                                 </div>
-                                
+                                {/* <div className="col-lg-4 col-6 order-lg-last">
+                                    <img src={Gallery5} className='img-fluid' alt="" />
+                                </div> */}
                                 <div className="col-lg-5 col-6 order-lg-last">
                                     <img src={Gallery5} className='img-fluid' alt="" />
                                 </div>
-                                
                             </SwiperSlide>
                         </Swiper>
                     </div>
