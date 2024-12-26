@@ -20,7 +20,7 @@ export default function MainFooter() {
                 <img src={TopImg} className="img-fluid top-img" alt="" />
                 <div className="container-fluid position-relative">
                     <div className="row">
-                        <div className="col-lg-4 font-size">
+                        <div className="col-lg-4  font-size">
                             <img src={Logo1} className="img-fluid mb-2" alt="" />
                             <p>From the house of <b>OCEAN MEDIA PRIVATE LIMITED</b></p>
                             <p className=" mb-3"> An ISO 9001:2015 Certified Company <br></br> (A Group company of Prabhat Prakashan Pvt. Ltd.) </p>
@@ -30,9 +30,9 @@ export default function MainFooter() {
                                 <SocialIcons/>
                             </ul>
                         </div>
-                        <div className="col-lg-8 footer-links ps-lg-5 mt-lg-3">
+                        <div className="col-lg-8   footer-links ps-lg-5 mt-lg-3">
                             <div className="row">
-                                <div className="col-lg-5 ps-lg-4">
+                                <div className="col-lg-5 col-5  ps-lg-4">
                                     <h4>
                                         Contact Info
                                     </h4>
@@ -70,7 +70,7 @@ export default function MainFooter() {
                                         </li>
                                     </ul>
                                 </div>
-                                <div className="col-lg-4 ps-lg-5 quicklinks">
+                                <div className="col-lg-4   col-3 ps-lg-5 quicklinks">
                                     <h4>
                                         Quick Links
                                     </h4>
@@ -112,7 +112,7 @@ export default function MainFooter() {
                                         </li>
                                     </ul>
                                 </div>
-                                <div className="col-lg-3 resources">
+                                <div className="col-lg-3 col-4 resources">
                                     <h4>
                                         Resources
                                     </h4>

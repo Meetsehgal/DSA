@@ -17,15 +17,20 @@
     padding: 1rem;
     border-radius: 20px;
     display: flex;
+    
+    align-items: center;
 }
 
 .testimonial-section .testimonial-card .image {
-    width: 250px;
+    /* width: 250px; */
+    width: 15.65rem;
     height: 100%;
     aspect-ratio: 1/1;
     border-radius: 50%;
     overflow: hidden;
     margin-right: 1rem;
+   
+    
 }
 
 .testimonial-section .testimonial-card .image img {
@@ -74,7 +79,8 @@
         display: inline-block;
     }
     .testimonial-section .testimonial-card{
-        flex-direction: column;
+        /* flex-direction: column; */
+        flex-direction: row;
         align-items: center;
     }
     .testimonial-section .testimonial-card .image{

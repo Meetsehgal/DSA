@@ -44,8 +44,26 @@
 
 
 @media (max-width:992px) {
+     
     .ceo-section .ceo-card {
+        /* padding: 1rem; */
+        /* margin-bottom: 3rem; */
+        
+    }
+    .ceo-section .ceo-card .name{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:768px) {
+     
+    .ceo-section .ceo-card {
+        /* padding: 1rem; */
         margin-bottom: 3rem;
+        
+    }
+    .ceo-section .ceo-card img {
+        aspect-ratio: 1/0.7;
     }
     .ceo-section .ceo-card .name{
         font-size: 1.5rem;

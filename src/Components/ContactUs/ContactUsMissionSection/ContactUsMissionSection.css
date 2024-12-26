@@ -62,6 +62,7 @@
     }
 
     .contact-us-mission-section .left-section>.d-flex {
+    
         flex-direction: column;
     }
 
@@ -80,6 +81,7 @@
 
     .contact-us-mission-section .left-section .right-img {
         margin-top: 3rem;
-        width: 80%;
+        /* width: 80%; */
+        width: 38%;
     }
 }

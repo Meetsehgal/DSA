@@ -1,4 +1,6 @@
-.podcast-section .left-section {}
+.podcast-section .left-section {
+     
+}
 
 .podcast-section .left-section .top-section {
     border-radius: 20px;
@@ -168,15 +170,20 @@
         font-size: 1rem;
     }
     .podcast-section .left-section .bottom-two-cards {
+        
         flex-direction: column;
+
     }
     .podcast-section .left-section .bottom-two-cards .b-card{
         width: 100%;
+          
         margin-bottom: 3rem;
+        aspect-ratio: 1/0.5;
     }
     .podcast-section .right-card,
     .podcast-section .right-card img{
-        aspect-ratio: 1/1;
+        aspect-ratio: 1/0.5;
+        
         height: auto;
     }
 }

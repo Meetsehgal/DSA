@@ -24,7 +24,7 @@ export default function CurrentAffairs({ banners }) {
                             </p>
                         </div>
                     </div>
-                    <div className="col-lg-4 mb-5 mb-lg-0"  onClick={()=> navigate(`/news/${banners[0]?.fld_id}`)}>
+                    <div className="col-lg-4 col-md-4  mb-5 mb-lg-0"  onClick={()=> navigate(`/news/${banners[0]?.fld_id}`)}>
                         <div className="left-box">
                             <img src={banners[0]?.fld_image} alt={banners[0]?.fld_alt} className="img-fluid" />
                             <div className="bottom-text">
@@ -38,7 +38,7 @@ export default function CurrentAffairs({ banners }) {
                         </div>
                     </div>
 
-                    <div className="col-lg-5 mb-5 mb-lg-0">
+                    <div className="col-lg-5 col-md-5  mb-5 mb-lg-0">
                         <div className="center-box px-lg-2">
                             <div className="top-section">
                                 <div className="btn-box">
@@ -64,7 +64,7 @@ export default function CurrentAffairs({ banners }) {
                         </div>
 
                     </div>
-                    <div className="col-lg-3 mb-5 mb-lg-0">
+                    <div className="col-lg-3 col-md-3  mb-5 mb-lg-0">
                         <div className="right-box">
                             <div className="top-section">
                                 <img src={banners[3]?.fld_image} className="img-fluid" alt={banners[3]?.fld_alt}   onClick={()=> navigate(`/news/${banners[3]?.fld_id}`)} />

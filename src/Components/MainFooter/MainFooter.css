@@ -119,10 +119,16 @@
 }
 
 @media (max-width:992px) {
+  .main-footer{
+    height: 100%;
+  }
   .main-footer h4{
     margin-top: 2rem !important;
   }
   .main-footer .top-img {
     transform: translateY(-15px);
+  }
+  .main-footer .footer-links{
+    background: var(--theme-color);
   }
 }

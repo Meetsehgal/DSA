@@ -31,7 +31,7 @@ He headed the Prabhat Group (incorporating Prabhat Prakashan (P) Ltd., Prabhat 
                         </div>
 
 
-                        <div className=" col-lg-5  right-section justify-content-center">
+                        <div className=" col-lg-5   right-section justify-content-center">
                             <img src={FounderImage} className="img-fluid" alt="" />
                             <p className="name">
                             <span>Late</span> Shri Shyam Sunder

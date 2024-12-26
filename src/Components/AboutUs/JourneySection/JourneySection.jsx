@@ -19,17 +19,14 @@ export default function JourneySection() {
                 Journey <span>so far</span> 
                  </h2> */}
 
-                        <div className="bgImage">                   
-                          
-
+                        <div className="bgImage">     
+                            
                           </div>
-      
-      
-
+       
                  <div className="image">
 
                 <img src={NoImg4} className="img-fluid" alt="" />
-                
+                {/*  */}
                 </div>
                  {/* </div>
                 </div> */}

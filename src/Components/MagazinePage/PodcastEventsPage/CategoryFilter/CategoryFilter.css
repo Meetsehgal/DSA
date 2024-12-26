@@ -23,6 +23,7 @@
 @media (max-width:992px) {
     .category-filter .category-tab {
         flex-direction: column;
+        
         align-items: flex-start;
         margin-bottom: 0;
     }

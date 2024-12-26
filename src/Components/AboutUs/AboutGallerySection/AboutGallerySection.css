@@ -48,7 +48,8 @@
         padding: 5px;
     } */
     .about-gallery-section .mySwiper img{
-        height: auto;
+        /* height: auto; */
+        height: 94%;
         /* margin-bottom: 10px; */
     }
 }

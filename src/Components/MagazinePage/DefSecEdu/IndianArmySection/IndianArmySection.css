@@ -7,10 +7,17 @@
     padding: 1rem;
     border-radius: 20px;
     background: var(--main-color-one);
+    height: 90%;
+    
 }
 
 .indian-army-section .left-section .image img {
     border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    
+     
+
 }
 
 .indian-army-section .right-section b {
@@ -49,6 +56,9 @@
     .indian-army-section .left-section .image {
         margin-bottom: 3rem;
         margin: 0;
+    }
+    .indian-army-section .right-section{
+        /* margin-top: 3rem; */
     }
 
     .indian-army-section .right-section p img {

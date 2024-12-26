@@ -32,6 +32,8 @@
 }
 .vision-section .left-section .left-section-bottom span{
     margin-right: 5rem;
+ 
+
     font-size: 1.4rem;
     font-weight: 800;
     cursor: pointer;
@@ -121,10 +123,54 @@
 }
 @media (max-width:992px) {
     .vision-section .left-section img{
-        height: auto;
+        /* height: auto; */
+        height: 59vh;
     }
     .vision-section .left-section {
         margin-bottom: 3rem;
+    }
+    .vision-section .right-section .magazine-card .image{
+        width: 30%;
+        aspect-ratio: initial;
+    }
+    
+    .vision-section .right-section .magazine-card .content{
+        width: 70%;
+    }
+}
+
+
+@media (max-width:768px) {
+    .vision-section .left-section img{
+        /* height: auto; */
+        height: 55vh;
+    }
+    .vision-section .left-section {
+        margin-bottom: 3rem;
+    }
+    .vision-section .right-section .magazine-card .image{
+        width: 30%;
+        aspect-ratio: initial;
+    }
+    
+    .vision-section .right-section .magazine-card .content{
+        width: 70%;
+    }
+}
+
+
+
+@media (max-width:576px) {
+    .vision-section .left-section img{
+        /* height: auto; */
+        height: 47vh;
+    }
+    .vision-section .left-section { 
+        margin-bottom: 3rem;
+    }
+
+    .vision-section .left-section .left-section-bottom span{
+        margin-right: 4.5rem;
     }
     .vision-section .right-section .magazine-card .image{
         width: 30%;

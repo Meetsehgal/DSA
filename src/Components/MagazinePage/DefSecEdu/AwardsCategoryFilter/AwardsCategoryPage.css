@@ -77,4 +77,8 @@
         font-size: 2rem;
         margin-bottom: 2rem;
     }
+    .awad-page-card .image-section{
+        aspect-ratio: 1/0.4;
+
+    }
 }

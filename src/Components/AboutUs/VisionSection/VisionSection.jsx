@@ -1,4 +1,4 @@
-import NoImg from "../../../assets/img/no-image.jpg";
+  import NoImg from "../../../assets/img/no-image.jpg";
 import "./VisionSection.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 

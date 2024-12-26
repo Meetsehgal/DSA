@@ -13,10 +13,10 @@
 .about-page-header .content {
   position: relative;
   width: 90%;
-  height: 100%;
+  height: 100%; 
   transform: translateY(83px);
 }
-.about-page-header .content h1 {
+/* .about-page-header .content h1 {
   text-transform: uppercase;
   position: absolute;
   text-align: center;
@@ -24,7 +24,7 @@
   transform: translate(-50%, -1.5rem);
   color: var(--white-color);
   font-size: 3rem;
-}
+} */
 .about-page-header .content img {
   width: 100%;
   /* border-radius: 20px; */
@@ -40,12 +40,46 @@
 }
 @media (max-width:992px) {
   .about-page-header{
-    height: 25vh;
+    /* height: 25vh; */
+    height: 50vh;
   }
   .about-us-page .w-75{
     width: 100% !important;
   }
   .about-page-header .content{
-    transform: translateY(40px);
+    transform: translateY(58px);
+  }
+  .about-page-header .content img{
+    /* aspect-ratio: 1/1; */
+    height: 40%;
   }
 }
+
+
+@media (max-width:768px) {
+  .about-page-header{
+    /* height: 25vh; */
+    height: 50vh;
+    
+  }
+  
+  .about-page-header .content{
+    transform: translateY(56px);
+  }
+}
+
+
+
+@media (max-width:576px) {
+  /* .about-page-header{
+     
+    height: 50vh;
+    width: 100%;
+    
+  } */
+  
+  .about-page-header .content{
+    transform: translateY(58px);
+  }
+}
+

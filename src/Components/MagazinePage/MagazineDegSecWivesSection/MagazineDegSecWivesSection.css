@@ -38,6 +38,8 @@
     margin: 0.5rem;
     padding: 1rem;
     gap: 1.5rem;
+    /* justify-content: center;
+    align-items: center; */
 
 }
 .magazine-deg-sec-wives-section .top-section .image {
@@ -59,7 +61,7 @@
     /* margin-top: 1rem; */
 }
 .magazine-deg-sec-wives-section .top-section .image p{
-    margin-left: 4rem;
+    margin-left: 3rem;
     margin-top: 0.2rem;
     color: var(--white-color);
     font-size: 1.5rem;
@@ -134,13 +136,7 @@
   }
 
 
-
-
-
-
-
-
-
+  
 
 
 

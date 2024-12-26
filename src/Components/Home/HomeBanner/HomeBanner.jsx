@@ -22,7 +22,7 @@ export default function HomeBanner({banners}) {
         <section className="section-spacing home-banner">
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-lg-2 d-flex flex-lg-column order-2 py-3 order-lg-1  justify-content-between">
+                    <div className="col-lg-2  col-md-2  d-flex flex-lg-column  flex-md-column order-2 py-3 order-lg-1  order-md-1 justify-content-between">
                         <div className="count-card">
                             <p className="count">
                                 50+
@@ -48,7 +48,7 @@ export default function HomeBanner({banners}) {
                             </span>
                         </div>
                     </div>
-                    <div className="col-lg-10 order-1 order-lg-2 ">
+                    <div className="col-lg-10 col-md-10 order-1 order-lg-2 order-md-2 ">
                         <div className="banner-section">
                             <Swiper pagination={{
                                 clickable: true,

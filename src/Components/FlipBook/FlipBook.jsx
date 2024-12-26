@@ -181,7 +181,7 @@ const Flipbook = () => {
                         <div className="full-screen-container" >
                             <HTMLFlipBook
                             width={350}
-                            height={200}
+                            height={500}
                             size="stretch"
                             // maxShadowOpacity={0.5}
                             showCover={true}

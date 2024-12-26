@@ -59,12 +59,20 @@ export default function TestimonialSection() {
                             navigation
                             pagination={false}
                             breakpoints={{
-                                640: {
-                                    slidesPerView: 1,
+                                320:{
+                                    slidesPerView: 1.3,
+                                    spaceBetween: 20,
+                                },
+                                576:{
+                                    slidesPerView: 1.3,
+                                    spaceBetween: 20,
+                                },
+                                640:{
+                                    slidesPerView: 1.2,
                                     spaceBetween: 20,
                                 },
                                 768: {
-                                    slidesPerView: 1.8,
+                                    slidesPerView: 1.5,
                                     spaceBetween: 40,
                                 },
                                 1024: {

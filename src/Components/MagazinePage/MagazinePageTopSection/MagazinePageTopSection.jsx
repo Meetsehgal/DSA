@@ -12,7 +12,7 @@ export default function MagazinePageTopSection({data}) {
                     <div className="left-img">
                         <img src={LeftImg} className="img-fluid " alt="" />
                     </div>
-                    <div className="col-lg-7 col-8 ms-auto mx-lg-auto text-end text-lg-center center-banner-wrapper">
+                    <div className="col-lg-7 col-8   mx-lg-auto text-end text-lg-center center-banner-wrapper">
                         <img src={data[0]?.fld_image} alt={data[0]?.fld_alt} className="img-fluid center-banner" />
                     </div>
                     <div className="content-box">

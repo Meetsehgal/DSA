@@ -13,11 +13,13 @@
     position: absolute;
     left: 13rem;
     bottom: 0.8rem;
-    width: 280px;
+    /* width: 280px; */
+    width: 25%;
     z-index: 15;
 }
 
 .magazine-page-top-section .left-img img {
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -83,9 +85,32 @@
 }
 
 @media (max-width:992px) {
-    .magazine-page-top-section .content-box {
-        position: static;
+
+    .magazine-page-top-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+        
+
+    }
+
+    .magazine-page-top-section .left-img {
+        position: absolute;
         width: 100%;
+        /* left: 13rem; */
+        /* bottom: 0.8rem; */
+        /* width: 350px; */
+        /* z-index: 15; */
+    }
+    .magazine-page-top-section .left-img img{
+        width: 100%;
+    }
+    .magazine-page-top-section .content-box {
+        /* position: static; */
+        position: absolute;
+        /* width: 100%; */
+        width: 50%;
         margin-top: 150px;
         padding: 1rem;
     }
